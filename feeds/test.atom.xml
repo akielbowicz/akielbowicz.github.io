@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Github Blog - Test</title><link href="/" rel="alternate"></link><link href="/feeds/test.atom.xml" rel="self"></link><id>/</id><updated>2018-04-20T00:00:00-03:00</updated><entry><title>El primer post</title><link href="/el-primer-post.html" rel="alternate"></link><published>2018-04-20T00:00:00-03:00</published><updated>2018-04-20T00:00:00-03:00</updated><author><name>Augusto K (a.k.a Sasha)</name></author><id>tag:None,2018-04-20:/el-primer-post.html</id><summary type="html">&lt;p&gt;Hola mundo!, estoy usando &lt;cite&gt;pelican&lt;/cite&gt; para crear este sitio.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Hola mundo!, estoy usando &lt;cite&gt;pelican&lt;/cite&gt; para crear este sitio.&lt;/p&gt;
+</content></entry></feed>
