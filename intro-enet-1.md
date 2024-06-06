@@ -34,9 +34,15 @@
 
 ### Ambientes online
 
-[Binder con Python](https://saxa.xyz/python)
+[Binder con Python](https://saxa.xyz/binder)
 
 [Google Colab](https://colab.research.google.com/)
+
+### Materiales y problemas para enseñar
+
+[Hedy](https://www.hedycode.com/)
+
+[Exercism](https://exercism.org/tracks/python)
 
 ## Recursos de Julia
 
