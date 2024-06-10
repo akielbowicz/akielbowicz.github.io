@@ -5,15 +5,9 @@ title: Resume Augusto Kielbowicz
 
 ## Augusto Kielbowicz (he/him/�l)
 
-[<img src="./github.svg" width="20px">](https://github.com/akielbowicz)
-[<img src="./linkedin.svg" width="20px">](https://www.linkedin.com/in/augusto-kiel/)
+[<img src="../cv/github.svg" width="20px">](https://github.com/akielbowicz)
+[![](../cv/linkedin.svg){ width=20px }](https://www.linkedin.com/in/augusto-kiel/)
 [saxa.xyz](https://saxa.xyz/en)
-
-Soy desarrollador de software financiero con experiencia en Python y Dise�o Orientado a Objetos.
-Adem�s, estoy involucrado en programas de divulgaci�n cient�fica y en el uso de nuevas tecnolog�as en la investigaci�n. Me apasionan y estoy involucrado en el desarrollo de software num�rico para investigaci�n cient�fica, aplicaciones interactivas para la educaci�n, an�lisis y visualizaci�n de datos basadas en Jupyter.
-Mi objetivo es profundizar mi conocimiento y trasladar las buenas pr�cticas del desarrollo Open Source y Empresarial a la investigaci�n acad�mica.
-Soy un asiduo participante y expositor en meetups y conferencias de tecnolog�a.
-
 
 I like to solve problems,
 
@@ -27,35 +21,40 @@ I have been working as a Quantitative Developer and Software Engineer with a foc
 
 I been exploring funcional languages: I've developed a few DSL POCs in F# and Clojure, and this year I participate in a reading group that uses OCaml to follow [Computational Category Theory](http://www.cs.man.ac.uk/~david/categories/book/book.pdf)
 
-
-## Previous experience
+## Experience
 
 ### Software Development
 
-SimCorp (03/2024 - present | 5M)
+**SimCorp** (03/2024 - present | 5M)
 
-Associate Principal, Core Analytics
-	- 
+*Associate Principal*, Core Analytics
 
-Qontigo (09/2020 - 03/2024 | 3Y7M)
-https://github.com/akielbowicz-qontigo
+	- Integrate Quant UI to pre-existing Axioma Risk UI
+	- Develop POC of DSL for interacting with Pricers
+	- Develop POC of interactive Q&A Chatbot for product documentation with LLM+RAG
+	- Work on redesign of libraries to work with Automatic Differentiation and integrate with third party provider of AD tooling
 
-Associate Principal, Core Analytics (02/2023 - 03/2024 | 1Y2M)
-	  - Manage 
-	  - Maintainer and Core developer of Quant Analytical libraries
-	  - Design and develop new component library for Curve construction and operation (Rates, Yields, Discounts, Spreads)
-	  
-Associate, Core Analytics (09/2020 - 02/2023 | 2Y6M)
+**Qontigo** (09/2020 - 03/2024 | 3Y7M) 
+[@akielbowicz-qontigo](https://github.com/akielbowicz-qontigo)
+
+*Associate Principal*, Core Analytics (02/2023 - 03/2024 | 1Y2M)
+
+	- Manage junior developers
+	- Maintainer and Core developer of Quant Analytical libraries
+	- Design and develop new component library for Curve construction and operation (Rates, Yields, Discounts, Spreads)
+	- Design and lead development of UI based on `ipywidgets` and `voila` to expose Quant libraries for interactive usage 
+	- Manage deployment of containerized apps to Azure
+
+*Associate*, Core Analytics (09/2020 - 02/2023 | 2Y6M)
+	
 	- Manage research internship on usage of NeuralSDE for European Option Pricing using Julia.
-	- Design and develop infrastructure of C# Monorepo for Analytical Libraries to extract Quant and Numerical code from monolithic repository 
-	- 
+	- Design and develop infrastructure of C# Monorepo for Analytical Libraries to extract Quant and Numerical code from monolithic repository
 
-J.P. Morgan (07/2018 - 08/2020 | 2Y2M)
+**J.P. Morgan** (07/2018 - 08/2020 | 2Y2M)
 
-Technology Analyst, Rates CIB.
+**Technology Analyst**, Rates CIB.
+
 	- Migrate reporting services from Kapital (SmallTalk) to Athena (Python)
-	- 
-
 
 Ergo Renova (07/2017 - 07/2018 | 1Y)
 ETL Developer, SQL Functional  Analyst, Tester
