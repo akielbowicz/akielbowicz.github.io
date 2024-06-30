@@ -1,0 +1,113 @@
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+body {
+    font-family: Cambria, Helvetica, Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #4468b1;
+    text-align:center;
+    margin-bottom:15px;
+}
+/* h1:hover { */
+/*     background-color: #757575; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
+
+/* Titles of categories */
+h2 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #375eab;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 7%;
+    height: 10px;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #375eab;
+}
+/* h2:hover { */
+/*     background-color: #397249; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+    margin-bottom:7px;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4468b1;
+}
+a:hover, a:active {
+    background-color: #375eab;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
+
+table {
+    width: 100%;
+}
+
+img[alt=gh-logo] { width: 20px; display: inline-block;}
+img[alt=linkedin-logo] { width: 20px; display: inline-block;}
+img[alt=globe-logo] { width: 20px; display: inline-block;}
+
+.hlinks {
+    text-align: center;
+}
+
+.pronouns{
+    display: inline-block;
+    font-size: 20px;
+    color: #4468b1;
+    text-align:center;
+    /* margin-bottom:15px; */
+}
+
+.forAI {
+    color: white;
+}
