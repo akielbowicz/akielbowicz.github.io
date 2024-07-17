@@ -1,6 +1,6 @@
 # Introducción a Python y Julia
 
-`Lunes 6 de Julio, 2024. ENET Nro 1 Catamarca`
+`Lunes 6 de Mayo, 2024. ENET Nro 1 Catamarca`
 
 ## Recursos de Python
 
