@@ -116,14 +116,16 @@ Providing specialized consulting services to financial institutions and technolo
 
 ---
 
-### Open Source Contributor
+### Open Source Contributor & Content Creator
 **Scientific Software & Educational Tools**
 *February 2016 - Present | 9+ years*
 
-[*@akielbowicz*](https://github.com/akielbowicz)
+[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
+- Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
 - Development of interactive educational materials based on Jupyter notebooks
 - Contributions to scientific computing and data visualization projects
+- Educational content bridging academic knowledge and industry best practices
 
 ---
 

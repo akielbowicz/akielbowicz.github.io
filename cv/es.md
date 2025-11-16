@@ -122,14 +122,16 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 
 ---
 
-### Colaborador Open Source
+### Colaborador Open Source y Creador de Contenido
 **Software Científico y Herramientas Educativas**
 *Febrero 2016 - Presente | 9+ años*
 
-[*@akielbowicz*](https://github.com/akielbowicz)
+[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
+- Creador de **SCA314**, un canal educativo de YouTube enfocado en artesanía de software, computación científica con Julia y prácticas de testing automatizado en Castellano/Español
 - Desarrollo de materiales educativos interactivos basados en Jupyter notebooks
 - Contribuciones a proyectos de computación científica y visualización de datos
+- Contenido educativo que une conocimiento académico con mejores prácticas de la industria
 
 ---
 
