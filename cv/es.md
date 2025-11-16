@@ -50,7 +50,7 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 **Universidad de Buenos Aires**
 **Licenciatura en Física** | 2011 - 2017
 
-*Tesis*: Análisis Estadístico y Modelado Numérico de Trayectorias de Partículas Individuales: Mecanismos de Difusión y Confinamiento
+*Tesis*: [Análisis Estadístico y Modelado Numérico de Trayectorias de Partículas Individuales: Mecanismos de Difusión y Confinamiento](https://github.com/akielbowicz/randomWalk-matlab/blob/master/Tesis.pdf)
 
 **10 Pines**
 Certificado en Ingeniería de Software | 2018 - 2019
