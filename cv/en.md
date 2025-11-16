@@ -1,6 +1,6 @@
 ---
 papersize: A4
-title: Augusto Kielbowicz
+title: Sasha (Augusto) Kielbowicz - Independent Consultant
 ...
 
 <div class="hlinks">
@@ -10,17 +10,45 @@ title: Augusto Kielbowicz
 [![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz/en)
 </div>
 
+# Independent Consultant | Quantitative Software Architect
+
+**Contact**: augusto [dot] kiel [at] gmail [dot] com
+
 ---
 
-As a problem-solver at heart, I thrive on tackling challenges by leveraging my diverse skill set and experiences.
+## About
 
-I hold a degree in Physics, which honed my ability to model problems by seeking simpler, yet effective solutions and finding the right level of abstraction.
+I help financial institutions and technology companies solve complex quantitative and architectural challenges through specialized consulting in scientific computing, risk management systems, and high-performance numerical software.
 
-Professionally, I have been working as a Quantitative Developer and Software Engineer, specializing in numerical code for Valuation and Risk computation in Multi Asset Class systems. My production code experience spans Python and C#, while I prefer Julia for Research and EDA, and use Python or Powershell for tooling and scripting in Windows environments.
+With 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre, I now work independently with organizations that need deep expertise in quantitative finance and scientific computing.
 
-My curiosity has led me to explore functional languages, resulting in the development of DSL POCs in F# and Clojure. Additionally, I participate in a reading group of Computational Category Theory book, using OCaml.
+My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
-I enjoy thinking in stochastic terms, considering possibilities and their potential consequences. And continuously seek out new opportunities to apply my analytical skills and passion for problem-solving.
+**Core expertise**: Multi-asset pricing systems • Risk analytics • Numerical optimization • DSL development • Python/C#/Julia • Performance tuning • Team enablement
+
+**Available for**: Strategic consulting, hands-on development, system modernization, performance optimization, technical training and workshops.
+
+---
+
+## Consulting Services
+
+### Quantitative Finance & Risk Systems
+- Multi-asset class pricing and valuation frameworks
+- Risk analytics and portfolio management systems
+- Model calibration and numerical methods
+- Legacy system modernization and migration
+- Performance optimization for computational finance
+
+### Scientific Software Architecture
+- High-performance numerical computing (Python, C#, Julia)
+- Domain-Specific Languages (DSLs) for financial modeling
+- Developer experience and tooling for analytical teams
+- Azure cloud deployment and containerization
+
+### Training & Knowledge Transfer
+- Corporate workshops (Category Theory, Numeric Computing, Quantitative Finance)
+- Technical mentorship for quant and engineering teams
+- Interactive educational materials using Jupyter notebooks
 
 ---
 
@@ -30,61 +58,86 @@ I enjoy thinking in stochastic terms, considering possibilities and their potent
 
 *Thesis*: [Statistic Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms](https://github.com/akielbowicz/randomWalk-matlab/blob/master/Tesis.pdf) 
 
-## Experience
+## Professional Experience
 
-### Software Development
+### Independent Consultant
+**Quantitative Software & Scientific Computing**
+*June 2025 - Present* | Buenos Aires, Argentina
 
-**SimCorp** (03/2024 - present | 5M)
+Providing specialized consulting services to financial institutions and technology companies:
+- Quantitative finance system architecture and development
+- Scientific computing and numerical software optimization
+- Technical leadership and team mentorship
+- Developer experience and tooling for analytical platforms
 
-*Associate Principal*, Core Analytics
+**Focus areas**: Multi-asset pricing libraries, risk analytics systems, DSL development, performance optimization, Python/C#/Julia consulting.
 
-	- Integrate Quant UI with the pre-existing Axioma Risk UI, enhancing user interaction and analytical capabilities.
-	- Develop a Proof of Concept (POC) for a Domain-Specific Language (DSL) to facilitate interaction with pricing models.
-	- Create a POC for an interactive Q&A chatbot for product documentation, utilizing Large Language Models (LLM) and Retrieval-Augmented Generation (RAG).
-	- Redesign libraries to support Automatic Differentiation (AD) and collaborate with third-party providers to integrate AD tooling.
+---
 
-**Qontigo** (09/2020 - 03/2024 | 3Y7M)
+### SimCorp
+**Lead Software Engineer, Core Analytics**
+*March 2024 - May 2025 | 1 year 3 months*
+
+- Integrated Quant UI with Axioma Risk UI, enhancing analytical capabilities for institutional investors
+- Developed POC for Domain-Specific Language (DSL) for pricing model interaction
+- Created POC for interactive Q&A chatbot for product documentation using LLMs and RAG
+- Redesigned libraries to support Automatic Differentiation (AD) and integrated third-party AD tooling
+
+### Qontigo (Axioma Risk)
+**Associate Principal, Core Analytics**
+*September 2020 - March 2024 | 3 years 7 months*
 
 [*@akielbowicz-qontigo*](https://github.com/akielbowicz-qontigo)
 
-*Associate Principal*, Core Analytics (02/2023 - 03/2024 | 1Y2M)
+**Associate Principal** (February 2023 - March 2024)
+- Managed and mentored junior developers, enhancing team skills and productivity
+- Maintained and developed core Quant Analytical libraries ensuring robustness and accuracy
+- Designed and developed comprehensive curve construction library (rates, yields, discounts, spreads)
+- Led development of interactive UI using ipywidgets and voila for Quant library access
+- Managed containerized application deployment to Azure
 
-	- Manage junior developers, providing guidance and support to enhance their skills and productivity.
-	- Maintain and develop core Quant Analytical libraries, ensuring robustness and accuracy.
-	- Design and develop a new component library for curve construction and operation, including rates, yields, discounts, and spreads.
-	- Design and lead the development of a UI based on `ipywidgets` and `voila`, enabling interactive usage of Quant libraries.
-	- Manage the deployment of containerized applications to Azure, ensuring smooth and efficient operations.
+**Associate** (September 2020 - February 2023)
+- Managed research internship on NeuralSDE applications for European Option Pricing using Julia
+- Designed and developed C# Monorepo infrastructure for Analytical Libraries
+- Extracted quantitative and numerical code from monolithic repository into reusable components
 
-*Associate*, Core Analytics (09/2020 - 02/2023 | 2Y6M)
+**Key Achievements**:
+- Built APL (Axioma Pricing Library) from ground up with 100% accuracy
+- Achieved 3x performance improvement in convertible bond pricing through optimization
+- Received "Exceptional Performance" rating (2023)
 
-	- Manage a research internship focused on the application of NeuralSDE for European Option Pricing using Julia.
-	- Design and develop the infrastructure for a C# Monorepo for Analytical Libraries, streamlining the extraction of quantitative and numerical code from a monolithic repository.
+### J.P. Morgan
+**Technology Analyst, Rates CIB**
+*July 2018 - August 2020 | 2 years 2 months*
 
-**J.P. Morgan** (07/2018 - 08/2020 | 2Y2M)
+- Developed infrastructure for migrating reporting services from Kapital (Smalltalk) to Athena (Python)
+- Provided critical support to Rates Quant team, enhancing analytical capabilities
+- Built production-grade financial reporting systems with zero-downtime requirements
 
-*Technology Analyst*, Rates CIB.
+---
 
-	- Develop infrastructure for the migration of reporting services from Kapital (SmallTalk) to Athena (Python).
-	- Provided critical support to the Rates Quant team, enhancing analytical capabilities and operational performance.
+### Open Source Contributor & Content Creator
+**Scientific Software & Educational Tools**
+*February 2016 - Present | 9+ years*
 
-**Open Source** (02/2016 - present | 8Y)
+[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
-[*@akielbowicz*](https://github.com/akielbowicz)
+- Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
+- Development of interactive educational materials based on Jupyter notebooks
+- Contributions to scientific computing and data visualization projects
+- Educational content bridging academic knowledge and industry best practices
 
-	- Work on de development of interactive materials for education based on Jupyter.
+---
 
+## Teaching Experience
 
-### Teaching Experience
+### University of Buenos Aires
+- **Professor** of Calculus and Linear Algebra, CBC Engineering (December 2020 - July 2022)
+- **Teaching Assistant** on Summer Course of Optics and Thermodynamics for Biology and Geology (February 2015 - March 2015)
+- **Science Communicator** at Physics Department (March 2013 - December 2014)
 
-**University of Buenos Aires**
-
-	- Undergraduate courses on Calculus and Linear Algebra, CBC Engineering (12/2020 - 07/2022 | 1Y8M).
-	- Teacher Assistant on Summer Course of Optics and Thermodynamics for Biology and Geology (02/2015 - 03/2015 | 2M).
-	- Science Communicator on the Physics Department (03/2013 - 12/2014 | 1Y10M).
-
-**Southern International School**
-
-	- High School teacher of Physics, Mathematics and Information Technologies.
+### Southern International School
+- High School teacher of Physics, Mathematics and Information Technologies (2016)
 
 ## Publications
 
@@ -92,10 +145,34 @@ I enjoy thinking in stochastic terms, considering possibilities and their potent
 
 - [Photon Counting Module based on Avalanche Photo-Diodes (2017)](https://anales.fisica.org.ar/index.php/analesafa/article/view/2158)
 
-## Talks and Workshops
+## Speaking & Community
 
-I participate actively in technology meetups and conferences as a speaker and collaborator you can see all
-my talks [here](http://talks.saxa.xyz/).
+Active participant in technology conferences and meetups as speaker and collaborator:
+- **SciPy Latinoamérica 2022** (Argentina): Workshop presenter
+- Regular speaker at Python and Julia user groups in Buenos Aires
+- Represented Qontigo at ECI UBA (School of Information Sciences, University of Buenos Aires)
+
+All talks available at: [talks.saxa.xyz](http://talks.saxa.xyz/)
+
+---
+
+## Technical Skills
+
+**Languages**: Python, C#, Julia, F#, OCaml, Clojure
+
+**Quantitative Finance**: Multi-asset pricing, risk analytics, derivatives valuation, curve construction, model calibration
+
+**Scientific Computing**: Numerical methods, automatic differentiation, stochastic differential equations, optimization
+
+**Architecture**: Microservices, DSL design, API design, monorepo infrastructure, Azure deployment
+
+**Tools**: Jupyter, Git, Docker, Azure, Visual Studio, GitHub Actions
+
+---
+
+**Available for consulting engagements globally (remote) and in Buenos Aires**
+
+Contact: augusto [dot] kiel [at] gmail [dot] com
 
 ---
 
