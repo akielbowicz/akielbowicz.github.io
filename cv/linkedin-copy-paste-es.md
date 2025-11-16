@@ -73,15 +73,36 @@ Brindo servicios de consultoría especializados en:
 ---
 
 ### Mercado Libre
-**Título del puesto:** Software Technical Lead
+**Título del puesto:** Technical Lead, Ingeniería de Financial Planning & Analytics
 **Tipo de empleo:** Tiempo completo
 **Nombre de la empresa:** Mercado Libre
 **Ubicación:** Provincia de Buenos Aires, Argentina
 **Fecha de inicio:** Junio 2025
-**Fecha de finalización:** Junio 2025
+**Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
 
 **Descripción:**
-Lideré iniciativas técnicas para la plataforma de e-commerce más grande de América Latina durante la transición a consultoría independiente.
+Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.
+
+**Responsabilidades Clave:**
+• Diseño de arquitecturas escalables para sistemas de planificación financiera y analítica
+• Establecimiento de estándares de ingeniería y mejores prácticas en la organización de FPA
+• Liderazgo en desarrollo de plataforma unificada de análisis de varianzas para datos financieros
+• Estandarización de pipelines de forecasting desde análisis ad-hoc en Jupyter a workflows productivos
+• Mentoría de ingenieros y gestión de procesos de contratación para crecimiento del equipo
+
+**Liderazgo Técnico:**
+• Promoción de workflows de desarrollo asistido por IA con IDEs agénticos y LLMs
+• Implementación de guías de calidad de código y pipelines de validación automatizada
+• Impulso de diseño modular, arquitectura limpia y mejora de estándares de documentación
+• Mejora de observabilidad y capacidades de debugging en sistemas data-driven
+
+**Logros Clave:**
+• Desarrollé plataforma unificada de análisis de varianzas con ingesta y transformación optimizada de datos
+• Transformé pipeline de forecasting en workflows reproducibles listos para producción
+• Reduje carga cognitiva y overhead manual mediante abstracciones mejoradas
+• Aumenté velocidad de desarrollo manteniendo estándares estrictos de calidad
+
+**Tecnologías:** Go, TypeScript, Python, BigQuery, Jupyter Notebook, herramientas cloud-native, CI/CD, sistemas distribuidos
 
 ---
 

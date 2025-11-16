@@ -74,6 +74,35 @@ Providing specialized consulting services to financial institutions and technolo
 
 ---
 
+### Mercado Libre
+**Technical Lead, Financial Planning & Analytics Engineering**
+*June 2025 - Present*
+
+Leading technology strategy for platforms that optimize and standardize reporting, data workflows, and analytical processes across Latin America's largest e-commerce ecosystem. Managing two cross-functional engineering teams (Fintech & Cross, Commerce) with 14 engineers across backend, frontend, and data.
+
+**Key Responsibilities**:
+- Designing scalable architectures for financial planning and analytics systems
+- Establishing engineering standards and best practices across FPA organization
+- Leading development of unified variance-analysis platform for financial data
+- Standardizing forecasting pipelines from ad-hoc Jupyter analyses to production workflows
+- Mentoring engineers and managing hiring processes for team growth
+
+**Technical Leadership**:
+- Championing AI-assisted development workflows with agentic IDEs and LLMs
+- Implementing code quality guidelines and automated validation pipelines
+- Promoting modular design, clean architecture, and improved documentation standards
+- Enhancing observability and debugging capabilities across data-driven systems
+
+**Key Achievements**:
+- Developed unified variance-analysis platform with streamlined data ingestion and transformation
+- Transformed forecasting pipeline into reproducible, production-ready workflows
+- Reduced cognitive load and manual overhead through improved abstractions
+- Increased development velocity while maintaining strict quality standards
+
+**Technologies**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, cloud-native tooling, CI/CD, distributed systems
+
+---
+
 ### SimCorp
 **Lead Software Engineer, Core Analytics**
 *March 2024 - May 2025 | 1 year 3 months*
