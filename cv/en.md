@@ -43,7 +43,8 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
-- Corporate workshops (Numeric Computing, Quantitative Finance)
+- Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
+- Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
 

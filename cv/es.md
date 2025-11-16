@@ -39,7 +39,8 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 - Deployment en Azure y containerización
 
 ### Capacitación y Transferencia de Conocimiento
-- Talleres corporativos (Computación Numérica, Finanzas Cuantitativas)
+- Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
+- Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 - Mentoría técnica para equipos cuantitativos y de ingeniería
 - Materiales educativos interactivos usando Jupyter notebooks
 

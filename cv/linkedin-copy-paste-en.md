@@ -31,7 +31,8 @@ After 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Ri
 • Developer experience and tooling for analytical teams
 
 **Specialized Training & Knowledge Transfer**
-• Corporate workshops on advanced topics (Numeric Computing)
+• Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
+• Corporate workshops on quantitative finance and computational methods
 • Technical mentorship for quant and engineering teams
 • Interactive educational materials using Jupyter notebooks
 

@@ -31,7 +31,8 @@ Con más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma
 • Experiencia de desarrollador y herramientas para equipos analíticos
 
 **Capacitación Especializada y Transferencia de Conocimiento**
-• Talleres corporativos sobre temas avanzados (Computación Numérica)
+• Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
+• Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 • Mentoría técnica para equipos cuantitativos y de ingeniería
 • Materiales educativos interactivos usando Jupyter notebooks
 
