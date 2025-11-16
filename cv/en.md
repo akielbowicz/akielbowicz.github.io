@@ -3,12 +3,9 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Independent Consultant
 ...
 
-<div class="hlinks">
-<p class="pronouns">he/him/his</p>
 [![gh-logo](../cv/github.png)](https://github.com/akielbowicz)
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
 [![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz/en)
-</div>
 
 # Independent Consultant | Quantitative Software Architect
 
@@ -46,7 +43,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
-- Corporate workshops (Category Theory, Numeric Computing, Quantitative Finance)
+- Corporate workshops (Numeric Computing, Quantitative Finance)
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
 

@@ -12,6 +12,9 @@ Canal educativo enfocado en artesanía de software, computación científica con
 - [YouTube: @SCA314](https://www.youtube.com/@SCA314)
 - [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
+### Blog
+- [saxa.xyz](https://saxa.xyz)
+
 ## Recursos
 
 ### CV / Resume
@@ -19,7 +22,7 @@ Canal educativo enfocado en artesanía de software, computación científica con
 - [Resume in English](./cv/en.md)
 
 ### Charlas / Talks
-- [Introducción a Python y Julia - ENET Nro 1 Catamarca (Mayo 2024)](./talks/intro-enet-1.md)
+- [talks.saxa.xyz](https://talks.saxa.xyz)
 
 ---
 

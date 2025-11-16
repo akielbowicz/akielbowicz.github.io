@@ -37,7 +37,7 @@ Elite quantitative software consultant specializing in financial systems archite
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
-- Corporate workshops on advanced topics (Category Theory, Numeric Computing, Quantitative Finance)
+- Corporate workshops on advanced topics (Numeric Computing, Quantitative Finance)
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
 - Documentation and knowledge base development
