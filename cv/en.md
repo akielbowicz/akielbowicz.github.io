@@ -1,6 +1,6 @@
 ---
 papersize: A4
-title: Augusto Kielbowicz - Independent Consultant
+title: Sasha (Augusto) Kielbowicz - Independent Consultant
 ...
 
 <div class="hlinks">

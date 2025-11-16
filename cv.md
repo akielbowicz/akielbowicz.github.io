@@ -1,4 +1,4 @@
-# Augusto Kielbowicz
+# Sasha (Augusto) Kielbowicz
 
 **Independent Consultant | Quantitative Software Architect**
 

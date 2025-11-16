@@ -1,6 +1,6 @@
 ---
 papersize: A4
-title: Augusto Kielbowicz - Consultor Independiente
+title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 ...
 
 # Consultor Independiente | Arquitecto de Software Cuantitativo
