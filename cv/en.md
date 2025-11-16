@@ -7,7 +7,7 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
 [![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz/en)
 
-# Independent Consultant | Quantitative Software Architect
+# Quantitative Systems Architect | High-Performance Trading & Risk Systems (Julia/C#) | Technical Lead for Financial Modernization
 
 **Contact**: augusto [dot] kiel [at] gmail [dot] com
 
@@ -15,15 +15,13 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 ## About
 
-I help financial institutions and technology companies solve complex quantitative and architectural challenges through specialized consulting in scientific computing, risk management systems, and high-performance numerical software.
-
-With 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre, I now work independently with organizations that need deep expertise in quantitative finance and scientific computing.
+I deliver **3x performance gains** and **architecturally robust, compliant systems** for tier-1 financial institutions and high-growth fintechs. Proven track record delivering mission-critical solutions for JP Morgan, Axioma Risk/Qontigo, SimCorp, and Mercado Libre.
 
 My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
 **Core expertise**: Multi-asset pricing systems • Risk analytics • Numerical optimization • DSL development • Python/C#/Julia • Performance tuning • Team enablement
 
-**Available for**: Strategic consulting, hands-on development, system modernization, performance optimization, technical training and workshops.
+**Engagement Focus**: System Modernization Audits, Architectural Design Sprints, High-Performance Refactoring, Specialized Corporate Training.
 
 ---
 
@@ -33,17 +31,18 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 - Multi-asset class pricing and valuation frameworks
 - Risk analytics and portfolio management systems
 - Model calibration and numerical methods
-- Legacy system modernization and migration
+- **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
 - Performance optimization for computational finance
 
 ### Scientific Software Architecture
 - High-performance numerical computing (Python, C#, Julia)
 - Domain-Specific Languages (DSLs) for financial modeling
-- Developer experience and tooling for analytical teams
+- **Quant Team Enablement & DevOps: Standardizing Analytical Workflows (Jupyter/Julia/Python) to Production**
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
 - Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
+- **Boutique Workshops: High-Performance Numerical Computing with Julia for Financial Models**
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -93,9 +92,9 @@ Leading technology strategy for platforms that optimize and standardize reportin
 
 **Key Achievements**:
 - Developed unified variance-analysis platform with streamlined data ingestion and transformation
-- Transformed forecasting pipeline into reproducible, production-ready workflows
-- Reduced cognitive load and manual overhead through improved abstractions
-- Increased development velocity while maintaining strict quality standards
+- **Reduced forecasting pipeline errors by 90%** by standardizing ad-hoc Jupyter analysis into robust, **CI/CD-managed production systems**
+- **Increased Engineering velocity by 15%** across 14-person FPA team by implementing clean architecture standards and design-driven abstractions
+- Maintained strict quality standards while accelerating development velocity
 
 **Technologies**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, cloud-native tooling, CI/CD, distributed systems
 
@@ -130,14 +129,15 @@ Leading technology strategy for platforms that optimize and standardize reportin
 
 **Key Achievements**:
 - Built APL (Axioma Pricing Library) from ground up with 100% accuracy
-- Achieved 3x performance improvement in convertible bond pricing through optimization
+- **Optimized Convertible Bond Pricing Engine, resulting in a 300% performance gain** and enabling real-time risk calculations in production
+- **Drove the design and development of the core Quant Monorepo (C#)**, establishing architectural standards that supported simultaneous deployment of multiple asset pricing libraries
 - Received "Exceptional Performance" rating (2023)
 
 ### J.P. Morgan
 **Technology Analyst, Rates CIB**
 *July 2018 - August 2020 | 2 years 2 months*
 
-- Developed infrastructure for migrating reporting services from Kapital (Smalltalk) to Athena (Python)
+- **Architected and delivered the migration infrastructure for mission-critical Rates CIB reporting services** from Kapital to Python (Athena), ensuring zero-downtime compliance
 - Provided critical support to Rates Quant team, enhancing analytical capabilities
 - Built production-grade financial reporting systems with zero-downtime requirements
 
@@ -185,7 +185,11 @@ All talks available at: [talks.saxa.xyz](http://talks.saxa.xyz/)
 
 ## Technical Skills
 
-**Languages**: Python, C#, Julia, F#, OCaml, Clojure
+**Programming Languages**
+Production: Python, C#, Julia
+Functional/Niche Languages: F#, Clojure
+
+**Leadership & Consulting**: Technical Mentorship, Solution Design, Requirements Elicitation, Corporate Training
 
 **Quantitative Finance**: Multi-asset pricing, risk analytics, derivatives valuation, curve construction, model calibration
 

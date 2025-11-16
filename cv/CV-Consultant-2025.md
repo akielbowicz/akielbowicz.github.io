@@ -1,6 +1,6 @@
 # Sasha (Augusto) Kielbowicz
 
-**Independent Consultant | Quantitative Software Architect**
+**Quantitative Systems Architect | High-Performance Trading & Risk Systems (Julia/C#) | Technical Lead for Financial Modernization**
 
 Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/en)
 
@@ -10,13 +10,13 @@ Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/e
 
 ## Professional Summary
 
-Elite quantitative software consultant specializing in financial systems architecture, scientific computing, and high-performance numerical software. Proven track record delivering mission-critical solutions for tier-1 financial institutions (JP Morgan, Axioma Risk/Qontigo, SimCorp) and large-scale technology platforms (Mercado Libre).
+I deliver **3x performance gains** and **architecturally robust, compliant systems** for tier-1 financial institutions and high-growth fintechs. Proven track record delivering mission-critical solutions for JP Morgan, Axioma Risk/Qontigo, SimCorp, and Mercado Libre.
 
 **Core Expertise**: Multi-asset pricing systems • Risk analytics architecture • Numerical optimization • DSL development • Python/C#/Julia • Scientific computing • Developer experience
 
 **Value Proposition**: Unique combination of rigorous Physics background with production experience in quantitative finance, enabling delivery of solutions that are both theoretically sound and operationally robust.
 
-**Available for**: Strategic consulting, hands-on development, system modernization, performance optimization, technical training.
+**Engagement Focus**: System Modernization Audits, Architectural Design Sprints, High-Performance Refactoring, Specialized Corporate Training.
 
 ---
 
@@ -25,7 +25,7 @@ Elite quantitative software consultant specializing in financial systems archite
 ### Quantitative Finance & Risk Systems
 - Multi-asset class pricing and valuation framework design
 - Risk analytics and portfolio management system architecture
-- Legacy system modernization and migration
+- **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
 - Model calibration and numerical method implementation
 - Performance optimization for computational finance workloads
 
@@ -33,11 +33,12 @@ Elite quantitative software consultant specializing in financial systems archite
 - High-performance numerical computing (Python, C#, Julia)
 - Domain-Specific Language (DSL) design for financial modeling
 - Analytical library extraction and componentization
-- Developer tooling and experience optimization
+- **Quant Team Enablement & DevOps: Standardizing Analytical Workflows (Jupyter/Julia/Python) to Production**
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
 - Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
+- **Boutique Workshops: High-Performance Numerical Computing with Julia for Financial Models**
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -99,7 +100,8 @@ Led development of core quantitative analytical libraries for multi-asset risk m
 - Migrated DayCountConventions class with 100% accuracy despite extreme complexity—creating new classes, hierarchies, and comprehensive test coverage
 - Migrated BondMaths statistics requiring deep quantitative finance knowledge
 - Implemented symbolic simplification and plotting capabilities for APL expressions
-- Achieved 3x performance improvement in CurveFunctions through caching optimization
+- **Optimized Convertible Bond Pricing Engine, resulting in a 300% performance gain** and enabling real-time risk calculations in production
+- **Drove the design and development of the core Quant Monorepo (C#)**, establishing architectural standards that supported simultaneous deployment of multiple asset pricing libraries
 - Built developer tooling that became standard across QPRA team
 
 **Performance Reviews**:
@@ -117,7 +119,7 @@ Led development of core quantitative analytical libraries for multi-asset risk m
 Developed critical infrastructure for interest rate derivatives trading desk serving global markets.
 
 **Key Projects**:
-- **Reporting Migration**: Developed infrastructure for migrating reporting services from Kapital (Smalltalk) to Athena (Python), enabling modernization of mission-critical systems
+- **Reporting Migration**: **Architected and delivered the migration infrastructure for mission-critical Rates CIB reporting services** from Kapital to Python (Athena), ensuring zero-downtime compliance
 - **Quant Support**: Provided critical technical support to Rates Quant team, enhancing analytical capabilities and operational performance
 - **Production Systems**: Built and maintained production-grade financial reporting systems with zero-downtime requirements
 
@@ -155,7 +157,10 @@ Active contributor to open source ecosystem focused on scientific computing and 
 
 **Programming Languages**
 Production: Python, C#, Julia
-Research/Exploration: F#, OCaml, Clojure, Smalltalk
+Functional/Niche Languages: F#, Clojure, Smalltalk
+
+**Leadership & Consulting**
+Technical Mentorship • Solution Design • Requirements Elicitation • Corporate Training
 
 **Quantitative Finance**
 Multi-asset pricing • Derivatives valuation • Risk analytics • Curve construction • Model calibration • Day count conventions • Bond mathematics • Portfolio management • Stochastic processes • Numerical methods

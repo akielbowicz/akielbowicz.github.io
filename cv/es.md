@@ -3,7 +3,7 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 ...
 
-# Consultor Independiente | Arquitecto de Software Cuantitativo
+# Arquitecto de Sistemas Cuantitativos | Sistemas de Trading y Riesgo de Alto Rendimiento (Julia/C#) | Líder Técnico en Modernización Financiera
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
 
@@ -11,15 +11,13 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 ## Acerca de
 
-Ayudo a instituciones financieras y empresas tecnológicas a resolver desafíos cuantitativos y arquitectónicos complejos a través de consultoría especializada en computación científica, sistemas de gestión de riesgos y software numérico de alto rendimiento.
-
-Con más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma Risk, SimCorp y Mercado Libre, ahora trabajo de forma independiente con organizaciones que necesitan experiencia profunda en finanzas cuantitativas y computación científica.
+Logro **mejoras de rendimiento de 3x** y **sistemas arquitectónicamente robustos y conformes** para instituciones financieras de primer nivel y fintechs de alto crecimiento. Trayectoria comprobada entregando soluciones críticas para JP Morgan, Axioma Risk/Qontigo, SimCorp y Mercado Libre.
 
 Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente robustas.
 
 **Experiencia principal**: Sistemas de pricing multi-activo • Analítica de riesgo • Optimización numérica • Desarrollo de DSLs • Python/C#/Julia • Optimización de rendimiento • Capacitación de equipos
 
-**Disponible para**: Consultoría estratégica, desarrollo hands-on, modernización de sistemas, optimización de rendimiento, capacitación técnica y talleres.
+**Enfoque de Consultoría**: Auditorías de Modernización de Sistemas, Sprints de Diseño Arquitectónico, Refactorización de Alto Rendimiento, Capacitación Corporativa Especializada.
 
 ---
 
@@ -29,17 +27,18 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 - Frameworks de pricing y valuación multi-activo
 - Sistemas de analítica de riesgo y gestión de portafolios
 - Calibración de modelos y métodos numéricos
-- Modernización y migración de sistemas legacy
+- **Logrando Cumplimiento Regulatorio y Eficiencia Operacional mediante Desmantelamiento de Sistemas Legacy**
 - Optimización de rendimiento para finanzas computacionales
 
 ### Arquitectura de Software Científico
 - Computación numérica de alto rendimiento (Python, C#, Julia)
 - Lenguajes de Dominio Específico (DSLs) para modelado financiero
-- Experiencia de desarrollador y herramientas para equipos analíticos
+- **Habilitación de Equipos Quant & DevOps: Estandarizando Flujos Analíticos (Jupyter/Julia/Python) a Producción**
 - Deployment en Azure y containerización
 
 ### Capacitación y Transferencia de Conocimiento
 - Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
+- **Talleres Boutique: Computación Numérica de Alto Rendimiento con Julia para Modelos Financieros**
 - Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 - Mentoría técnica para equipos cuantitativos y de ingeniería
 - Materiales educativos interactivos usando Jupyter notebooks
@@ -98,9 +97,9 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 
 **Logros Clave**:
 - Desarrollé plataforma unificada de análisis de varianzas con ingesta y transformación optimizada de datos
-- Transformé pipeline de forecasting en workflows reproducibles listos para producción
-- Reduje carga cognitiva y overhead manual mediante abstracciones mejoradas
-- Aumenté velocidad de desarrollo manteniendo estándares estrictos de calidad
+- **Reduje errores del pipeline de forecasting en un 90%** estandarizando análisis ad-hoc en Jupyter en **sistemas productivos gestionados por CI/CD**
+- **Aumenté la velocidad de Ingeniería en un 15%** en el equipo de FPA de 14 personas implementando estándares de arquitectura limpia y abstracciones basadas en diseño
+- Mantuve estándares estrictos de calidad mientras aceleraba la velocidad de desarrollo
 
 **Tecnologías**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, herramientas cloud-native, CI/CD, sistemas distribuidos
 
@@ -137,7 +136,8 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 
 **Logros Clave**:
 - Construí APL (Axioma Pricing Library) desde cero con 100% de precisión
-- Logré mejora de rendimiento 3x en pricing de bonos convertibles mediante optimización
+- **Optimicé el Motor de Pricing de Bonos Convertibles, logrando una mejora de rendimiento del 300%** y habilitando cálculos de riesgo en tiempo real en producción
+- **Lideré el diseño y desarrollo del Monorepo Quant core (C#)**, estableciendo estándares arquitectónicos que soportaron el deployment simultáneo de múltiples librerías de pricing de activos
 - Recibí calificación "Exceptional Performance" (2023)
 
 ---
@@ -146,7 +146,7 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 **Technology Analyst, Rates CIB**
 *Julio 2018 - Agosto 2020 | 2 años 2 meses*
 
-- Desarrollé infraestructura para migrar servicios de reporting de Kapital (Smalltalk) a Athena (Python)
+- **Arquitecté y entregué la infraestructura de migración para servicios de reporting críticos de Rates CIB** de Kapital a Python (Athena), asegurando cumplimiento con cero downtime
 - Brindé soporte crítico al equipo Quant de Rates, mejorando capacidades analíticas
 - Construí sistemas de reporting financiero de grado productivo con requerimientos de cero downtime
 
@@ -198,7 +198,11 @@ Todas las charlas disponibles en: [talks.saxa.xyz](http://talks.saxa.xyz/)
 
 ## Habilidades Técnicas
 
-**Lenguajes**: Python, C#, Julia, F#, OCaml, Clojure
+**Lenguajes de Programación**
+Producción: Python, C#, Julia
+Lenguajes Funcionales/Nicho: F#, Clojure
+
+**Liderazgo y Consultoría**: Mentoría Técnica, Diseño de Soluciones, Elicitación de Requerimientos, Capacitación Corporativa
 
 **Finanzas Cuantitativas**: Pricing multi-activo, analítica de riesgo, valuación de derivados, construcción de curvas, calibración de modelos
 
