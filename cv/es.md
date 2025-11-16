@@ -76,6 +76,35 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 
 ---
 
+### Mercado Libre
+**Technical Lead, Ingeniería de Financial Planning & Analytics**
+*Junio 2025 - Presente*
+
+Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.
+
+**Responsabilidades Clave**:
+- Diseño de arquitecturas escalables para sistemas de planificación financiera y analítica
+- Establecimiento de estándares de ingeniería y mejores prácticas en la organización de FPA
+- Liderazgo en desarrollo de plataforma unificada de análisis de varianzas para datos financieros
+- Estandarización de pipelines de forecasting desde análisis ad-hoc en Jupyter a workflows productivos
+- Mentoría de ingenieros y gestión de procesos de contratación para crecimiento del equipo
+
+**Liderazgo Técnico**:
+- Promoción de workflows de desarrollo asistido por IA con IDEs agénticos y LLMs
+- Implementación de guías de calidad de código y pipelines de validación automatizada
+- Impulso de diseño modular, arquitectura limpia y mejora de estándares de documentación
+- Mejora de observabilidad y capacidades de debugging en sistemas data-driven
+
+**Logros Clave**:
+- Desarrollé plataforma unificada de análisis de varianzas con ingesta y transformación optimizada de datos
+- Transformé pipeline de forecasting en workflows reproducibles listos para producción
+- Reduje carga cognitiva y overhead manual mediante abstracciones mejoradas
+- Aumenté velocidad de desarrollo manteniendo estándares estrictos de calidad
+
+**Tecnologías**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, herramientas cloud-native, CI/CD, sistemas distribuidos
+
+---
+
 ### SimCorp
 **Lead Software Engineer, Core Analytics**
 *Marzo 2024 - Mayo 2025 | 1 año 3 meses*
