@@ -3,7 +3,7 @@
 ---
 
 ## HEADLINE
-Independent Consultant | Quantitative Software Architect | Scientific Computing Specialist
+Independent Consultant | Quantitative Software Architect | Research Software Engineering (RSE) for Financial Modeling
 
 ---
 
@@ -21,16 +21,18 @@ After 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Ri
 **Quantitative Finance & Risk Systems**
 • Multi-asset class pricing and valuation frameworks
 • Risk analytics and portfolio management systems
-• Model calibration and numerical methods
+• Model calibration, numerical methods, and RSE-driven validation (ensuring computational rigor)
 • Performance optimization for computational finance
 
 **Scientific Software Architecture**
 • High-performance numerical computing (Python, C#, Julia)
 • Domain-Specific Languages (DSLs) for financial modeling
+• Research Software Engineering (RSE) Enablement: Standardizing analytical workflows from Jupyter to production using reproducibility standards and DevOps
 • Migration and modernization of legacy quant systems
 • Developer experience and tooling for analytical teams
 
 **Specialized Training & Knowledge Transfer**
+• Boutique Workshops: Research Software Engineering (RSE) Best Practices and High-Performance Numerical Computing with Julia
 • Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
 • Corporate workshops on quantitative finance and computational methods
 • Technical mentorship for quant and engineering teams
@@ -59,7 +61,7 @@ Whether you need to modernize a legacy valuation system, optimize computational 
 **Employment Type:** Self-employed
 **Company Name:** Independent Consultant
 **Location:** Buenos Aires, Argentina
-**Start Date:** June 2025
+**Start Date:** January 2026
 **End Date:** Present (check "I am currently working in this role")
 
 **Description:**
@@ -78,7 +80,7 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 **Employment Type:** Full-time
 **Company Name:** Mercado Libre
 **Location:** Buenos Aires Province, Argentina
-**Start Date:** June 2025
+**Start Date:** January 2026
 **End Date:** Present (check "I am currently working in this role")
 
 **Description:**
@@ -143,7 +145,7 @@ Leading technology strategy for platforms that optimize and standardize reportin
 • Managed deployment of containerized applications to Azure
 
 **Associate (September 2020 - February 2023):**
-• Managed research internship on NeuralSDE applications for European Option Pricing using Julia
+• Managed research internship on NeuralSDE applications for European Option Pricing using Julia, successfully applying RSE principles to ensure model robustness and computational reproducibility
 • Designed and developed infrastructure for C# Monorepo for Analytical Libraries
 • Extracted quantitative and numerical code from monolithic repository into reusable components
 

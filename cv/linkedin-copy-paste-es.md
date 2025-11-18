@@ -3,7 +3,7 @@
 ---
 
 ## TITULAR
-Consultor Independiente | Arquitecto de Software Cuantitativo | Especialista en Computación Científica
+Consultor Independiente | Arquitecto de Software Cuantitativo | Ingeniería de Software de Investigación (RSE) para Modelado Financiero
 
 ---
 
@@ -21,16 +21,18 @@ Con más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma
 **Finanzas Cuantitativas y Sistemas de Riesgo**
 • Frameworks de pricing y valuación multi-activo
 • Sistemas de analítica de riesgo y gestión de portafolios
-• Calibración de modelos y métodos numéricos
+• Calibración de modelos, métodos numéricos y validación guiada por RSE (asegurando rigor computacional)
 • Optimización de rendimiento para finanzas computacionales
 
 **Arquitectura de Software Científico**
 • Computación numérica de alto rendimiento (Python, C#, Julia)
 • Lenguajes de Dominio Específico (DSLs) para modelado financiero
+• Habilitación en Ingeniería de Software de Investigación (RSE): Estandarizando flujos analíticos desde Jupyter a producción usando estándares de reproducibilidad y DevOps
 • Migración y modernización de sistemas cuantitativos legacy
 • Experiencia de desarrollador y herramientas para equipos analíticos
 
 **Capacitación Especializada y Transferencia de Conocimiento**
+• Talleres Boutique: Mejores Prácticas de Ingeniería de Software de Investigación (RSE) y Computación Numérica de Alto Rendimiento con Julia
 • Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
 • Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 • Mentoría técnica para equipos cuantitativos y de ingeniería
@@ -59,7 +61,7 @@ Ya sea que necesites modernizar un sistema de valuación legacy, optimizar el re
 **Tipo de empleo:** Trabajador autónomo
 **Nombre de la empresa:** Consultor Independiente
 **Ubicación:** Buenos Aires, Argentina
-**Fecha de inicio:** Junio 2025
+**Fecha de inicio:** Enero 2026
 **Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
 
 **Descripción:**
@@ -78,7 +80,7 @@ Brindo servicios de consultoría especializados en:
 **Tipo de empleo:** Tiempo completo
 **Nombre de la empresa:** Mercado Libre
 **Ubicación:** Provincia de Buenos Aires, Argentina
-**Fecha de inicio:** Junio 2025
+**Fecha de inicio:** Enero 2026
 **Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
 
 **Descripción:**
@@ -143,7 +145,7 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 • Gestioné el deployment de aplicaciones containerizadas en Azure
 
 **Associate (Septiembre 2020 - Febrero 2023):**
-• Gestioné internship de investigación sobre aplicaciones de NeuralSDE para pricing de opciones europeas usando Julia
+• Gestioné internship de investigación sobre aplicaciones de NeuralSDE para pricing de opciones europeas usando Julia, aplicando exitosamente principios RSE para asegurar robustez del modelo y reproducibilidad computacional
 • Diseñé y desarrollé infraestructura de Monorepo en C# para Librerías Analíticas
 • Extraje código cuantitativo y numérico de repositorio monolítico en componentes reutilizables
 

@@ -1,6 +1,6 @@
 # Sasha (Augusto) Kielbowicz
 
-**Quantitative Systems Architect | High-Performance Trading & Risk Systems (Julia/C#) | Technical Lead for Financial Modernization**
+**Quantitative Systems Architect | Research Software Engineering (RSE) for Financial Modeling | High-Performance Computing (Julia)**
 
 Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/en)
 
@@ -12,7 +12,7 @@ Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/e
 
 I deliver **3x performance gains** and **architecturally robust, compliant systems** for tier-1 financial institutions and high-growth fintechs. Proven track record delivering mission-critical solutions for JP Morgan, Axioma Risk/Qontigo, SimCorp, and Mercado Libre.
 
-**Core Expertise**: Multi-asset pricing systems • Risk analytics architecture • Numerical optimization • DSL development • Python/C#/Julia • Scientific computing • Developer experience
+**Core Expertise**: Multi-asset pricing systems • Risk analytics • Reproducible Scientific Software (RSE) • Numerical optimization • DSL development • Python/C#/Julia • DevOps • System Design
 
 **Value Proposition**: Unique combination of rigorous Physics background with production experience in quantitative finance, enabling delivery of solutions that are both theoretically sound and operationally robust.
 
@@ -26,19 +26,19 @@ I deliver **3x performance gains** and **architecturally robust, compliant syste
 - Multi-asset class pricing and valuation framework design
 - Risk analytics and portfolio management system architecture
 - **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
-- Model calibration and numerical method implementation
+- Model calibration, numerical methods, and RSE-driven validation (ensuring computational rigor)
 - Performance optimization for computational finance workloads
 
 ### Scientific Software Architecture
 - High-performance numerical computing (Python, C#, Julia)
 - Domain-Specific Language (DSL) design for financial modeling
 - Analytical library extraction and componentization
-- **Quant Team Enablement & DevOps: Standardizing Analytical Workflows (Jupyter/Julia/Python) to Production**
+- **Research Software Engineering (RSE) Enablement: Standardizing Analytical Workflows from Jupyter to production using reproducibility standards and DevOps**
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
 - Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
-- **Boutique Workshops: High-Performance Numerical Computing with Julia for Financial Models**
+- **Boutique Workshops: Research Software Engineering (RSE) Best Practices and High-Performance Numerical Computing with Julia**
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -49,7 +49,7 @@ I deliver **3x performance gains** and **architecturally robust, compliant syste
 ## Professional Experience
 
 ### Independent Consultant | Quantitative Software & Scientific Computing
-**June 2025 - Present** | Buenos Aires, Argentina
+**January 2026 - Present** | Buenos Aires, Argentina
 
 Providing specialized consulting services to financial institutions and technology companies in quantitative system architecture, scientific computing, and analytical software development.
 
@@ -92,7 +92,7 @@ Led development of core quantitative analytical libraries for multi-asset risk m
 #### Associate (September 2020 - February 2023)
 
 **Research & Infrastructure**:
-- **NeuralSDE Research**: Managed internship focused on NeuralSDE applications for European Option Pricing using Julia language
+- **NeuralSDE Research**: Managed internship focused on NeuralSDE applications for European Option Pricing using Julia language, successfully applying RSE principles to ensure model robustness and computational reproducibility
 - **Monorepo Architecture**: Designed and developed C# Monorepo infrastructure for Analytical Libraries, extracting quant and numerical code from monolithic repository into reusable, testable components
 - **APL Development**: Core contributor to Axioma Pricing Library (APL), migrating complex financial components from legacy Phoenix system
 

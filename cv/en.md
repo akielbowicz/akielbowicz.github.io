@@ -7,7 +7,7 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
 [![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz/en)
 
-# Quantitative Systems Architect | High-Performance Trading & Risk Systems (Julia/C#) | Technical Lead for Financial Modernization
+# Quantitative Systems Architect | Research Software Engineering (RSE) for Financial Modeling | High-Performance Computing (Julia)
 
 **Contact**: augusto [dot] kiel [at] gmail [dot] com
 
@@ -19,7 +19,7 @@ I deliver **3x performance gains** and **architecturally robust, compliant syste
 
 My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
-**Core expertise**: Multi-asset pricing systems • Risk analytics • Numerical optimization • DSL development • Python/C#/Julia • Performance tuning • Team enablement
+**Core expertise**: Multi-asset pricing systems • Risk analytics • Reproducible Scientific Software (RSE) • Numerical optimization • DSL development • Python/C#/Julia • DevOps • System Design
 
 **Engagement Focus**: System Modernization Audits, Architectural Design Sprints, High-Performance Refactoring, Specialized Corporate Training.
 
@@ -30,19 +30,19 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 ### Quantitative Finance & Risk Systems
 - Multi-asset class pricing and valuation frameworks
 - Risk analytics and portfolio management systems
-- Model calibration and numerical methods
+- Model calibration, numerical methods, and RSE-driven validation (ensuring computational rigor)
 - **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
 - Performance optimization for computational finance
 
 ### Scientific Software Architecture
 - High-performance numerical computing (Python, C#, Julia)
 - Domain-Specific Languages (DSLs) for financial modeling
-- **Quant Team Enablement & DevOps: Standardizing Analytical Workflows (Jupyter/Julia/Python) to Production**
+- **Research Software Engineering (RSE) Enablement: Standardizing Analytical Workflows from Jupyter to production using reproducibility standards and DevOps**
 - Azure cloud deployment and containerization
 
 ### Training & Knowledge Transfer
 - Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
-- **Boutique Workshops: High-Performance Numerical Computing with Julia for Financial Models**
+- **Boutique Workshops: Research Software Engineering (RSE) Best Practices and High-Performance Numerical Computing with Julia**
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -59,7 +59,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 ### Independent Consultant
 **Quantitative Software & Scientific Computing**
-*June 2025 - Present* | Buenos Aires, Argentina
+*January 2026 - Present* | Buenos Aires, Argentina
 
 Providing specialized consulting services to financial institutions and technology companies:
 - Quantitative finance system architecture and development
@@ -73,7 +73,7 @@ Providing specialized consulting services to financial institutions and technolo
 
 ### Mercado Libre
 **Technical Lead, Financial Planning & Analytics Engineering**
-*June 2025 - Present*
+*January 2026 - Present*
 
 Leading technology strategy for platforms that optimize and standardize reporting, data workflows, and analytical processes across Latin America's largest e-commerce ecosystem. Managing two cross-functional engineering teams (Fintech & Cross, Commerce) with 14 engineers across backend, frontend, and data.
 
@@ -92,7 +92,7 @@ Leading technology strategy for platforms that optimize and standardize reportin
 
 **Key Achievements**:
 - Developed unified variance-analysis platform with streamlined data ingestion and transformation
-- **Reduced forecasting pipeline errors by 90%** by standardizing ad-hoc Jupyter analysis into robust, **CI/CD-managed production systems**
+- **Reduced forecasting pipeline errors by 90%** by implementing RSE principles to transform ad-hoc Jupyter analyses into robust, **CI/CD-managed production systems**
 - **Increased Engineering velocity by 15%** across 14-person FPA team by implementing clean architecture standards and design-driven abstractions
 - Maintained strict quality standards while accelerating development velocity
 
@@ -123,7 +123,7 @@ Leading technology strategy for platforms that optimize and standardize reportin
 - Managed containerized application deployment to Azure
 
 **Associate** (September 2020 - February 2023)
-- Managed research internship on NeuralSDE applications for European Option Pricing using Julia
+- Managed research internship on NeuralSDE applications for European Option Pricing using Julia, successfully applying RSE principles to ensure model robustness and computational reproducibility
 - Designed and developed C# Monorepo infrastructure for Analytical Libraries
 - Extracted quantitative and numerical code from monolithic repository into reusable components
 

@@ -3,7 +3,7 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 ...
 
-# Arquitecto de Sistemas Cuantitativos | Sistemas de Trading y Riesgo de Alto Rendimiento (Julia/C#) | Líder Técnico en Modernización Financiera
+# Arquitecto de Sistemas Cuantitativos | Ingeniería de Software de Investigación (RSE) para Modelado Financiero | Computación de Alto Rendimiento (Julia)
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
 
@@ -15,7 +15,7 @@ Logro **mejoras de rendimiento de 3x** y **sistemas arquitectónicamente robusto
 
 Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente robustas.
 
-**Experiencia principal**: Sistemas de pricing multi-activo • Analítica de riesgo • Optimización numérica • Desarrollo de DSLs • Python/C#/Julia • Optimización de rendimiento • Capacitación de equipos
+**Experiencia principal**: Sistemas de pricing multi-activo • Analítica de riesgo • Software Científico Reproducible (RSE) • Optimización numérica • Desarrollo de DSLs • Python/C#/Julia • DevOps • Diseño de Sistemas
 
 **Enfoque de Consultoría**: Auditorías de Modernización de Sistemas, Sprints de Diseño Arquitectónico, Refactorización de Alto Rendimiento, Capacitación Corporativa Especializada.
 
@@ -26,19 +26,19 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 ### Finanzas Cuantitativas y Sistemas de Riesgo
 - Frameworks de pricing y valuación multi-activo
 - Sistemas de analítica de riesgo y gestión de portafolios
-- Calibración de modelos y métodos numéricos
+- Calibración de modelos, métodos numéricos y validación guiada por RSE (asegurando rigor computacional)
 - **Logrando Cumplimiento Regulatorio y Eficiencia Operacional mediante Desmantelamiento de Sistemas Legacy**
 - Optimización de rendimiento para finanzas computacionales
 
 ### Arquitectura de Software Científico
 - Computación numérica de alto rendimiento (Python, C#, Julia)
 - Lenguajes de Dominio Específico (DSLs) para modelado financiero
-- **Habilitación de Equipos Quant & DevOps: Estandarizando Flujos Analíticos (Jupyter/Julia/Python) a Producción**
+- **Habilitación en Ingeniería de Software de Investigación (RSE): Estandarizando Flujos Analíticos desde Jupyter a producción usando estándares de reproducibilidad y DevOps**
 - Deployment en Azure y containerización
 
 ### Capacitación y Transferencia de Conocimiento
 - Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
-- **Talleres Boutique: Computación Numérica de Alto Rendimiento con Julia para Modelos Financieros**
+- **Talleres Boutique: Mejores Prácticas de Ingeniería de Software de Investigación (RSE) y Computación Numérica de Alto Rendimiento con Julia**
 - Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 - Mentoría técnica para equipos cuantitativos y de ingeniería
 - Materiales educativos interactivos usando Jupyter notebooks
@@ -64,7 +64,7 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 ### Consultor Independiente
 **Software Cuantitativo y Computación Científica**
-*Junio 2025 - Presente* | Buenos Aires, Argentina
+*Enero 2026 - Presente* | Buenos Aires, Argentina
 
 Brindo servicios de consultoría especializados a instituciones financieras y empresas tecnológicas:
 - Arquitectura y desarrollo de sistemas de finanzas cuantitativas
@@ -78,7 +78,7 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 
 ### Mercado Libre
 **Technical Lead, Ingeniería de Financial Planning & Analytics**
-*Junio 2025 - Presente*
+*Enero 2026 - Presente*
 
 Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.
 
@@ -97,7 +97,7 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 
 **Logros Clave**:
 - Desarrollé plataforma unificada de análisis de varianzas con ingesta y transformación optimizada de datos
-- **Reduje errores del pipeline de forecasting en un 90%** estandarizando análisis ad-hoc en Jupyter en **sistemas productivos gestionados por CI/CD**
+- **Reduje errores del pipeline de forecasting en un 90%** implementando principios RSE para transformar análisis ad-hoc en Jupyter en **sistemas productivos gestionados por CI/CD**
 - **Aumenté la velocidad de Ingeniería en un 15%** en el equipo de FPA de 14 personas implementando estándares de arquitectura limpia y abstracciones basadas en diseño
 - Mantuve estándares estrictos de calidad mientras aceleraba la velocidad de desarrollo
 
@@ -130,7 +130,7 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 - Gestioné deployment de aplicaciones containerizadas en Azure
 
 **Associate** (Septiembre 2020 - Febrero 2023)
-- Gestioné internship de investigación sobre aplicaciones de NeuralSDE para pricing de opciones europeas usando Julia
+- Gestioné internship de investigación sobre aplicaciones de NeuralSDE para pricing de opciones europeas usando Julia, aplicando exitosamente principios RSE para asegurar robustez del modelo y reproducibilidad computacional
 - Diseñé y desarrollé infraestructura de Monorepo en C# para Librerías Analíticas
 - Extraje código cuantitativo y numérico de repositorio monolítico en componentes reutilizables
 
