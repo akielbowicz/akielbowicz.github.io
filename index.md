@@ -2,9 +2,9 @@
 
 ## Quantitative Systems Architect | Research Software Engineer
 
-Independent consultant specializing in quantitative finance systems, scientific computing, and high-performance numerical software.
+Currently **Software Technical Lead at Mercado Libre** (Financial Planning & Analytics), leading technology strategy for analytical platforms.
 
-Physics background (Universidad de Buenos Aires) with 7+ years of experience at tier-1 financial institutions including JP Morgan, Qontigo/Axioma Risk, and SimCorp.
+Independent consultant specializing in quantitative finance systems, scientific computing, and high-performance numerical software. Physics background (Universidad de Buenos Aires) with 7+ years of experience at tier-1 financial institutions including JP Morgan, Qontigo/Axioma Risk, and SimCorp.
 
 ---
 
