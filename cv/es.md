@@ -81,8 +81,8 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 ---
 
 ### Mercado Libre
-**Technical Lead, Ingeniería de Financial Planning & Analytics**
-*Enero 2026 - Presente*
+**Software Technical Lead, IT Staff / Financial Planning & Analytics**
+*Junio 2025 - Presente*
 
 Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.
 
