@@ -19,11 +19,11 @@ Physics background (Universidad de Buenos Aires) with 7+ years of experience at 
 
 **Email**: augusto [dot] kiel [at] gmail [dot] com
 
-**Website**: [saxa.xyz](https://saxa.xyz)
-
 **GitHub**: [github.com/akielbowicz](https://github.com/akielbowicz)
 
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
+
+**Personal blog**: [saxa.xyz](https://saxa.xyz)
 
 ---
 
