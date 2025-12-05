@@ -1,29 +1,30 @@
-# Bienvenidε a [ak.saxa.xyz](https://ak.saxa.xyz)
+# Sasha (Augusto) Kielbowicz
 
-## Sobre mí
+## Quantitative Systems Architect | Research Software Engineer
 
-Consultor independiente especializado en software cuantitativo y computación científica. Físico de formación (UBA), con 7+ años de experiencia en instituciones financieras tier-1 (JP Morgan, Qontigo/Axioma Risk, SimCorp).
+Independent consultant specializing in quantitative finance systems, scientific computing, and high-performance numerical software.
 
-## Contenido Educativo
-
-### SCA314 - Canal de YouTube
-Canal educativo enfocado en artesanía de software, computación científica con Julia y prácticas de testing automatizado en Castellano/Español.
-
-- [YouTube: @SCA314](https://www.youtube.com/@SCA314)
-- [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
-
-### Blog
-- [saxa.xyz](https://saxa.xyz)
-
-## Recursos
-
-### CV / Resume
-- [Curriculum Vitae en Español](./cv/es.md)
-- [Resume in English](./cv/en.md)
-
-### Charlas / Talks
-- [talks.saxa.xyz](https://talks.saxa.xyz)
+Physics background (Universidad de Buenos Aires) with 7+ years of experience at tier-1 financial institutions including JP Morgan, Qontigo/Axioma Risk, and SimCorp.
 
 ---
 
-*Para compatibilidad con enlaces anteriores:* [Información para la charla en la ENET Nro 1 de Catamarca](./intro-enet-1.md)
+## Resume / CV
+
+- [English](./cv/en.md)
+- [Español](./cv/es.md)
+
+---
+
+## Contact
+
+**Email**: augusto [dot] kiel [at] gmail [dot] com
+
+**Website**: [saxa.xyz](https://saxa.xyz)
+
+**GitHub**: [github.com/akielbowicz](https://github.com/akielbowicz)
+
+**LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
+
+---
+
+Available for consulting engagements globally (remote) and in Buenos Aires.
