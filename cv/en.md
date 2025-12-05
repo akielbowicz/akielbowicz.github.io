@@ -9,42 +9,50 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 [Español](./es.md)
 
-# Quantitative Systems Architect | Research Software Engineer
+# Scientific Software Architect & Research Engineer
+## High-Performance Computing Specialist
 
 **Contact**: augusto [dot] kiel [at] gmail [dot] com
 
 ---
 
-## About
+## Executive Profile
 
-I deliver **3x performance gains** and **architecturally robust, compliant systems** for tier-1 financial institutions and high-growth fintechs. Proven track record delivering mission-critical solutions for JP Morgan, Axioma Risk/Qontigo, SimCorp, and Mercado Libre.
+Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, and **Domain-Specific Languages**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous and computationally efficient.
 
 My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
-**Core expertise**: Multi-asset pricing systems • Risk analytics • Reproducible Scientific Software (RSE) • Numerical optimization • DSL development • Python/C#/Julia • DevOps • System Design
+**Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
-**Engagement Focus**: System Modernization Audits, Architectural Design Sprints, High-Performance Refactoring, Specialized Corporate Training.
+**Engagement Focus**: Performance Optimization Sprints, Deterministic AI Architecture, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
 
 ---
 
 ## Consulting Services
 
-### Quantitative Finance & Risk Systems
+### High-Performance Computing (HPC) Optimization
+- Performance audit and optimization for numerical bottlenecks
+- Vectorization, caching, and parallelism strategies
+- 300% performance gains achieved in production systems
+- Real-time computational finance optimization
 - Multi-asset class pricing and valuation frameworks
-- Risk analytics and portfolio management systems
-- Model calibration, numerical methods, and RSE-driven validation (ensuring computational rigor)
-- **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
-- Performance optimization for computational finance
 
-### Scientific Software Architecture
-- High-performance numerical computing (Python, C#, Julia)
-- Domain-Specific Languages (DSLs) for financial modeling
-- **Research Software Engineering (RSE) Enablement: Standardizing Analytical Workflows from Jupyter to production using reproducibility standards and DevOps**
-- Azure cloud deployment and containerization
+### Deterministic AI & Scientific Machine Learning
+- Neural Stochastic Differential Equations (NeuralSDEs) implementation
+- Math-aware RAG systems for financial documentation
+- Integration of deep learning with physical laws and constraints
+- Safe AI architecture for financial applications
+- Model calibration and validation using RSE principles
+
+### Domain-Specific Language (DSL) Architecture
+- Custom language design for complex pricing models
+- Interactive UI development for quantitative libraries
+- Democratizing access to sophisticated mathematical models
+- Research Software Engineering (RSE) enablement: Standardizing analytical workflows from Jupyter to production
 
 ### Training & Knowledge Transfer
-- Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
-- **Boutique Workshops: Research Software Engineering (RSE) Best Practices and High-Performance Numerical Computing with Julia**
+- High-Performance Numerical Computing with Julia workshops
+- Scientific and numeric software development training
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -55,7 +63,37 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 **Licentiate degree** in Physics, University of Buenos Aires (2011-2017)
 
-*Thesis*: [Statistic Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms](https://github.com/akielbowicz/randomWalk-matlab/blob/master/Tesis.pdf) 
+*Thesis*: [Statistic Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms](https://github.com/akielbowicz/randomWalk-matlab/blob/master/Tesis.pdf)
+
+---
+
+## Signature Case Studies
+
+### 1. The Performance Optimization Sprint (Qontigo)
+
+**The Challenge**: Critical risk calculations were too slow for real-time reporting due to unoptimized convertible bond pricing engines.
+
+**The Solution**: Led a forensic performance audit and implemented cache optimization strategies in the core C# numerical library.
+
+**Outcome**: Achieved a **300% performance gain**, enabling real-time production risk reporting and significantly reducing Azure compute spend.
+
+### 2. The Scientific AI Implementation (Research/SimCorp)
+
+**The Challenge**: Traditional Monte Carlo simulations for European Option Pricing were computationally expensive; standard AI lacked mathematical constraints.
+
+**The Solution**: Managed research into **Neural Stochastic Differential Equations (NeuralSDEs)** using **Julia**, combining deep learning with physical laws. Parallelly developed an LLM-based RAG system for querying complex financial documentation.
+
+**Outcome**: Demonstrated superior convergence speeds over traditional solvers and established a framework for "Safe AI" in financial contexts.
+
+### 3. The "Quant Experience" Architecture (SimCorp)
+
+**The Challenge**: Quants struggled to interact with complex underlying pricing models, leading to errors and slow iteration.
+
+**The Solution**: Designed and developed a Proof-of-Concept **Domain-Specific Language (DSL)** and integrated interactive Jupyter-based UIs (Voila/ipywidgets).
+
+**Outcome**: Democratized access to complex models, allowing non-engineers to safely construct and test pricing logic.
+
+---
 
 ## Professional Experience
 
@@ -77,28 +115,16 @@ Providing specialized consulting services to financial institutions and technolo
 **Software Technical Lead, IT Staff / Financial Planning & Analytics**
 *June 2025 - Present*
 
-Leading technology strategy for platforms that optimize and standardize reporting, data workflows, and analytical processes across Latin America's largest e-commerce ecosystem. Managing two cross-functional engineering teams (Fintech & Cross, Commerce) with 14 engineers across backend, frontend, and data.
+Leading technology strategy and managing 14 engineers across Financial Planning & Analytics for Latin America's largest e-commerce ecosystem.
 
-**Key Responsibilities**:
-- Designing scalable architectures for financial planning and analytics systems
-- Establishing engineering standards and best practices across FPA organization
-- Leading development of unified variance-analysis platform for financial data
-- Standardizing forecasting pipelines from ad-hoc Jupyter analyses to production workflows
-- Mentoring engineers and managing hiring processes for team growth
+**Key Focus**: Strategy, Standardization & AI Workflows
+- Architecting scalable financial planning and analytics platforms
+- Championing AI-assisted development workflows and clean architecture standards
+- Transforming ad-hoc Jupyter analyses into CI/CD-managed production systems
 
-**Technical Leadership**:
-- Championing AI-assisted development workflows with agentic IDEs and LLMs
-- Implementing code quality guidelines and automated validation pipelines
-- Promoting modular design, clean architecture, and improved documentation standards
-- Enhancing observability and debugging capabilities across data-driven systems
+**Impact**: 90% reduction in forecasting pipeline errors through RSE principles; 15% velocity increase across engineering team
 
-**Key Achievements**:
-- Developed unified variance-analysis platform with streamlined data ingestion and transformation
-- **Reduced forecasting pipeline errors by 90%** by implementing RSE principles to transform ad-hoc Jupyter analyses into robust, **CI/CD-managed production systems**
-- **Increased Engineering velocity by 15%** across 14-person FPA team by implementing clean architecture standards and design-driven abstractions
-- Maintained strict quality standards while accelerating development velocity
-
-**Technologies**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, cloud-native tooling, CI/CD, distributed systems
+**Technologies**: Go, TypeScript, Python, BigQuery, Jupyter, CI/CD, distributed systems
 
 ---
 
@@ -106,10 +132,11 @@ Leading technology strategy for platforms that optimize and standardize reportin
 **Lead Software Engineer, Core Analytics**
 *March 2024 - May 2025 | 1 year 3 months*
 
-- Integrated Quant UI with Axioma Risk UI, enhancing analytical capabilities for institutional investors
-- Developed POC for Domain-Specific Language (DSL) for pricing model interaction
-- Created POC for interactive Q&A chatbot for product documentation using LLMs and RAG
-- Redesigned libraries to support Automatic Differentiation (AD) and integrated third-party AD tooling
+**Key Focus**: Core Analytics & Quant UI
+- Developed Domain-Specific Language (DSL) POC for pricing model interaction
+- Created LLM-based RAG system for financial documentation Q&A
+- Integrated Quant UI with Axioma Risk UI for institutional investors
+- Redesigned libraries for Automatic Differentiation (AD) support
 
 ### Qontigo (Axioma Risk)
 **Associate Principal, Core Analytics**
@@ -117,31 +144,22 @@ Leading technology strategy for platforms that optimize and standardize reportin
 
 [*@akielbowicz-qontigo*](https://github.com/akielbowicz-qontigo)
 
-**Associate Principal** (February 2023 - March 2024)
-- Managed and mentored junior developers, enhancing team skills and productivity
-- Maintained and developed core Quant Analytical libraries ensuring robustness and accuracy
-- Designed and developed comprehensive curve construction library (rates, yields, discounts, spreads)
-- Led development of interactive UI using ipywidgets and voila for Quant library access
-- Managed containerized application deployment to Azure
+**Key Focus**: Core Quant Libraries & High-Performance Computing
+- Designed and developed core Quant Monorepo (C#) for Analytical Libraries
+- Managed NeuralSDE research internship for European Option Pricing using Julia
+- Built Axioma Pricing Library (APL) from ground up with 100% accuracy
+- Developed comprehensive curve construction library (rates, yields, discounts, spreads)
+- Led development of interactive UI (ipywidgets/voila) for Quant library access
 
-**Associate** (September 2020 - February 2023)
-- Managed research internship on NeuralSDE applications for European Option Pricing using Julia, successfully applying RSE principles to ensure model robustness and computational reproducibility
-- Designed and developed C# Monorepo infrastructure for Analytical Libraries
-- Extracted quantitative and numerical code from monolithic repository into reusable components
-
-**Key Achievements**:
-- Built APL (Axioma Pricing Library) from ground up with 100% accuracy
-- **Optimized Convertible Bond Pricing Engine, resulting in a 300% performance gain** and enabling real-time risk calculations in production
-- **Drove the design and development of the core Quant Monorepo (C#)**, establishing architectural standards that supported simultaneous deployment of multiple asset pricing libraries
-- Received "Exceptional Performance" rating (2023)
+**Impact**: 300% performance gain on Convertible Bond Pricing Engine enabling real-time production calculations; "Exceptional Performance" rating (2023)
 
 ### J.P. Morgan
 **Technology Analyst, Rates CIB**
 *July 2018 - August 2020 | 2 years 2 months*
 
-- **Architected and delivered the migration infrastructure for mission-critical Rates CIB reporting services** from Kapital to Python (Athena), ensuring zero-downtime compliance
+- Built production-grade financial reporting systems with zero-downtime requirements for Rates CIB
 - Provided critical support to Rates Quant team, enhancing analytical capabilities
-- Built production-grade financial reporting systems with zero-downtime requirements
+- Delivered infrastructure for mission-critical reporting services ensuring compliance and reliability
 
 ---
 

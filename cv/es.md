@@ -9,42 +9,50 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 [English](./en.md)
 
-# Arquitecto de Sistemas Cuantitativos | Ingeniero de Software de Investigación
+# Arquitecto de Software Científico y Estratega de Riesgo Cuantitativo
+## Especialista en Cómputo de Alto Rendimiento
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
 
 ---
 
-## Acerca de
+## Perfil Ejecutivo
 
-Logro **mejoras de rendimiento de 3x** y **sistemas arquitectónicamente robustos y conformes** para instituciones financieras de primer nivel y fintechs de alto crecimiento. Trayectoria comprobada entregando soluciones críticas para JP Morgan, Axioma Risk/Qontigo, SimCorp y Mercado Libre.
+Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Cómputo de Alto Rendimiento (HPC)**, **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción", diseñando sistemas que son matemáticamente rigurosos y computacionalmente eficientes.
 
 Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente robustas.
 
-**Experiencia principal**: Sistemas de pricing multi-activo • Analítica de riesgo • Software Científico Reproducible (RSE) • Optimización numérica • Desarrollo de DSLs • Python/C#/Julia • DevOps • Diseño de Sistemas
+**Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 
-**Enfoque de Consultoría**: Auditorías de Modernización de Sistemas, Sprints de Diseño Arquitectónico, Refactorización de Alto Rendimiento, Capacitación Corporativa Especializada.
+**Enfoque de Consultoría**: Sprints de Optimización de Rendimiento, Arquitectura de IA Determinística, Diseño de DSL, Sprints de Diseño Arquitectónico, Capacitación Corporativa Especializada.
 
 ---
 
 ## Servicios de Consultoría
 
-### Finanzas Cuantitativas y Sistemas de Riesgo
+### Sprints de Cómputo de Alto Rendimiento (HPC)
+- Auditoría y optimización de rendimiento para cuellos de botella numéricos
+- Estrategias de vectorización, caché y paralelismo
+- Ganancias de rendimiento del 300% logradas en sistemas de producción
+- Optimización de finanzas computacionales en tiempo real
 - Frameworks de pricing y valuación multi-activo
-- Sistemas de analítica de riesgo y gestión de portafolios
-- Calibración de modelos, métodos numéricos y validación guiada por RSE (asegurando rigor computacional)
-- **Logrando Cumplimiento Regulatorio y Eficiencia Operacional mediante Desmantelamiento de Sistemas Legacy**
-- Optimización de rendimiento para finanzas computacionales
 
-### Arquitectura de Software Científico
-- Computación numérica de alto rendimiento (Python, C#, Julia)
-- Lenguajes de Dominio Específico (DSLs) para modelado financiero
-- **Habilitación en Ingeniería de Software de Investigación (RSE): Estandarizando Flujos Analíticos desde Jupyter a producción usando estándares de reproducibilidad y DevOps**
-- Deployment en Azure y containerización
+### IA Determinística y Aprendizaje Automático Científico
+- Implementación de Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)
+- Sistemas RAG conscientes de la matemática para documentación financiera
+- Integración de deep learning con leyes físicas y restricciones
+- Arquitectura de IA segura para aplicaciones financieras
+- Calibración y validación de modelos usando principios RSE
+
+### Arquitectura de Lenguajes de Dominio Específico (DSL)
+- Diseño de lenguajes personalizados para modelos de pricing complejos
+- Desarrollo de interfaces interactivas para librerías cuantitativas
+- Democratización del acceso a modelos matemáticos sofisticados
+- Habilitación en Ingeniería de Software de Investigación (RSE): Estandarización de flujos analíticos desde Jupyter a producción
 
 ### Capacitación y Transferencia de Conocimiento
-- Capacitación en desarrollo de software científico y numérico (buenas prácticas para análisis de datos, optimización de rendimiento, diseño de código robusto)
-- **Talleres Boutique: Mejores Prácticas de Ingeniería de Software de Investigación (RSE) y Computación Numérica de Alto Rendimiento con Julia**
+- Talleres de Computación Numérica de Alto Rendimiento con Julia
+- Capacitación en desarrollo de software científico y numérico
 - Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 - Mentoría técnica para equipos cuantitativos y de ingeniería
 - Materiales educativos interactivos usando Jupyter notebooks
@@ -63,6 +71,34 @@ Certificado en Ingeniería de Software | 2018 - 2019
 
 **Universidad del CEMA**
 Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
+
+---
+
+## Casos de Estudio Exclusivos
+
+### 1. El Sprint de Optimización de Rendimiento (Qontigo)
+
+**El Desafío**: Los cálculos de riesgo críticos eran demasiado lentos para reportes en tiempo real debido a motores de pricing de bonos convertibles no optimizados.
+
+**La Solución**: Lideré una auditoría forense de rendimiento e implementé estrategias de optimización de caché en la librería numérica core de C#.
+
+**Resultado**: Logré una **ganancia de rendimiento del 300%**, habilitando reportes de riesgo en producción en tiempo real y reduciendo significativamente el gasto de cómputo en Azure.
+
+### 2. La Implementación de IA Científica (Investigación/SimCorp)
+
+**El Desafío**: Las simulaciones tradicionales de Monte Carlo para Pricing de Opciones Europeas eran computacionalmente costosas; la IA estándar carecía de restricciones matemáticas.
+
+**La Solución**: Gestioné investigación en **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** usando **Julia**, combinando deep learning con leyes físicas. Paralelamente, desarrollé un sistema RAG basado en LLMs para consultar documentación financiera compleja.
+
+**Resultado**: Demostré velocidades de convergencia superiores sobre solvers tradicionales y establecí un marco de trabajo para "IA Segura" en contextos financieros.
+
+### 3. La Arquitectura de "Experiencia Quant" (SimCorp)
+
+**El Desafío**: Los Quants luchaban para interactuar con modelos de pricing subyacentes complejos, generando errores e iteración lenta.
+
+**La Solución**: Diseñé y desarrollé una Prueba de Concepto de un **Lenguaje de Dominio Específico (DSL)** e integré interfaces interactivas basadas en Jupyter (Voila/ipywidgets).
+
+**Resultado**: Democraticé el acceso a modelos complejos, permitiendo a no-ingenieros construir y testear lógica de pricing de forma segura.
 
 ---
 
@@ -86,28 +122,16 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 **Software Technical Lead, IT Staff / Financial Planning & Analytics**
 *Junio 2025 - Presente*
 
-Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.
+Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Planning & Analytics para el ecosistema de e-commerce más grande de América Latina.
 
-**Responsabilidades Clave**:
-- Diseño de arquitecturas escalables para sistemas de planificación financiera y analítica
-- Establecimiento de estándares de ingeniería y mejores prácticas en la organización de FPA
-- Liderazgo en desarrollo de plataforma unificada de análisis de varianzas para datos financieros
-- Estandarización de pipelines de forecasting desde análisis ad-hoc en Jupyter a workflows productivos
-- Mentoría de ingenieros y gestión de procesos de contratación para crecimiento del equipo
+**Enfoque Clave**: Estrategia, Estandarización y Flujos de Trabajo de IA
+- Arquitectura de plataformas escalables de planificación financiera y analítica
+- Promoción de workflows de desarrollo asistido por IA y estándares de arquitectura limpia
+- Transformación de análisis ad-hoc en Jupyter a sistemas productivos gestionados por CI/CD
 
-**Liderazgo Técnico**:
-- Promoción de workflows de desarrollo asistido por IA con IDEs agénticos y LLMs
-- Implementación de guías de calidad de código y pipelines de validación automatizada
-- Impulso de diseño modular, arquitectura limpia y mejora de estándares de documentación
-- Mejora de observabilidad y capacidades de debugging en sistemas data-driven
+**Impacto**: Reducción del 90% en errores del pipeline de forecasting mediante principios RSE; aumento del 15% en velocidad del equipo de ingeniería
 
-**Logros Clave**:
-- Desarrollé plataforma unificada de análisis de varianzas con ingesta y transformación optimizada de datos
-- **Reduje errores del pipeline de forecasting en un 90%** implementando principios RSE para transformar análisis ad-hoc en Jupyter en **sistemas productivos gestionados por CI/CD**
-- **Aumenté la velocidad de Ingeniería en un 15%** en el equipo de FPA de 14 personas implementando estándares de arquitectura limpia y abstracciones basadas en diseño
-- Mantuve estándares estrictos de calidad mientras aceleraba la velocidad de desarrollo
-
-**Tecnologías**: Go, TypeScript, Python, BigQuery, Jupyter Notebook, herramientas cloud-native, CI/CD, sistemas distribuidos
+**Tecnologías**: Go, TypeScript, Python, BigQuery, Jupyter, CI/CD, sistemas distribuidos
 
 ---
 
@@ -115,10 +139,11 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 **Lead Software Engineer, Core Analytics**
 *Marzo 2024 - Mayo 2025 | 1 año 3 meses*
 
-- Integré Quant UI con Axioma Risk UI, mejorando capacidades analíticas para inversores institucionales
+**Enfoque Clave**: Core Analytics y UI Quant
 - Desarrollé POC de Lenguaje de Dominio Específico (DSL) para interacción con modelos de pricing
-- Creé POC de chatbot interactivo Q&A para documentación de producto usando LLMs y RAG
-- Rediseñé librerías para soportar Diferenciación Automática (AD) e integré herramientas de terceros
+- Creé sistema RAG basado en LLMs para Q&A de documentación financiera
+- Integré Quant UI con Axioma Risk UI para inversores institucionales
+- Rediseñé librerías para soportar Diferenciación Automática (AD)
 
 ---
 
@@ -128,23 +153,14 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 
 [*@akielbowicz-qontigo*](https://github.com/akielbowicz-qontigo)
 
-**Associate Principal** (Febrero 2023 - Marzo 2024)
-- Gestioné y mentoreé desarrolladores junior, mejorando habilidades y productividad del equipo
-- Mantuve y desarrollé librerías analíticas Quant core asegurando robustez y precisión
-- Diseñé y desarrollé librería integral de construcción de curvas (tasas, yields, descuentos, spreads)
-- Lideré desarrollo de UI interactiva usando ipywidgets y voila para acceso a librerías Quant
-- Gestioné deployment de aplicaciones containerizadas en Azure
+**Enfoque Clave**: Librerías Quant Core y Cómputo de Alto Rendimiento
+- Diseñé y desarrollé Monorepo Quant core (C#) para Librerías Analíticas
+- Gestioné internship de investigación en NeuralSDE para Pricing de Opciones Europeas usando Julia
+- Construí Axioma Pricing Library (APL) desde cero con 100% de precisión
+- Desarrollé librería integral de construcción de curvas (tasas, yields, descuentos, spreads)
+- Lideré desarrollo de UI interactiva (ipywidgets/voila) para acceso a librerías Quant
 
-**Associate** (Septiembre 2020 - Febrero 2023)
-- Gestioné internship de investigación sobre aplicaciones de NeuralSDE para pricing de opciones europeas usando Julia, aplicando exitosamente principios RSE para asegurar robustez del modelo y reproducibilidad computacional
-- Diseñé y desarrollé infraestructura de Monorepo en C# para Librerías Analíticas
-- Extraje código cuantitativo y numérico de repositorio monolítico en componentes reutilizables
-
-**Logros Clave**:
-- Construí APL (Axioma Pricing Library) desde cero con 100% de precisión
-- **Optimicé el Motor de Pricing de Bonos Convertibles, logrando una mejora de rendimiento del 300%** y habilitando cálculos de riesgo en tiempo real en producción
-- **Lideré el diseño y desarrollo del Monorepo Quant core (C#)**, estableciendo estándares arquitectónicos que soportaron el deployment simultáneo de múltiples librerías de pricing de activos
-- Recibí calificación "Exceptional Performance" (2023)
+**Impacto**: Ganancia de rendimiento del 300% en Motor de Pricing de Bonos Convertibles habilitando cálculos de producción en tiempo real; calificación "Exceptional Performance" (2023)
 
 ---
 
@@ -152,9 +168,9 @@ Liderando la estrategia tecnológica para plataformas que optimizan y estandariz
 **Technology Analyst, Rates CIB**
 *Julio 2018 - Agosto 2020 | 2 años 2 meses*
 
-- **Arquitecté y entregué la infraestructura de migración para servicios de reporting críticos de Rates CIB** de Kapital a Python (Athena), asegurando cumplimiento con cero downtime
+- Construí sistemas de reporting financiero de grado productivo con requerimientos de cero downtime para Rates CIB
 - Brindé soporte crítico al equipo Quant de Rates, mejorando capacidades analíticas
-- Construí sistemas de reporting financiero de grado productivo con requerimientos de cero downtime
+- Entregué infraestructura para servicios de reporting críticos asegurando cumplimiento y confiabilidad
 
 ---
 
