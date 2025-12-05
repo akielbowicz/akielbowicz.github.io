@@ -3,6 +3,10 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 ...
 
+[![gh-logo](../cv/github.png)](https://github.com/akielbowicz)
+[![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
+[![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz)
+
 # Arquitecto de Sistemas Cuantitativos | Ingeniero de Software de Investigación
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
