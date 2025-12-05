@@ -3,7 +3,7 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 ...
 
-# Arquitecto de Sistemas Cuantitativos | Ingeniería de Software de Investigación (RSE) para Modelado Financiero | Computación de Alto Rendimiento (Julia)
+# Arquitecto de Sistemas Cuantitativos | Ingeniero de Software de Investigación
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
 

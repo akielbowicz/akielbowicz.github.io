@@ -1,6 +1,6 @@
 # Sasha (Augusto) Kielbowicz
 
-**Quantitative Systems Architect | Research Software Engineering (RSE) for Financial Modeling | High-Performance Computing (Julia)**
+**Quantitative Systems Architect | Research Software Engineer**
 
 Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/en)
 
