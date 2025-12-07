@@ -80,7 +80,7 @@ Brindo servicios de consultoría especializados en:
 **Tipo de empleo:** Tiempo completo
 **Nombre de la empresa:** Mercado Libre
 **Ubicación:** Provincia de Buenos Aires, Argentina
-**Fecha de inicio:** Enero 2026
+**Fecha de inicio:** Junio 2025
 **Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
 
 **Descripción:**

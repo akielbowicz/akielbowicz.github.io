@@ -69,7 +69,7 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 
 ### Mercado Libre
 **Technical Lead, Financial Planning & Analytics Engineering**
-*January 2026 - Present*
+*June 2025 - Present*
 Buenos Aires Province, Argentina
 
 Leading technology strategy for platforms that optimize and standardize reporting, data workflows, and analytical processes across Latin America's largest e-commerce ecosystem. Managing two cross-functional engineering teams (Fintech & Cross, Commerce) with 14 engineers across backend, frontend, and data.

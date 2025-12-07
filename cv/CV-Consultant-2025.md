@@ -8,41 +8,74 @@ Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/e
 
 ---
 
-## Professional Summary
+## Executive Profile
 
-I deliver **3x performance gains** and **architecturally robust, compliant systems** for tier-1 financial institutions and high-growth fintechs. Proven track record delivering mission-critical solutions for JP Morgan, Axioma Risk/Qontigo, SimCorp, and Mercado Libre.
+Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, and **Domain-Specific Languages**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous and computationally efficient.
 
-**Core Expertise**: Multi-asset pricing systems • Risk analytics • Reproducible Scientific Software (RSE) • Numerical optimization • DSL development • Python/C#/Julia • DevOps • System Design
+My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
-**Value Proposition**: Unique combination of rigorous Physics background with production experience in quantitative finance, enabling delivery of solutions that are both theoretically sound and operationally robust.
+**Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
-**Engagement Focus**: System Modernization Audits, Architectural Design Sprints, High-Performance Refactoring, Specialized Corporate Training.
+**Engagement Focus**: Performance Optimization Sprints, Deterministic AI Architecture, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
 
 ---
 
 ## Consulting Services
 
-### Quantitative Finance & Risk Systems
-- Multi-asset class pricing and valuation framework design
-- Risk analytics and portfolio management system architecture
-- **Achieving Regulatory Compliance and Operational Efficiency through Legacy Decommissioning**
-- Model calibration, numerical methods, and RSE-driven validation (ensuring computational rigor)
-- Performance optimization for computational finance workloads
+### High-Performance Computing (HPC) Optimization
+- Performance audit and optimization for numerical bottlenecks
+- Vectorization, caching, and parallelism strategies
+- 300% performance gains achieved in production systems
+- Real-time computational finance optimization
+- Multi-asset class pricing and valuation frameworks
 
-### Scientific Software Architecture
-- High-performance numerical computing (Python, C#, Julia)
-- Domain-Specific Language (DSL) design for financial modeling
-- Analytical library extraction and componentization
-- **Research Software Engineering (RSE) Enablement: Standardizing Analytical Workflows from Jupyter to production using reproducibility standards and DevOps**
-- Azure cloud deployment and containerization
+### Deterministic AI & Scientific Machine Learning
+- Neural Stochastic Differential Equations (NeuralSDEs) implementation
+- Math-aware RAG systems for financial documentation
+- Integration of deep learning with physical laws and constraints
+- Safe AI architecture for financial applications
+- Model calibration and validation using RSE principles
+
+### Domain-Specific Language (DSL) Architecture
+- Custom language design for complex pricing models
+- Interactive UI development for quantitative libraries
+- Democratizing access to sophisticated mathematical models
+- Research Software Engineering (RSE) enablement: Standardizing analytical workflows from Jupyter to production
 
 ### Training & Knowledge Transfer
-- Scientific and numeric software development training (best practices for data analysis, performance optimization, robust code design)
-- **Boutique Workshops: Research Software Engineering (RSE) Best Practices and High-Performance Numerical Computing with Julia**
+- High-Performance Numerical Computing with Julia workshops
+- Scientific and numeric software development training
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
-- Documentation and knowledge base development
+
+---
+
+## Signature Case Studies
+
+### 1. The Performance Optimization Sprint (Qontigo)
+
+**The Challenge**: Critical risk calculations were too slow for real-time reporting due to unoptimized convertible bond pricing engines.
+
+**The Solution**: Led a forensic performance audit and implemented cache optimization strategies in the core C# numerical library.
+
+**Outcome**: Achieved a **300% performance gain**, enabling real-time production risk reporting and significantly reducing Azure compute spend.
+
+### 2. The Scientific AI Implementation (Research/SimCorp)
+
+**The Challenge**: Traditional Monte Carlo simulations for European Option Pricing were computationally expensive; standard AI lacked mathematical constraints.
+
+**The Solution**: Managed research into **Neural Stochastic Differential Equations (NeuralSDEs)** using **Julia**, combining deep learning with physical laws. Parallelly developed an LLM-based RAG system for querying complex financial documentation.
+
+**Outcome**: Demonstrated superior convergence speeds over traditional solvers and established a framework for "Safe AI" in financial contexts.
+
+### 3. The "Quant Experience" Architecture (SimCorp)
+
+**The Challenge**: Quants struggled to interact with complex underlying pricing models, leading to errors and slow iteration.
+
+**The Solution**: Designed and developed a Proof-of-Concept **Domain-Specific Language (DSL)** and integrated interactive Jupyter-based UIs (Voila/ipywidgets).
+
+**Outcome**: Democratized access to complex models, allowing non-engineers to safely construct and test pricing logic.
 
 ---
 
@@ -54,6 +87,22 @@ I deliver **3x performance gains** and **architecturally robust, compliant syste
 Providing specialized consulting services to financial institutions and technology companies in quantitative system architecture, scientific computing, and analytical software development.
 
 **Current Focus**: Multi-asset pricing libraries, risk analytics systems, DSL development, performance optimization, team enablement.
+
+---
+
+### Mercado Libre | Software Technical Lead, IT Staff / Financial Planning & Analytics
+**June 2025 - Present** | Buenos Aires, Argentina
+
+Leading technology strategy and managing 14 engineers across Financial Planning & Analytics for Latin America's largest e-commerce ecosystem.
+
+**Key Focus**: Strategy, Standardization & AI Workflows
+- Architecting scalable financial planning and analytics platforms
+- Championing AI-assisted development workflows and clean architecture standards
+- Transforming ad-hoc Jupyter analyses into CI/CD-managed production systems
+
+**Impact**: 90% reduction in forecasting pipeline errors through RSE principles; 15% velocity increase across engineering team
+
+**Technologies**: Go, TypeScript, Python, BigQuery, Jupyter, CI/CD, distributed systems
 
 ---
 
@@ -127,15 +176,15 @@ Developed critical infrastructure for interest rate derivatives trading desk ser
 
 ---
 
-### Open Source Contributor | Scientific Software & Educational Tools
+### Open Source Contributor & Content Creator
 **February 2016 - Present**
 
-Active contributor to open source ecosystem focused on scientific computing and education:
-- Interactive educational materials based on Jupyter notebooks
-- Data analysis and visualization tools for scientific research
-- Contributions to Python scientific computing ecosystem
+[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
-**GitHub**: [@akielbowicz](https://github.com/akielbowicz) | **Website**: [saxa.xyz](https://saxa.xyz/en)
+- Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
+- Development of interactive educational materials based on Jupyter notebooks
+- Contributions to scientific computing and data visualization projects
+- Educational content bridging academic knowledge and industry best practices
 
 ---
 
@@ -150,6 +199,18 @@ Active contributor to open source ecosystem focused on scientific computing and 
 
 **10 Pines** | Software Engineering Certificate | 2018 - 2019
 - Object-oriented design, software architecture, professional development practices
+
+---
+
+## Teaching Experience
+
+### University of Buenos Aires
+- **Professor** of Calculus and Linear Algebra, CBC Engineering (December 2020 - July 2022)
+- **Teaching Assistant** on Summer Course of Optics and Thermodynamics for Biology and Geology (February 2015 - March 2015)
+- **Science Communicator** at Physics Department (March 2013 - December 2014)
+
+### Southern International School
+- High School teacher of Physics, Mathematics and Information Technologies (2016)
 
 ---
 

@@ -80,7 +80,7 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 **Employment Type:** Full-time
 **Company Name:** Mercado Libre
 **Location:** Buenos Aires Province, Argentina
-**Start Date:** January 2026
+**Start Date:** June 2025
 **End Date:** Present (check "I am currently working in this role")
 
 **Description:**
