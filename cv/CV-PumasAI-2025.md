@@ -10,7 +10,7 @@ Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/e
 
 ## Executive Profile
 
-Research Software Engineer with Physics PhD (University of Buenos Aires) specializing in **ML-augmented scientific modeling**, **Neural Stochastic Differential Equations**, and **dynamical systems**. I bridge theory and practice by developing mathematically rigorous computational frameworks that combine domain knowledge with data-driven approaches.
+Research Software Engineer with a Licenciatura in Physics (University of Buenos Aires) specializing in **ML-augmented scientific modeling**, **Neural Stochastic Differential Equations**, and **dynamical systems**. I bridge theory and practice by developing mathematically rigorous computational frameworks that combine domain knowledge with data-driven approaches.
 
 My expertise spans **statistical modeling**, **stochastic differential equations**, and **scientific machine learning**—applied across financial systems, hydrodynamics, and computational physics. I excel at **long-term project ownership** (6-18+ months), translating complex scientific problems into production-grade software using **Julia**, Python, and C#.
 
@@ -54,7 +54,7 @@ My expertise spans **statistical modeling**, **stochastic differential equations
 
 **Kielbowicz, A.**, et al. (2017). "Photon Counting Module based on Avalanche Photo-Diodes." *Anales AFA*. [Link](https://anales.fisica.org.ar/index.php/analesafa/article/view/2158)
 
-**PhD Thesis** (2011-2017): Statistical Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms
+**Licenciatura Thesis** (2011-2017): Statistical Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms
 - Stochastic process modeling with applications to biological systems
 - Numerical methods for complex dynamical systems
 - Statistical inference from noisy experimental data
@@ -170,7 +170,7 @@ Built production infrastructure for quantitative analytics supporting interest r
 
 ## Education
 
-**University of Buenos Aires** | Licenciatura in Physics (≈ PhD level) | 2011 - 2017
+**University of Buenos Aires** | Licenciatura in Physics | 2011 - 2017
 - **Thesis**: Statistical Analysis and Numerical Modeling of Single Particle Trajectories: Diffusion and Confinement Mechanisms
 - **Focus**: Stochastic processes, computational physics, numerical methods, statistical inference
 - **Skills**: Mathematical modeling of complex systems, scientific programming, experimental data analysis
