@@ -150,5 +150,12 @@ Por ejemplo, las cosas que tiene Charly respecto de tener distintas visiones de 
 
 
 
+# Resonant Coding
+
+Más allá de seguir la referencia del "Vibe Coding", la idea de poder llevar un proceso a algo más estructurado, robusto y aplicable me retrajo a la Estación de Ondas[^estacion-de-ondas] en playón del pabellón 2 de la facultad de ciencias exactas durante la Semana de la Física donde por primera vez ví como al agitar una soga a una frecuencia especifica aparecían 
+estructuras fijas. Con "Resonant Coding" hacemos algo similar, adecauamos el proceso a que encontrar la frecuencia adecuada en la cual nuestro sistema "vibra". 
 
 
+
+[^estacion-de-ondas]: https://www.youtube.com/watch?v=6zBknO95rB4
+[^resonacia]: f. Fís. Fenómeno que se produce al coincidir la frecuencia propia de un sistema mecánico, eléctrico, etc., con la frecuencia de una excitación externa. [ver RAE](https://dle.rae.es/resonancia) o para ver algo más entretenido pueden ver [](https://www.youtube.com/watch?v=dihQuwrf9yQ)
