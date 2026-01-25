@@ -1,161 +1,88 @@
-# intro
+# Resonant Coding: un método para dominar el caos de la IA
 
-este articulo es una adaptacion más general del post de Charly sobre Resonant Coding y no asume ningún conocimiento técnico previo, para ver el workflow completo y ejemplos técnicos pueden ver el post de Charly. 
+*Este artículo adapta ideas del post sobre Resonant Coding de Charly, pero no asume conocimiento técnico previo.*
 
-- mercadolibre exigiendo que trabajes mas usando IA 
-- gente haciendo cualquiera mandando cantidades inhumanas de codigo
-- como hacemos para revisar todo eso, se vuelve un deadlock
+### El problema: una avalancha de instrucciones
 
-Durante los últimos meses en los que estuve trabajando en Mercado Libre como Lider Técnico armando un equipo nuevo
-para dar soporte a los equipos de Planificación Financiera 
+Como líder de un equipo de desarrollo en Mercado Libre, me enfrenté a un desafío particular. Estábamos creando un proyecto desde cero, pero el equipo tenía pocos programadores con mucha experiencia, lo que exigía que yo revisara gran parte del trabajo. Al mismo tiempo, la empresa nos impulsaba a usar Inteligencia Artificial (IA) para ir más rápido.
 
-- Tener accesso a muchos Tokens
-- Tener problemas nuevos para resolver "green-field" y construir algo completamente nuevo
-- El equipo era nuevo con pocos desarrolladores Senior (que tienen independencia y a los cuales se puede delegar) y requería mucha revisión por parte de mí parte.
-- Una incitacion constante a utilizar cada vez mas la IA para ver si realmente podemos acelerar el proceso
+El resultado fue una paradoja. Nos vimos inundados por una cantidad abrumadora de "código" —las instrucciones que forman los programas— generado por estas IA. Estas instrucciones eran a menudo complicadas de entender, y no siempre tenían la calidad necesaria. El proceso de revisión se llenó de idas y vueltas, volviéndose lento y frustrante. En lugar de acelerar, nos habíamos estancado.
 
-- Los problemas que surgian:
-    - Mucha cantidad de código generado que era complicado de entender, revisar y validar y que no siempre cumplia con los requisitos minimos de calidad lo cual hacia que los PRs tengan muchas más idas y vueltas llegando a ser un proceso tedioso y frustrante
-    - Hubo un momento de cambio a finales de octubre en el que el código de los PRs empezó a ser sospechosamente bueno y parecia que todo iba a ir funcionando de manera más coherente.
+La solución a este caos la empecé a destilar a principios de año, durante unas vacaciones, a partir de las ideas de dos expertos en la materia: Steve Yegge y Dex Horthly[^context-eng]. De ahí nació el núcleo de este método.
 
-- El 21 de Octubre fue el release del libro de Vibe Coding que aproveche para leerlo en un par de días y sacar una cantidad de ideas y metodologías nuevas para aplicar.
+Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
 
-- Soy  un very early adopter del uso intensivo de IA en muchas cosas, mayormente en el desarrollo de software pero tambien par otras cosas de las que quiero hablar en otros artículos. 
+### Entendiendo a la bestia: cómo "piensa" una IA
 
+La idea principal de mi método es tener un proceso estructurado para usar la IA, que sea flexible y simple. Para eso, primero hay que entender cómo funcionan estos modelos de lenguaje (MdL)[^mdl].
 
-# intro al workflow
+Yo los resumo así:
+- Son **predictores de texto**, como el autocompletado del celular, pero inmensamente más avanzados.
+- **No tienen memoria**. No recuerdan conversaciones pasadas, solo ven el texto que les presentamos en un momento dado[^memoria].
+- Su **atención es limitada**. Cuanto más largo es el texto que les damos, menos eficientes se vuelven.
+- **No son predecibles**. Para la misma pregunta, pueden dar respuestas distintas.
 
-La idea principal de la metodologia es tener un proceso mucho más estructurado para aprovechar al máximo la IA, pero que a la vez sea flexible, adaptable a distintos tipos de problemas y sea extremadamente sencillo de aplicar.
+Para entender el poder y la limitación de su atención, hagamos un ejercicio. Imagina que en un almuerzo preguntas: "¿Qué puedo cocinar?". Las respuestas posibles son casi infinitas.
 
-Un par de suposiciones que tenemos que tener en cuenta y como yo interpreto a los modelos de lenguaje:
+Ahora, añade detalles: "¿Qué comida fácil puedo hacer para seis amigos un domingo, si tengo pollo, papas y tomates?". La pregunta acotada guía a tus amigos hacia una respuesta útil. Con las IA pasa lo mismo: la calidad de la respuesta depende de la calidad de las instrucciones que les damos.
 
-- Los modelos de lenguaje son Predictores de texto probabilísticos, exactamente como el completado automático del celular pero mucho más avanzado.
-- No tienen memoria, no recuerdan nada de lo que pasó antes, solo lo que está en el contexto actual.
-- El contexto es limitado, y cuanto más largo es el contexto, menos eficiente es el modelo para predecir la siguiente palabra.
-- No son determinísticos, cada vez que les pedimos algo, pueden devolver resultados distintos.
-- Los proveedores de modelos de lenguaje (anthropic, openai, google...) cobran por cantidad de tokens procesados, tanto de entrada como de salida. Y tenemos un presupuesto y uso limitado[^consumo-de-tokens].  
-- cuanto mas lineal la cosa más sencilla. 
+El problema es que su atención limitada se "ensucia". Pensemos en una analogía: estamos de camping y tenemos que lavar los platos en el río con un solo balde de agua.
+- Para un plato, un balde sobra.
+- Para 10 platos, el agua empieza a enturbiarse.
+- Para 100 platos, un balde no alcanza y el agua termina tan sucia que los últimos platos quedan igual o peor.
+- Peor aún, si echamos grasa al balde (información irrelevante), el agua queda inutilizable.
 
-## Como estamos trabajando ahora
+Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la información que les damos y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una.
 
-Está muy bueno pensar en como las herramientas que tenemos nos definen la forma que tenemos que trabajar. Hay veces
-que tenemos que adaptarnos a las herramientas que tenemos y otras veces que abusamos de ellas de manera que hagan lo que queremos.
+### El método: Investigación, Planificación e Implementación
 
-La vision de Emilio, tiro un insight muy importante ya hace 2 años, para entender hacia donde van a ir las cosas, la manera en la que vamos a terminar interactuando es a travez de un chat para todo. Lo cual de alguna manera tiene mucho sentido porque es la manera más sencilla de interactuar con un modelo de lenguaje que saber cuales son los 50 clicks y opciones, menues que hay que apretar para hacer algo especifico. Emilio contó que allá en los 90s (o antes) cuando empezaron a aparecer las primeras interfaces gráficas de usuario, había un debate muy grande sobre si las interfaces gráficas iban a reemplazar a las interfaces de línea de comando. Y al final lo que pasó es que las interfaces gráficas se impusieron porque eran mucho más sencillas de usar para la mayoría de la gente. Algo similar está pasando ahora con los modelos de lenguaje y las interfaces de chat.
+Para manejar este flujo de trabajo, propongo una metodología en tres fases.
 
-Y eso se nota muchisimo en las herramientas que están apareciendo para el desarrollo de código con IA, y como los IDEs [^ide] donde uno desarrolla código están cada vez más orientados a tener un chat integrado para interactuar con un MdL/LLM[^mdl]. Bueno, a que va todo esto, es que la metodología actual que presentan estas herramientas como Cursor es de dos pasos uno de Planificación y otro de Implementación y esto queda un poco corto en algunos casos.
+#### 1. Investigación
 
-La propuesta de HumanLayer pueden verlo en la charla de Dex Horthly sobre Context Engineering[^context-engineering], es agregar un paso inicial de Investigación (Research) para poder tener un contexto mucho más claro y definido de lo que queremos hacer. Y esta separación es algo muy importante porque nos permite reducir el contexto sobre el cual queremos que el MdL nos devuelva una respuesta mucho más precisa, concreta y efectiva.
+Dada una tarea, el primer paso es usar la IA para que investigue. Le pedimos que nos diga qué partes del programa son importantes, cómo se conectan entre sí y si hay documentación útil. Con esa información, le pedimos que cree un resumen. Este resumen es nuestro primer "balde de agua", cuidadosamente llenado.
 
-Para entender por que esto es así y para aprovechar al máximo el contexto tenemos que hacer un desvio y tratar de entender como funciona el contexto de los MdL.
+Pero no nos detenemos ahí. Sometemos este resumen a un proceso de revisión crítica que llamo la **"Regla de los 5"**[^rule5]:
 
-NOTA: describir una analogia de una funcion sin estado y que tenga contexto limitado. Vamos a llamar contexto al texto que le pasamos como input para que el MdL genere una respuesta.
+1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
+2.  **Correctitud:** ¿La información es correcta? Se corrigen errores e inconsistencias.
+3.  **Claridad:** ¿Se entiende con facilidad? Se simplifica el lenguaje y se explica todo claramente.
+4.  **Casos Límite:** ¿Qué podría salir mal? Se consideran escenarios poco comunes.
+5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Se busca optimizar o mejorar el resultado.
 
-Algo que tenemos que tener en cuenta es:
-- los MdL funcionan como una operación sin estado, esto quiere decir que cada vez que le pedimos algo no recuerdan nada de lo que pasó antes, solo lo que está en el contexto actual. Para simular la memoria tenemos que pasarle en el contexto toda la información que queremos que tenga en cuenta. [^memoria]
-- los MdL son probabilísticos, esto quiere decir que no siempre nos van a devolver la misma respuesta dado un mismo contexto. 
-- Los MdL estan entrenados con mucha informacion variada de todos lo que se les occurra y la manera en la que le proveemos el contexto delimita sobre que nos va a dar una respuesta, esto es algo que mejoró de manera impresionante en estos ultimos meses. 
+Este ciclo se repite hasta que el resumen de la investigación sea sólido.
 
-Hagan el siguiente ejercicio para tratar de entender mejor estos conceptos:
-Estamos en un almuerzo y hacemos una pregunta especifica sobre un tema muy puntual, por ejemplo: "Cuál es una buena comida para preparar?" 
+#### 2. Planificación
 
-La posibilidades de la respuesta son muchisimas, y van a depender de muchos factores, como por ejemplo:
+Con la investigación ya revisada, iniciamos una nueva conversación (un nuevo "balde de agua limpia"). Le entregamos el resumen y le pedimos que genere un plan de acción detallado.
 
-- Quienes son nuestros amigos, cual es su cultura, no es lo mismo alguien del interior de Catamarca que alguien de Boston.
+Crucialmente, cada tarea del plan debe ser lo suficientemente pequeña para ser realizada en un solo paso. Para asegurar esto, dividimos el plan en subtareas y describimos cada una con la información necesaria. Luego, aplico la "Regla de los 5" a cada una de estas subtareas.
 
+#### 3. Implementación
 
-Pero podríamos mejorar un poco nuestra pregunta y eso va a hacer que la respuestas que nos den sean mucho más precisas y concretas. Por ejemplo, si le agregamos un poco más de contexto a nuestra pregunta, como por ejemplo: "Cuál es una buena comida para preparar en un almuerzo de domingo con amigos, que sea fácil de hacer y que guste a todos?"
+Con las tareas bien definidas, la fase de "escritura" de las instrucciones se vuelve muy predecible. La IA ejecuta cada pequeña tarea de forma independiente. Su facilidad para esto es enorme: puede modificar decenas de archivos o crear pruebas de validación en segundos, algo que a una persona le llevaría horas.
 
-Entonces restringimos un poco la respuesta, va a ser un almuerzo el domingo y con amigos, que no es lo mismo que algo para llevar un jueves a la oficina o una cena con alguien que querés impresionar. Podemos tambien hacer más explicito el tipo de comida, si es algo rápido, algo elaborado, si es comida vegetariana o no, etc, podemos decir los ingredientes que tenemos disponibles, el tiempo que tenemos para cocinar, etc. Cada dato adicional que agreguemos va a hacer la respuesta mucho más precisa y concreta.
+Finalmente, una vez terminado todo, volvemos a aplicar la "Regla de los 5" al conjunto completo para asegurar que todo esté bien integrado. Este enfoque de detectar errores lo antes posible es algo en lo que las IA son extremadamente eficientes[^shift].
 
-Por ejemplo podríamos decir:
- "Cuál es una buena comida para preparar en un almuerzo de domingo con amigos, que sea fácil de hacer y que guste a todos? Tengo pollo, papas, ensalada y helado de postre."
- o incluso ser mucho más específicos: en los detalles de cantidades de cosas que tenemos, gustos ....
+### Conclusión: Encontrar la resonancia
 
-Tengo que preparar una comida para 6 amigos que vienen a almorzar el domingo a la tarde. Quiero que sea algo fácil de hacer, que no me lleve más de 1 hora de preparación y que guste a todos. Tengo  un pollo, 3kg papas, un par de tomates, un atado de rucula, creo que tengo zanahoria y unas manzanas. 
+Una instrucción mal dada puede generar cientos de líneas de código erróneo. Un plan mal definido, decenas de miles. Por eso, este proceso estructurado es vital. Los resultados de cada paso deben ser revisados por personas. Las IA son buenas, pero el conocimiento que solo existe en la cabeza del equipo aún debe ser aportado por nosotros.
 
-- el contexto es limitado, no le podemos pasar toda la información del universo de una sola sino que solo le podemos pasar una cantidad limitada de texto.
-- la eficiencia de las respuestas decae a medida que el contexto se hace más largo
+Este método me permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo.
 
-Para entender estos dos ultimos puntos pensemos en la siguiente analogía: 
-Nos fuimos de camping y para lavar los platos tenemos que ir hasta el río con baldes a buscar agua. Entonces vamos a tener varias situaciones:
-- Si tenemos que lavar un plato, con un balde de agua alcanza y sobra.
-- Si tenemos que lavar 10 platos, con un balde de agua alcanza pero tenemos que ser cuidadosos de no desperdiciar agua. Y ser cuidadosos de no ensuciar el agua de manera innecesaria, porque a medida que vamos lavando más platos, el agua se va ensuciando y los platos quedan cada vez más sucios.
-- Si tenemos que lavar 100 platos, con un balde de agua no alcanza, y vamos a tener que ir varias veces al río a buscar más agua. Y a medida que vamos lavando más platos, el agua se va ensuciando y los platos quedan cada vez más sucios.
-- Y un punto  importante es que hay cosas que pueden contaminar completamente el contexto y derivarlo a algo inútil, por ejemplo si en el balde de agua lavamos un trapo con grasa, el agua va a quedar completamente inutilizable para lavar los platos.
+El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". Dejamos de generar ruido y empezamos a crear con resonancia.
 
-Entonces, para poder aprovechar al máximo el contexto limitado que tenemos, tenemos que ser muy cuidadosos con lo que le pasamos al MdL, y tratar de ser lo más específicos y concretos posible. Y cuando el problema es muy grande,
- tenemos que dividir nuestro problema en partes más pequeñas y manejables. 
+---
+### Notas
 
-[^memoria]: algunas herramientas nos hacen creer que tienen memoria pero lo que están haciendo es agregar tras bambalinas informacion en el contexto.
+[^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano.
 
-[^mdl]: LLM es un Large Language Model. Es un tipo de programa basado en Inteligencia Artifical que está entrenado para entender y generar texto de manera similar a como lo haría un humano. 
+[^memoria]: Algunas herramientas simulan tener **memoria**, pero lo que hacen es agregar información de la conversación pasada a la conversación actual para mantener el hilo.
 
-[^ide]: Integrated Development Environment: Una especie de Photoshop pero en vez de para diseñar imágenes es para desarrollar código, suelen ser editores de texto que entienden la estrucura del código y proveen muchas herramientas para modificar, probar, investigar.
+[^context-eng]: Las ideas de "Context Engineering" de Dex Horthly se pueden explorar en este documento sobre [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md).
 
-Como ultimo punto importate a notar es que existen distintas clases de MdL, algunos están optimizados para generar respuestas y algunos estan entrenados para utilizar herramientas, como por ejemplo, buscar en internet, buscar el los archivos de una computadora, ejecutar codigo, etc.
+[^rule5]: La "Regla de los 5" es un concepto detallado por Steve Yegge. Puede leerse más en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
+[^shift]: En la industria del software, a esta práctica de adelantar la detección de errores se la conoce como "shift-left".
 
-Ahora si entendiendo un poco más como funciona el contexto de los MdL podemos seguir:
-
-Entonces el primer trabajo que tenemos que hacer es reducir generar el contexto necesario para que el MdL se enfoque lo más posible en la tarea que queremos hacer. Lo bueno es que no tenemos que hacer todo esto a mano, podemos pedirle al MdL que nos ayude a hacer este trabajo. Entonces la metodología que propongo es la siguiente:
-
-# Empezar con la Investigación (Research)
-
-- Dada una pregunta tratar de obtener toda la información relevante sobre el tema, por ejemplo cuando estamos trabajando con el codigo podemos pedirle  que investigue cuales son los archivos que son relevantes, cuales son las dependencias, que revise como interactuan los distintos componentes, si hay documentacion relevante, etc... 
-Una vez que tiene toda esa informacion, le pedimos que cree un documento estructurado para poder pasarle en una nueva conversacion (lo que seria un nuevo balde) ese contexto reducido y relevante. 
-
-Una vez que tenemos ese contexto reducido y relevante, lo que le pedimos es que realice una revisión crítica de la información que nos dió, para asegurarnos que no haya nada raro, nada que no tenga sentido, nada que esté mal. Esto es el segundo ingrediente de la metodología que Steve Yegge lo llama "La regla de los 5" (The Rule of 5) que una vez que uno tiene algo consiste en revisar varias veces la información bajo ciertos criterios.
-
-Los pasos del Ro5 son:
-
-1. Borrador (Draft): Crear el contenido inicial, no importa que sea perfecto, hay que asegurarse de que tenga lo necesario, preferir amplitud a profundidad.
-2. Correctitud (Exactitud): Lo que contiene el documento es correcto?, arregla errores, problemas, inconsistencias.
-Suele pasar que la documentacion que se leyo está desactualizada o es incorrecta, o que el MdL cometió errores en la interpretación de la información.
-3. Claridad (Clarity): Alguien más puede entender esto?  Simplificalo, elimina todo lo innecesario, elimina la jerga, explica todo claramente. Suelen haber terminos especificos del proyecto, o el tema que estamos hablando que generan ambiguedad, o no estan del todo bien definidos, hay que asegurarse que todo esté bien explicado.
-4. Casos límite (Edge Cases): Que podría salir mal? No estamos olvidando nada? Hay algo inusual que no estemos considerando? Hay alguna excepción? Asegurarse de que todo esté cubierto.
-5. Excelencia (Excellence): Esto es lo mejor que podemos hacer? Hay alguna manera de mejorar esto? Alguna optimización, alguna mejora? Una vez que ya tenemos todo lo anterior, tratar de llevarlo a que sea lo mejor posiblo, se puede simplificar, hacer más eficiente, etc.
-
-Entonces lo que tenemos que hacer es pedirle al MdL en una nueva conversación (un nuevo balde) que realice estos 5 pasos sobre la información que nos dió en el paso de investigación. Y es muy probable que aparezcan cosas nuevas que no habíamos considerado, errores, inconsistencias, etc. Esto lo podemos iterar tantas veces como haga falta hasta que estemos conformes con la calidad de la información.
-
-Una vez que tenemos ya la investigación completa y revisada, lo que hacemos es pasarle ese contexto reducido y relevante a una nueva conversación (otro nuevo balde) y le pedimos que realice la planificación (Plan) y como es esperado despues aplicamos la Ro5 sobre el plan generado.
-
-Algo importante del plan es que tiene que ser un plan de ejecución, no solo una lista de cosas a hacer, sino que tiene que tener un orden lógico, dependencias, tiempos estimados, etc. Y cada tarea tiene que ser lo suficientemente pequeña como para que pueda ser implementada en un solo paso sin excederce en el contexto, lo suficientemente delimitada para que podamos usar un único balde por cada tarea. Una forma bastante estrategica de hacegurarnos eso es dividir el plan en muchas subtareas y describir cada subtarea con el contexto necesario en una seccion distinta y con toda la información relevante para esa subtarea, nombres de archivos, topicos, dependencias, etc. En mi caso particular, luego de revisar el plan y que genera todas las tareas, nuevamente aplico la Ro5 sobre cada subtarea para asegurarme que cada una esté bien definida y sea lo suficientemente pequeña como para que pueda ser implementada en un solo paso.
-
-Y como ultimo paso, ya con todas las tareas bien definidas y revisadas, pasamos a la implementación (Implement) donde cada tarea es implementada de manera independiente (un balde por tarea) validando que el comportamiento sea el esperado. Acá lo importante a notar es que ya tenemos casi totalmente definido que es lo que que se va a hacer. De manera que es algo casi deterministico y no hay mucho lugar para que el MdL se desvíe o invente cosas nuevas. Y la ventaja de esto es aprovechar la facilidad que tiene los MdL para ejecutar estas tareas pequeñas de manera rápida y eficiente, no les cuesta nada editar decenas de archivos, crear pruebas unitarias, etc, lo que como personas nos puede llevar mucho horas o más, pero para un MdL es cuestión de segundos.
-
-Y una vez que tenemos toda la implementación lista, volvemos a aplicar la Ro5 sobre el conjunto completo para asegurarnos que todo esté bien integrado, que no haya errores, que todo funcione como se espera.
-
-Esto es algo que normalmente se describe como "shift-left" que es llevar un proceso el cual nos permita detectar desvios o errores lo más temprano posible en el proceso, para evitar tener que volver atrás y rehacer cosas. Y esto es algo que los MdL pueden hacer muy bien, porque pueden revisar y validar cosas de manera rápida y eficiente. 
-
-Un punto importante que menciona la gente de HumanLayer es que un prompt incorrecto puede generar una centena de lineas de código incorrecto, que un plan mal definido puede generar decenas de miles de lineas de código incorrecto. Y que una investigación incompleta puede llevarnos a desperdiciar mucho tiempo y recursos en cosas que no son relevantes o no tienen sentido. Por eso es tan importante tener un proceso estructurado y riguroso para aprovechar al máximo el potencial de los MdL y lo más importante es que tenemos que revisar todos los artefactos que generamos en cada paso. El documento de Research tiene que ser revisado de manera exhaustiva por una o varias personas para validar que lo que se va a hacer está bien, lo mismo con el plan, los modelos son muy buenos, pero siempre hay cosas que se les escapan porque no existen de manera concreta en los materiales del proyecto, son ideas o conocimiento que está implicito en la cabeza de las personas y esto es una gran oportunidad de hacerlas explicitas.
-
-En el caso del desarrollo de código yo puedo decir que en el día de hoy, puedo utilizar modelos de lenguague para generar código que es muchisimo mejor de lo que podría hacer por mi cuenta y en tiempos muy cortos. Y esto tiene consecuencias muy claras que voy a discutir más abajo.
-
-
-Resumiendo el proceso tenemos 
-
-Investigación -> Plan -> Implementación, con un ciclo interno del Regla de los 5 en cada paso.
-
-Lo importante de tenerlo separado, es que los artefactos que se producen están disponibles para revisar y corregir.
-Si lo que hacemos es mandarlo todo de una vamos a seguir quemando arboles por el gusto de simplemente ver como se quema un arbol.
-
-
-# Reutilizando la metodología
-
-Lo bueno de este proceso es que es reutilizable para generar artefactos que nos permitar contextualizar nuestras
-revisiones o los pasos de manera más explicita. Por ejemplo, podemos tener "prompts" específicos para realizar los pasos de investigación para el tipo de problema o proceso que queremos resolver. 
-
-Por ejemplo, las cosas que tiene Charly respecto de tener distintas visiones de como realizar la implementación de un código, cuales son las preferencias y todo eso. En las que aprobechó Gemini Deep Research para armar investigar metodologías y protocolos existentes en distintas profesiones para asegurarse de que lo que se realiza va a salir bien, imaginensé el lanzar un cohete al espacio, hacer una cirugía a corazón abierto, organizar un mundial de fútbol, invadir un país. Todo eso requiere procedimientos y metodologías que ya están recontra mega archi estudiadas y ahora las podemos aprobechar para que un MdL nos ayude a implementarlas en nuestros procesos.
-
-
-
-# Resonant Coding
-
-Más allá de seguir la referencia del "Vibe Coding", la idea de poder llevar un proceso a algo más estructurado, robusto y aplicable me retrajo a la Estación de Ondas[^estacion-de-ondas] en playón del pabellón 2 de la facultad de ciencias exactas durante la Semana de la Física donde por primera vez ví como al agitar una soga a una frecuencia especifica aparecían 
-estructuras fijas. Con "Resonant Coding" hacemos algo similar, adecauamos el proceso a que encontrar la frecuencia adecuada en la cual nuestro sistema "vibra". 
-
-
-
-[^estacion-de-ondas]: https://www.youtube.com/watch?v=6zBknO95rB4
-[^resonacia]: f. Fís. Fenómeno que se produce al coincidir la frecuencia propia de un sistema mecánico, eléctrico, etc., con la frecuencia de una excitación externa. [ver RAE](https://dle.rae.es/resonancia) o para ver algo más entretenido pueden ver [](https://www.youtube.com/watch?v=dihQuwrf9yQ)
+[^ondas]: La **Estación de Ondas** es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de una de las exhibiciones de la Semana de la Física en la UBA.
