@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Resonant Coding: un método para dominar el caos de la IA"
+lang: es
+---
 # Resonant Coding: un método para dominar el caos de la IA
 
 *Este artículo adapta ideas del post sobre Resonant Coding de Charly, pero no asume conocimiento técnico previo.*
@@ -19,7 +24,7 @@ La idea principal de mi método es tener un proceso estructurado para usar la IA
 Yo los resumo así:
 - Son **predictores de texto**, como el autocompletado del celular, pero inmensamente más avanzados.
 - **No tienen memoria**. No recuerdan conversaciones pasadas, solo ven el texto que les presentamos en un momento dado[^memoria].
-- Su **atención es limitada**. Cuanto más largo es el texto que les damos, menos eficientes se vuelven.
+- Su **atención es limitada**. Cuanto más largo es el texto que les damos, menos eficientes se vuelden.
 - **No son predecibles**. Para la misma pregunta, pueden dar respuestas distintas.
 
 Para entender el poder y la limitación de su atención, hagamos un ejercicio. Imagina que en un almuerzo preguntas: "¿Qué puedo cocinar?". Las respuestas posibles son casi infinitas.
