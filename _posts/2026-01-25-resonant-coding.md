@@ -69,13 +69,17 @@ Con las tareas bien definidas, la fase de "escritura" de las instrucciones se vu
 
 Finalmente, una vez terminado todo, volvemos a aplicar la "Regla de los 5" al conjunto completo para asegurar que todo esté bien integrado. Este enfoque de detectar errores lo antes posible es algo en lo que las IA son extremadamente eficientes[^shift].
 
+### Reutilizando la metodología
+
+Lo bueno de este proceso es que es reutilizable. Podemos aplicar el mismo método para generar los materiales que nos guían en cada paso, como "prompts" o plantillas específicas para un tipo de problema. Por ejemplo, Charly utiliza esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Esto nos permite aprovechar metodologías ya estudiadas en otras profesiones (desde la cirugía a la organización de un mundial) para que la IA nos ayude a aplicarlas en nuestros propios procesos.
+
 ### Conclusión: Encontrar la resonancia
 
 Una instrucción mal dada puede generar cientos de líneas de código erróneo. Un plan mal definido, decenas de miles. Por eso, este proceso estructurado es vital. Los resultados de cada paso deben ser revisados por personas. Las IA son buenas, pero el conocimiento que solo existe en la cabeza del equipo aún debe ser aportado por nosotros.
 
-Este método me permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo.
+Este método me permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo[^future-work].
 
-El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". Dejamos de generar ruido y empezamos a crear con resonancia.
+El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
 
 ---
 ### Notas
@@ -95,3 +99,11 @@ El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi
 [^ondas]: La **Estación de Ondas** es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de una de las exhibiciones de la Semana de la Física en la UBA.
 
 [^fridai]: Las **fridAI** son reuniones quincenales de una hora que se realizan en el equipo para discutir y compartir prácticas y el uso de la Inteligencia Artificial en el trabajo.
+
+[^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post, planeo explorar qué habilidades necesitaremos para adaptarnos a la nueva estructura global del trabajo, así como una visión crítica sobre quiénes tendrán acceso a estas herramientas y la disparidad que esto podría generar.
+
+[^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](por-que-arme-phorma).
+
+---
+
+
