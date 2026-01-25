@@ -5,7 +5,7 @@ lang: es
 ---
 # Resonant Coding: un método para dominar el caos de la IA
 
-*Este artículo adapta ideas del post sobre Resonant Coding de Charly, pero no asume conocimiento técnico previo.*
+*Este artículo adapta ideas del post sobre Resonant Coding de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
 
 ### El problema: una avalancha de instrucciones
 
@@ -82,6 +82,8 @@ El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi
 
 [^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano.
 
+[^charly]: Se puede encontrar el post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/resonant-coding).
+
 [^memoria]: Algunas herramientas simulan tener **memoria**, pero lo que hacen es agregar información de la conversación pasada a la conversación actual para mantener el hilo.
 
 [^context-eng]: Las ideas de "Context Engineering" de Dex Horthly se pueden explorar en este documento sobre [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md).
@@ -91,3 +93,5 @@ El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi
 [^shift]: En la industria del software, a esta práctica de adelantar la detección de errores se la conoce como "shift-left".
 
 [^ondas]: La **Estación de Ondas** es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de una de las exhibiciones de la Semana de la Física en la UBA.
+
+[^fridai]: Las **fridAI** son reuniones quincenales de una hora que se realizan en el equipo para discutir y compartir prácticas y el uso de la Inteligencia Artificial en el trabajo.
