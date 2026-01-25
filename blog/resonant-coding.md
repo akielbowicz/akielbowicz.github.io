@@ -2,7 +2,7 @@
 
 ## Introducción: La Paradoja del Creador
 
-Algo con lo que siempre menciono es el tema de que no me gusta escribir codigo, no me gusta tener que programar porque es una tarea tediosa y complicada, dificil de hacer y muy facil hacerlo mal. Requiere tener una vision general de lo que vamos a hacer, tenemos que anticiparnos a muchos problemas y no hay manera de delegarlo a otras personas. Pero a la vez me gusta crear cosas, me gusta entender las ideas y me gusta probar cosas nuevas.
+Algo con lo que siempre menciono es el tema de que no me gusta escribir codigo, no me gusta tener que programar porque es una tarea tediosa y complicada, dificil de hacer y muy facil hacerlo mal. Requiere tener una vision general de lo que vamos a hacer y anticiparnos a muchos problemas. Pero a la vez me gusta crear cosas, me gusta entender las ideas y me gusta probar cosas nuevas.
 
 El problema es que a menudo nos encontramos en una situación que describí en una charla reciente:
 
@@ -12,7 +12,7 @@ Esto que estoy por contar es la búsqueda de esa "montura". Es una metodología 
 
 ## El Fundamento: Entendiendo a Nuestro "Genio de la Lámpara" (Context Engineering)
 
-Para poder entender porque esto funciona tenemos que pensar en las ideas de lo que tenemos en una sola vision. Que es el Context Engineering que lo presento Dex Horthly. Dentro del context engineering lo que tenemos que entender es como funciona un modelo de lenguaje: es una funcion/operacion que no tiene ningun estado, que va construyendo de manera probabilistica una mejor respuesta.
+Para poder entender porque esto funciona tenemos que pensar en las ideas de lo que tenemos en una sola vision. Que es el Context Engineering que lo presento Dex Horthly. Dentro del context engineering lo que tenemos que entender es que un modelo de lenguaje funciona como una operación sin estado que construye respuestas de manera probabilística.
 
 Entendiendo que el contexto es limitado y que lo que devuelve es cada vez mas impreciso, tenemos que pensar que las palabras que vienen de más lejos son menos eficientes. La idea es poder aprovechar al máximo la primera parte del contexto de manera que la respuesta que tengamos sea lo mejor posible, dándole tareas que cada vez tienen que ser mas pequeñas.
 
@@ -39,21 +39,21 @@ Y cuando lo usamos, debe ser más que una simple API. Debe ser una herramienta p
 Aplicamos una metodologia de Research-Plan-And-Implement. Tomemos por caso que queremos modificar algo, agregar un feature, o arreglar un problema.
 
 ### Paso 1: Investigación (Research)
-Le pedimos al modelo que nos investige todo lo relacionado al problema. En este punto, las cosas que describe tienen que ser tal cual son, no tiene que inventar nada. Es un paso de recolección de hechos.
+Le pedimos al modelo que nos investige todo lo relacionado al problema. En este punto, las cosas que describe tienen que ser tal cual son, no tiene que inventar nada. Es un paso de recolección de hechos. Las herramientas actuales, como Cursor, ya nos brindan capacidades avanzadas para esto. Una vez investigado, aplicamos la 'Regla de los 5' para asegurar la completitud y precisión de la información.
 
 ### Paso 2: Planificación (Plan)
-Una vez que ya tenemos la investigacion completa definimos el plan. Con instrucciones igual de claras le decimos que arme un plan detallado paso a paso. Aquí es donde podemos darle directivas claras: "aplica TDD", "toma las tareas de a una", "no trates de implementar todo junto".
+Una vez que ya tenemos la investigación completa, definimos el plan. Con instrucciones claras, le pedimos que estructure un plan detallado paso a paso, considerando los cambios necesarios y los puntos clave a tener en cuenta. Aquí es donde podemos aplicar directivas como 'aplica TDD', 'toma las tareas de una en una', o 'evita implementar todo junto', asegurando que el plan sea crítico y con definiciones claras.
 
 ### Paso 3: Implementación (Implement)
-Ejecutamos el plan. Si la tarea es grande, la divido en tickets pequeños (yo uso `beads` localmente) para mantener el contexto de la IA acotado en cada paso. Aquí validamos con los tests unitarios que pudimos generar gracias a la investigación inicial.
+Ejecutamos el plan. Si la tarea es lo suficientemente pequeña, podemos delegar directamente su implementación y revisar que el comportamiento sea el esperado. Para tareas más grandes, divido el proceso en tickets pequeños (yo uso `beads` localmente), manteniendo el contexto de la IA acotado en cada paso. Es crucial validar cada implementación con tests unitarios generados a partir de la investigación inicial.
 
 ## Conclusión: De Artesano a Ingeniero de Sistemas
 
 Esto ya es un proceso de ingenieria en el sentido de tener que realizar algo con los menores recursos y de la mejor manera.
 
-> En algun chat alguna vez lei que un profesor decia "cualquiera puede construir un puente, pero solo los expertos lo pueden hacer con el menor esfuerzo y el mejor proceso".
+> En algún chat, alguna vez leí que un profesor decía: 'Cualquiera puede construir un puente, pero solo los expertos lo pueden hacer con el menor esfuerzo, optimizando el uso de los recursos y el mejor proceso'.
 
-Esa es la analogía que tenemos que empezar a ver. Con esto vamos a empezar a producir un salto de la construccion manual a tener herramientas que nos permiten levantar edificios en semanas. Pero para poder hacerlo tenemos que planificar todo al minimo detalle.
+Esa es la analogía que tenemos que empezar a ver. Con esto, pasaremos de la construcción manual a usar herramientas que nos permiten 'levantar edificios en semanas'. Para lograrlo, la clave es una planificación minuciosa, coordinación efectiva y una visión global clara de lo que se está construyendo.
 
 ---
 ## Referencias
