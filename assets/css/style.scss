@@ -23,6 +23,8 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Subtle paper grain overlay */
@@ -48,6 +50,7 @@ body::before {
     max-width: 900px;
     margin: 0 auto;
     padding: 60px 40px;
+    flex: 1 0 auto;
 }
 
 h1 {
@@ -135,11 +138,12 @@ header {
 
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto 0;
     padding-top: 20px;
     border-top: 1px solid #2a2a2a;
     color: #2a2a2a;
     font-size: 0.9em;
+    max-width: 900px;
 }
 
 /* Improve readability on smaller screens */
