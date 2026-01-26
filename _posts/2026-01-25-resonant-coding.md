@@ -15,9 +15,11 @@ Como líder de un equipo de desarrollo en Mercado Libre, me enfrenté a un desaf
 
 El resultado fue una paradoja. Nos vimos inundados por una cantidad abrumadora de "código" —las instrucciones que forman los programas— generado por estas IA. Estas instrucciones eran a menudo complicadas de entender, y no siempre tenían la calidad necesaria. El proceso de revisión se llenó de idas y vueltas, volviéndose lento y frustrante. En lugar de acelerar, nos habíamos estancado.
 
-La solución a este caos la empecé a destilar a principios de año, durante unas vacaciones, a partir de las ideas de dos expertos en la materia: Steve Yegge y Dex Horthly[^context-eng]. De ahí nació el núcleo de este método.
+La solución a este caos la empecé a destilar a principios de año, durante unas vacaciones, a partir de las ideas de dos expertos en la materia: Steve Yegge y Dex Horthy[^context-eng]. De ahí nació el núcleo de este método.
 
-Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
+Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drástásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
+
+Para que nuestro proceso no dependa del azar de una actualización técnica, debemos dejar de ver a la IA como una caja negra mágica y entender cómo opera realmente su 'motor'. Solo conociendo sus límites podemos diseñar un método que los compense.
 
 ### Entendiendo a la bestia: cómo "piensa" una IA
 
@@ -39,7 +41,19 @@ El problema es que su atención limitada se "ensucia". Pensemos en una analogía
 - Para 100 platos, un balde no alcanza y el agua termina tan sucia que los últimos platos quedan igual o peor.
 - Peor aún, si echamos grasa al balde (información irrelevante), el agua queda inutilizable.
 
-Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la información que les damos y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una.
+Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la información que les damos y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando logramos que la información que le damos (la 'frecuencia' de nuestro mensaje) coincide con su capacidad de atención, el sistema 'resuena' y la calidad de la respuesta mejora drásticamente.
+
+### La herramienta universal: La Regla de los 5
+
+Para asegurar la calidad en cada paso, nos apoyamos en una herramienta de revisión crítica que llamo la **"Regla de los 5"**[^rule5]:
+
+1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
+2.  **Correctitud:** ¿La información es correcta? Se corrigen errores e inconsistencias.
+3.  **Claridad:** ¿Se entiende con facilidad? Se simplifica el lenguaje y se explica todo claramente.
+4.  **Casos Límite:** ¿Qué podría salir mal? Se consideran escenarios poco comunes.
+5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Se busca optimizar o mejorar el resultado.
+
+Este ciclo de revisión se aplica a cada una de las fases siguientes hasta que el resultado sea sólido.
 
 ### El método: Investigación, Planificación e Implementación
 
@@ -49,21 +63,13 @@ Para manejar este flujo de trabajo, propongo una metodología en tres fases.
 
 Dada una tarea, el primer paso es usar la IA para que investigue. Le pedimos que nos diga qué partes del programa son importantes, cómo se conectan entre sí y si hay documentación útil. Con esa información, le pedimos que cree un resumen. Este resumen es nuestro primer "balde de agua", cuidadosamente llenado.
 
-Pero no nos detenemos ahí. Sometemos este resumen a un proceso de revisión crítica que llamo la **"Regla de los 5"**[^rule5]:
-
-1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
-2.  **Correctitud:** ¿La información es correcta? Se corrigen errores e inconsistencias.
-3.  **Claridad:** ¿Se entiende con facilidad? Se simplifica el lenguaje y se explica todo claramente.
-4.  **Casos Límite:** ¿Qué podría salir mal? Se consideran escenarios poco comunes.
-5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Se busca optimizar o mejorar el resultado.
-
-Este ciclo se repite hasta que el resumen de la investigación sea sólido.
+Una vez que tenemos el borrador, lo sometemos a la "Regla de los 5" hasta que la investigación sea sólida.
 
 #### 2. Planificación
 
 Con la investigación ya revisada, iniciamos una nueva conversación (un nuevo "balde de agua limpia"). Le entregamos el resumen y le pedimos que genere un plan de acción detallado.
 
-Crucialmente, cada tarea del plan debe ser lo suficientemente pequeña para ser realizada en un solo paso. Para asegurar esto, dividimos el plan en subtareas y describimos cada una con la información necesaria. Luego, aplico la "Regla de los 5" a cada una de estas subtareas.
+Crucialmente, cada tarea del plan debe ser lo suficientemente pequeña para ser realizada en un solo paso. Para asegurar esto, dividimos el plan en subtareas y describimos cada una con la información necesaria. Luego, aplicamos la "Regla de los 5" a cada una de estas subtareas.
 
 #### 3. Implementación
 
@@ -73,7 +79,9 @@ Finalmente, una vez terminado todo, volvemos a aplicar la "Regla de los 5" al co
 
 ### Reutilizando la metodología
 
-Lo bueno de este proceso es que es reutilizable. Podemos aplicar el mismo método para generar los materiales que nos guían en cada paso, como "prompts" o plantillas específicas para un tipo de problema. Por ejemplo, Charly utiliza esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Esto nos permite aprovechar metodologías ya estudiadas en otras profesiones (desde la cirugía a la organización de un mundial) para que la IA nos ayude a aplicarlas en nuestros propios procesos.
+Este flujo no solo nos entrega un programa funcionando; nos deja como 'subproducto' una serie de instrucciones y criterios que ya han sido filtrados por la Regla de los 5. Es aquí donde el método se vuelve escalar: estas piezas de conocimiento se convierten en plantillas reutilizables para cualquier otro desafío, desde la medicina hasta la organización de eventos.
+
+Podemos aplicar el mismo método para generar los materiales que nos guían en cada paso, como "prompts" o plantillas específicas para un tipo de problema. Por ejemplo, Charly utiliza esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Esto nos permite aprovechar metodologías ya estudiadas en otras profesiones (desde la cirugía a la organización de un mundial) para que la IA nos ayude a aplicarlas en nuestros propios procesos.
 
 ### Conclusión: Encontrar la resonancia
 
@@ -92,7 +100,7 @@ El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi
 
 [^memoria]: Algunas herramientas simulan tener **memoria**, pero lo que hacen es agregar información de la conversación pasada a la conversación actual para mantener el hilo.
 
-[^context-eng]: Las ideas de "Context Engineering" de Dex Horthly se pueden explorar en este documento sobre [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md).
+[^context-eng]: Las ideas de "Context Engineering" de Dex Horthy se pueden explorar en este documento sobre [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md).
 
 [^rule5]: La "Regla de los 5" es un concepto detallado por Steve Yegge. Puede leerse más en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
