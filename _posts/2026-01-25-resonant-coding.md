@@ -15,9 +15,9 @@ Como líder de un equipo de desarrollo en Mercado Libre, me enfrenté a un desaf
 
 El resultado fue una paradoja. Nos vimos inundados por una cantidad abrumadora de "código" —las instrucciones que forman los programas— generado por estas IA. Estas instrucciones eran a menudo complicadas de entender, y no siempre tenían la calidad necesaria. El proceso de revisión se llenó de idas y vueltas, volviéndose lento y frustrante. En lugar de acelerar, nos habíamos estancado.
 
-Empecé a destilar una solución basada en las ideas de Steve Yegge y Dex Horthy[^context-eng]. Lo que sigue es la síntesis que aplicamos en mi equipo para aterrizar esos conceptos.
+Frustrado por el estancamiento, empecé a buscar referentes que hubieran enfrentado problemas similares. Así llegué a las ideas de Steve Yegge y Dex Horthy[^context-eng], que me dieron un marco para empezar a construir una solución. Esta es la síntesis que aplicamos en mi equipo para aterrizar esos conceptos.
 
-Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drástásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando y que habíamos empezado a probar con el equipo.
+Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando y que habíamos empezado a probar con el equipo.
 
 Para que nuestro proceso no dependa del azar de una actualización técnica, debemos dejar de ver a la IA como una caja negra mágica y entender cómo opera realmente su 'motor'. Solo conociendo sus límites podemos diseñar un método que los compense.
 
@@ -35,11 +35,11 @@ Para entender el poder y la limitación de su atención, hagamos un ejercicio. I
 
 Ahora, añade detalles: "¿Qué comida fácil puedo hacer para seis amigos un domingo, si tengo pollo, papas y tomates?". La pregunta acotada guía a tus amigos hacia una respuesta útil. Con las IA pasa lo mismo: la calidad de la respuesta depende de la calidad de las instrucciones que les damos.
 
-El problema es que su atención limitada se "ensucia". Pensemos en una analogía: estamos de camping y tenemos que lavar los platos en el río con un solo balde de agua.
-- Para un plato, un balde sobra.
-- Para 10 platos, el agua empieza a enturbiarse.
-- Para 100 platos, un balde no alcanza y el agua termina tan sucia que los últimos platos quedan igual o peor.
-- Peor aún, si echamos grasa al balde (información irrelevante), el agua queda inutilizable.
+El problema es que su atención limitada se "ensucia". Pensemos en una analogía: su atención es como un balde de agua limpia que usamos para lavar platos en un río.
+- Con un plato, un balde es más que suficiente.
+- Con diez platos, el agua empieza a enturbiarse.
+- Con cien platos, el agua está tan sucia que los últimos platos quedan peor que antes.
+- Peor aún, si echamos grasa al balde —el equivalente al "ruido" en los prompts, como información irrelevante o instrucciones contradictorias—, el agua se vuelve inservible de inmediato.
 
 Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la información que les damos y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando logramos que la información que le damos (la 'frecuencia' de nuestro mensaje) coincide con su capacidad de atención, el sistema 'resuena' y la calidad de la respuesta mejora drásticamente.
 
@@ -48,7 +48,7 @@ Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la i
 Para asegurar la calidad en cada paso, nos apoyamos en lo que Steve Yegge define como la **"Regla de los 5"**[^rule5], un filtro de calidad que adaptamos de la siguiente manera:
 
 1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
-2.  **Correctitud:** ¿La información es correcta? Se corrigen errores e inconsistencias.
+2.  **Corrección:** ¿La información es correcta? Se corrigen errores e inconsistencias.
 3.  **Claridad:** ¿Se entiende con facilidad? Se simplifica el lenguaje y se explica todo claramente.
 4.  **Casos Límite:** ¿Qué podría salir mal? Se consideran escenarios poco comunes.
 5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Se busca optimizar o mejorar el resultado.
@@ -77,7 +77,7 @@ Con las tareas bien definidas, la fase de "escritura" de las instrucciones se vu
 
 Finalmente, una vez terminado todo, volvemos a aplicar la "Regla de los 5" al conjunto completo para asegurar que todo esté bien integrado. Este enfoque de detectar errores lo antes posible es algo en lo que las IA son extremadamente eficientes[^shift].
 
-### Reutilizando la metodología
+### De la tarea a la plantilla
 
 Este flujo no solo nos entrega un programa funcionando; nos deja como 'subproducto' una serie de instrucciones y criterios que ya han sido filtrados por la Regla de los 5. Es aquí donde el método se vuelve escalar: estas piezas de conocimiento se convierten en plantillas reutilizables para cualquier otro desafío, desde la medicina hasta la organización de eventos.
 
@@ -98,16 +98,16 @@ Imagina que tienes tres expertos en una sala. No le hablarías a los tres a la v
 *   **El Estratega (Conversación 2):** Tu objetivo es planificar.
     *   **Acción:** Inicia una nueva conversación ("limpia el balde").
     *   **Petición:** "Basado en este resumen [pega el resumen del Investigador], crea un plan paso a paso para lograr [tu objetivo]."
-    *   **Tu Trabajo:** Revisa el plan. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el plan y pídele a la IA que lo mejore según la regla. Pide los ajustes necesarios hasta que cada paso sea claro, atómico y robusto.
+    *   **Tu Trabajo:** Revisa el plan. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el plan y pídele a la IA que lo mejore según la regla. Pide los ajustes necesarios hasta que cada paso sea claro, atómico (es decir, que no se pueda dividir en tareas más pequeñas) y robusto.
 
 *   **El Ejecutor (Conversaciones 3+):** Tu objetivo es actuar.
-    *   **Acción:** Por cada paso del plan, inicia una nueva conversación.
+    *   **Acción:** Por cada paso del plan, **inicia una nueva conversación**.
     *   **Petición:** "Vamos a ejecutar este paso: [pega el paso del plan]."
     *   **Tu Trabajo:** Verifica el resultado. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el resultado y pídele a la IA que lo mejore según la regla.
 
 #### 2. La Razón del "Balde Limpio": Gestionando el Contexto
 
-Cada vez que inicias una nueva conversación, te aseguras de que la IA solo vea la información más relevante y refinada. Esto es crucial porque la "atención" de la IA es un recurso limitado. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, lo que "ensucia el agua" y reduce la calidad de las respuestas.
+Cada vez que **inicias una nueva conversación**, te aseguras de que la IA solo vea la información más relevante y refinada. Esto es crucial porque la "atención" de la IA es un recurso limitado. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, lo que "ensucia el agua" y reduce la calidad de las respuestas.
 
 Para facilitar el "copiar y pegar" entre conversaciones, puedes pedirle a la IA que resuma el resultado final en un formato limpio.
 
@@ -119,10 +119,10 @@ Para facilitar el "copiar y pegar" entre conversaciones, puedes pedirle a la IA 
 La calidad de la respuesta depende de la calidad de la pregunta. No es lo mismo pedir "ideas para vacaciones" que dar detalles que guíen a la IA.
 
 **Petición Vaga:**
-> "Ayúdame a escribir un discurso."
+> "Ayúdame a planear un evento."
 
 **Petición Clara:**
-> "Actúa como un redactor de discursos profesional. Necesito un discurso de 5 minutos para la boda de mi mejor amigo. El tono debe ser emotivo pero con un toque de humor. Quiero incluir una anécdota sobre nuestra amistad de la infancia y terminar con un buen deseo para la pareja. Estructúralo en introducción, desarrollo y cierre."
+> "Actúa como un organizador de eventos profesional. Necesito planificar un evento de recaudación de fondos para un refugio de animales local. El objetivo es recaudar $5,000 y aumentar la conciencia sobre la adopción. El evento será en un parque local en tres meses y esperamos 100-150 asistentes. Dame un plan detallado que incluya: una lista de posibles actividades (ej. concurso de disfraces de mascotas, puesto de adopción), un cronograma de planificación desde ahora hasta el evento, y sugerencias para promocionar el evento en redes sociales. El tono debe ser entusiasta y centrado en la comunidad."
 
 #### 4. Sé el Director, no el Espectador
 
@@ -173,5 +173,3 @@ Elegí el nombre "Resonant Coding" para bautizar esta síntesis de influencias p
 [^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](por-que-arme-phorma).
 
 ---
-
-
