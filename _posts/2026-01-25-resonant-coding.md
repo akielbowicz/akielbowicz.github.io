@@ -83,6 +83,64 @@ Este flujo no solo nos entrega un programa funcionando; nos deja como 'subproduc
 
 Podemos aplicar el mismo método para generar los materiales que nos guían en cada paso, como "prompts" o plantillas específicas para un tipo de problema. Por ejemplo, Charly utiliza esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Esto nos permite aprovechar metodologías ya estudiadas en otras profesiones (desde la cirugía a la organización de un mundial) para que la IA nos ayude a aplicarlas en nuestros propios procesos.
 
+### Guía de inicio rápido: Cómo aplicar Resonant Coding hoy
+
+Para que este artículo pase de ser un ensayo a una guía accionable, aquí tienes una bajada a tierra para que sepas qué hacer la próxima vez que uses una IA para una tarea compleja.
+
+#### 1. Elige tu Conversación (El Protocolo)
+
+Imagina que tienes tres expertos en una sala. No le hablarías a los tres a la vez del mismo tema de forma desordenada. Asigna una tarea a cada uno:
+
+*   **El Investigador (Conversación 1):** Tu objetivo es entender.
+    *   **Petición:** "Actúa como un experto en [tema]. Quiero entender [situación]. Explícame los conceptos clave y resúmelos en 3 puntos."
+    *   **Tu Trabajo:** Revisa el resumen. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el resumen y pídele a la IA que lo mejore según la regla. Itera hasta que el resumen sea sólido.
+
+*   **El Estratega (Conversación 2):** Tu objetivo es planificar.
+    *   **Acción:** Inicia una nueva conversación ("limpia el balde").
+    *   **Petición:** "Basado en este resumen [pega el resumen del Investigador], crea un plan paso a paso para lograr [tu objetivo]."
+    *   **Tu Trabajo:** Revisa el plan. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el plan y pídele a la IA que lo mejore según la regla. Pide los ajustes necesarios hasta que cada paso sea claro, atómico y robusto.
+
+*   **El Ejecutor (Conversaciones 3+):** Tu objetivo es actuar.
+    *   **Acción:** Por cada paso del plan, inicia una nueva conversación.
+    *   **Petición:** "Vamos a ejecutar este paso: [pega el paso del plan]."
+    *   **Tu Trabajo:** Verifica el resultado. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el resultado y pídele a la IA que lo mejore según la regla.
+
+#### 2. La Razón del "Balde Limpio": Gestionando el Contexto
+
+Cada vez que inicias una nueva conversación, te aseguras de que la IA solo vea la información más relevante y refinada. Esto es crucial porque la "atención" de la IA es un recurso limitado. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, lo que "ensucia el agua" y reduce la calidad de las respuestas.
+
+Para facilitar el "copiar y pegar" entre conversaciones, puedes pedirle a la IA que resuma el resultado final en un formato limpio.
+
+**Ejemplo de Petición al final de una fase:**
+> "Excelente. Ahora, resume nuestro plan final en un único bloque de texto plano, sin comentarios adicionales, para que pueda copiarlo fácilmente."
+
+#### 3. El Arte de Preguntar
+
+La calidad de la respuesta depende de la calidad de la pregunta. No es lo mismo pedir "ideas para vacaciones" que dar detalles que guíen a la IA.
+
+**Petición Vaga:**
+> "Ayúdame a escribir un discurso."
+
+**Petición Clara:**
+> "Actúa como un redactor de discursos profesional. Necesito un discurso de 5 minutos para la boda de mi mejor amigo. El tono debe ser emotivo pero con un toque de humor. Quiero incluir una anécdota sobre nuestra amistad de la infancia y terminar con un buen deseo para la pareja. Estructúralo en introducción, desarrollo y cierre."
+
+#### 4. Sé el Director, no el Espectador
+
+Tu rol es dirigir a la IA. Antes de aceptar una respuesta, usa la "Regla de los 5" como un filtro mental:
+
+*   **¿Es correcto?** ¿La información tiene sentido?
+*   **¿Es claro?** ¿Lo entiendo a la primera?
+*   **¿Considera alternativas?** ¿Qué podría salir mal?
+*   **¿Es excelente?** ¿O solo "aceptable"?
+
+Si no cumple tus expectativas, pide una mejora.
+
+#### 5. Define tu Estilo
+
+Si tienes preferencias sobre el estilo de comunicación, guárdalas. Al inicio de una conversación, puedes pedirle a la IA que las adopte.
+
+*   **Ejemplo:** "En todas tus respuestas, utiliza un tono formal y académico. Cita tus fuentes cuando sea posible y estructura la información en listas."
+
 ### Conclusión: Encontrar la resonancia
 
 Una instrucción mal dada puede generar cientos de líneas de código erróneo. Un plan mal definido, decenas de miles. Por eso, este proceso estructurado es vital. Los resultados de cada paso deben ser revisados por personas. Las IA son buenas, pero el conocimiento que solo existe en la cabeza del equipo aún debe ser aportado por nosotros.
