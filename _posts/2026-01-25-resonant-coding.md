@@ -88,7 +88,7 @@ El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi
 
 [^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano.
 
-[^charly]: Se puede encontrar el post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/resonant-coding).
+[^charly]: Se puede encontrar el post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding).
 
 [^memoria]: Algunas herramientas simulan tener **memoria**, pero lo que hacen es agregar información de la conversación pasada a la conversación actual para mantener el hilo.
 

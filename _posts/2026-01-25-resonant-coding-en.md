@@ -88,7 +88,7 @@ The name "Resonant Coding" reminds me of the "Wave Station"[^ondas] I saw in col
 
 [^lm]: **LM (Large Language Model)**: A type of artificial intelligence program trained to understand and generate text in a way that is very similar to a human.
 
-[^charly]: Charly's original post can be found at [Resonant Coding](https://charly-vibes.github.io/microdancing/resonant-coding).
+[^charly]: Charly's original post can be found at [Resonant Coding](https://charly-vibes.github.io/microdancing/en/posts/resonant-coding).
 
 [^memory]: Some tools simulate **memory**, but what they do is add information from the past conversation to the current context to maintain the thread.
 
