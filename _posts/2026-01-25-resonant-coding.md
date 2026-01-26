@@ -15,17 +15,17 @@ Como líder de un equipo de desarrollo en Mercado Libre, me enfrenté a un desaf
 
 El resultado fue una paradoja. Nos vimos inundados por una cantidad abrumadora de "código" —las instrucciones que forman los programas— generado por estas IA. Estas instrucciones eran a menudo complicadas de entender, y no siempre tenían la calidad necesaria. El proceso de revisión se llenó de idas y vueltas, volviéndose lento y frustrante. En lugar de acelerar, nos habíamos estancado.
 
-La solución a este caos la empecé a destilar a principios de año, durante unas vacaciones, a partir de las ideas de dos expertos en la materia: Steve Yegge y Dex Horthy[^context-eng]. De ahí nació el núcleo de este método.
+Empecé a destilar una solución basada en las ideas de Steve Yegge y Dex Horthy[^context-eng]. Lo que sigue es la síntesis que aplicamos en mi equipo para aterrizar esos conceptos.
 
-Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drástásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
+Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drástásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando y que habíamos empezado a probar con el equipo.
 
 Para que nuestro proceso no dependa del azar de una actualización técnica, debemos dejar de ver a la IA como una caja negra mágica y entender cómo opera realmente su 'motor'. Solo conociendo sus límites podemos diseñar un método que los compense.
 
 ### Entendiendo a la bestia: cómo "piensa" una IA
 
-La idea principal de mi método es tener un proceso estructurado para usar la IA, que sea flexible y simple. Para eso, primero hay que entender cómo funcionan estos modelos de lenguaje (MdL)[^mdl].
+La idea principal de este enfoque es tener un proceso estructurado para usar la IA, que sea flexible y simple. Para eso, primero hay que entender cómo funcionan estos modelos de lenguaje (MdL)[^mdl].
 
-Yo los resumo así:
+Podemos entender su funcionamiento bajo cuatro premisas clave:
 - Son **predictores de texto**, como el autocompletado del celular, pero inmensamente más avanzados.
 - **No tienen memoria**. No recuerdan conversaciones pasadas, solo ven el texto que les presentamos en un momento dado[^memoria].
 - Su **atención es limitada**. Cuanto más largo es el texto que les damos, menos eficientes se vuelden.
@@ -45,7 +45,7 @@ Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la i
 
 ### La herramienta universal: La Regla de los 5
 
-Para asegurar la calidad en cada paso, nos apoyamos en una herramienta de revisión crítica que llamo la **"Regla de los 5"**[^rule5]:
+Para asegurar la calidad en cada paso, nos apoyamos en lo que Steve Yegge define como la **"Regla de los 5"**[^rule5], un filtro de calidad que adaptamos de la siguiente manera:
 
 1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
 2.  **Correctitud:** ¿La información es correcta? Se corrigen errores e inconsistencias.
@@ -57,7 +57,7 @@ Este ciclo de revisión se aplica a cada una de las fases siguientes hasta que e
 
 ### El método: Investigación, Planificación e Implementación
 
-Para manejar este flujo de trabajo, propongo una metodología en tres fases.
+Implementamos una metodología en tres fases para manejar este flujo de trabajo.
 
 #### 1. Investigación
 
@@ -87,9 +87,9 @@ Podemos aplicar el mismo método para generar los materiales que nos guían en c
 
 Una instrucción mal dada puede generar cientos de líneas de código erróneo. Un plan mal definido, decenas de miles. Por eso, este proceso estructurado es vital. Los resultados de cada paso deben ser revisados por personas. Las IA son buenas, pero el conocimiento que solo existe en la cabeza del equipo aún debe ser aportado por nosotros.
 
-Este método me permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo[^future-work].
+Este enfoque nos permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo[^future-work].
 
-El nombre "Resonant Coding" me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
+Elegí el nombre "Resonant Coding" para bautizar esta síntesis de influencias porque me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
 
 ---
 ### Notas
