@@ -63,4 +63,3 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 Currently **Software Technical Lead at Mercado Libre** (Financial Planning & Analytics).
 
-Available for consulting engagements globally (remote) and in Buenos Aires.
