@@ -7,7 +7,7 @@ lang: en
 
 *This post is also available in [Spanish](/2026/01/25/resonant-coding.html).*
 
-*This article adapts ideas from Charly's post on Resonant Coding[^charly] and is an adaptation of what was presented in last week's fridAI[^fridai]. It assumes no prior technical knowledge.*
+*This article adapts ideas from Charly's post on Resonant Coding[^charly] and is an adaptation of what was presented in last week's *fridAI*[^fridai]. It assumes no prior technical knowledge.*
 
 ### The problem: people doing whatever
 
@@ -167,7 +167,7 @@ These are questions I don't have resolved, but that I want to develop in future 
 
 [^waves]: The Wave Station is a physics experiment that shows the phenomenon of resonance. You can see a [video demonstration](https://www.youtube.com/watch?v=6zBknO95rB4) from Physics Week at UBA.
 
-[^fridai]: The **fridAIs** are bi-weekly one-hour meetings we hold in the team to share practices about using AI at work.
+[^fridai]: The ***fridAIs*** are bi-weekly one-hour meetings we hold in the team to share practices about using AI at work.
 
 [^future-work]: The implications of these changes are profound. In a future post I want to explore what skills we'll need to adapt, and also a more critical view of who will have access to these tools and the disparity that could generate.
 

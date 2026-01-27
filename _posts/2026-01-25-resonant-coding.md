@@ -7,7 +7,7 @@ lang: es
 
 *This post is also available in [English](/2026/01/25/resonant-coding-en.html).*
 
-*Este artículo adapta ideas del post sobre Resonant Coding de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
+*Este artículo adapta ideas del post sobre *Resonant Coding* de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
 
 ### El problema: gente haciendo cualquiera
 
@@ -104,7 +104,7 @@ Imaginate que tenés tres expertos en una sala. No les hablarías a los tres a l
 
 Cada vez que iniciás una conversación nueva, te asegurás de que la IA solo vea información relevante y refinada. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, y eso ensucia el agua.
 
-Un tip: al final de cada fase, pedile que resuma el resultado en un bloque limpio para poder copiarlo fácil.
+Un *tip*: al final de cada fase, pedile que resuma el resultado en un bloque limpio para poder copiarlo fácil.
 
 #### El arte de preguntar
 
@@ -155,15 +155,15 @@ Son preguntas que no tengo resueltas, pero que quiero desarrollar en próximos p
 
 [^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano. Esencialmente, predictores de texto probabilísticos muy avanzados.
 
-[^charly]: El post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding) tiene más detalles técnicos y ejemplos concretos.
+[^charly]: El post original de Charly en [*Resonant Coding*](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding) tiene más detalles técnicos y ejemplos concretos.
 
 [^memoria]: Lo que algunas herramientas llaman "memoria" es en realidad un truco: guardan parte de la conversación anterior y la agregan al mensaje nuevo. Tiene límites, y cuando se superan hay que recortar. Algo siempre se pierde.
 
-[^context-eng]: Las ideas de "Context Engineering" de Dex Horthy se pueden explorar en este [documento técnico](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). Es denso pero vale la pena.
+[^context-eng]: Las ideas de *Context Engineering* de Dex Horthy se pueden explorar en este [documento técnico](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). Es denso pero vale la pena.
 
 [^rule5]: La Regla de los 5 de Steve Yegge está en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
-[^shift]: A la práctica de detectar errores lo antes posible se la conoce como "shift-left". La idea es que cuanto antes encontrás un problema, más barato es arreglarlo.
+[^shift]: A la práctica de detectar errores lo antes posible se la conoce como *shift-left*. La idea es que cuanto antes encontrás un problema, más barato es arreglarlo.
 
 [^ondas]: La Estación de Ondas es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de la Semana de la Física de la UBA.
 
