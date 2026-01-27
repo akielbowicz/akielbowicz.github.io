@@ -56,8 +56,8 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
 
-**Blog profesional**: [ak.saxa.xyz/blog](https://ak.saxa.xyz/blog)
-**Página personal (más informal)**: [saxa.xyz](https://saxa.xyz)
+**Professional Blog**: [ak.saxa.xyz/blog](https://ak.saxa.xyz/blog)
+**Personal Page (more informal)**: [saxa.xyz](https://saxa.xyz)
 
 ---
 
