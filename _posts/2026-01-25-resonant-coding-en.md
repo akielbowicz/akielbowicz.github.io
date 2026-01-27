@@ -136,6 +136,18 @@ The idea of taking a process to something more structured brings me back to the 
 
 With this method we do something similar: we adjust the process to find the frequency at which the team vibrates[^phorma].
 
+### What's next
+
+There's something that kept nagging at me while writing this: today I can generate code that's better than what I could write alone, and in a fraction of the time. That has consequences that go beyond productivity.
+
+Where are our jobs heading when the tasks that used to define a "professional" can be done by anyone with access to these tools? How will it affect people just starting out, who haven't yet had time to build the judgment to evaluate what the machine generates? How do we train new generations for a world where execution is increasingly cheap but judgment remains scarce?
+
+And there's another layer I don't want to ignore: tokens cost money[^tokens]. Every query has a price. Some companies give you a monthly quota; when it runs out, it runs out. Others charge per use. In any case, we're entering a new form of consumption where "thinking" has a direct and measurable cost. What happens when you run out of tokens in the middle of a project? How do you decide what's worth asking the machine and what isn't? This method isn't just a way to work better—it's also a way to be strategic with a resource that isn't infinite.
+
+And perhaps the most uncomfortable question: who will have access to these tools and who won't? The disparity that could generate is something I want to explore more carefully.
+
+These are questions I don't have resolved, but that I want to develop in future posts.
+
 ---
 ### Notes
 
@@ -160,6 +172,8 @@ With this method we do something similar: we adjust the process to find the freq
 [^future-work]: The implications of these changes are profound. In a future post I want to explore what skills we'll need to adapt, and also a more critical view of who will have access to these tools and the disparity that could generate.
 
 [^energy]: It's not just a metaphor. Every query to a language model consumes energy and resources. Using them without criteria has a real cost.
+
+[^tokens]: Model providers (Anthropic, OpenAI, Google) charge by the number of tokens processed, both input and output. A token is approximately a word or part of a word. Tools like Cursor or GitHub Copilot include a monthly quota; when it runs out, you either pay more or wait until next month. This creates a new economy where you have to think about when and how you use each query.
 
 [^phorma]: I apply these same methodologies to scientific research and industry through my venture [phorma scientific](https://phorma.sh/).
 

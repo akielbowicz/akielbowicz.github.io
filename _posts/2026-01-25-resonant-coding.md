@@ -136,6 +136,18 @@ La idea de llevar un proceso a algo más estructurado me retrae a la Estación d
 
 Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia en la cual el equipo vibra[^phorma].
 
+### Lo que viene
+
+Hay algo que me quedó dando vueltas mientras escribía esto: hoy puedo generar código que es mejor de lo que podría escribir solo, y en una fracción del tiempo. Eso tiene consecuencias que van más allá de la productividad.
+
+¿Hacia dónde van a ir nuestros trabajos cuando las tareas que antes definían a un "profesional" las puede hacer cualquiera con acceso a estas herramientas? ¿Cómo va a afectar a la gente que recién empieza, que todavía no tuvo tiempo de construir el criterio para evaluar lo que la máquina genera? ¿Cómo formamos a las nuevas generaciones para un mundo donde la ejecución es cada vez más barata pero el juicio sigue siendo escaso?
+
+Y hay otra capa que no quiero ignorar: los tokens cuestan plata[^tokens]. Cada consulta tiene un precio. Algunas empresas te dan un cupo mensual; cuando se acaba, se acaba. Otras te cobran por uso. En cualquier caso, estamos entrando en una nueva forma de consumo donde "pensar" tiene un costo directo y medible. ¿Qué pasa cuando te quedás sin tokens a mitad de un proyecto? ¿Cómo decidís qué vale la pena preguntarle a la máquina y qué no? Este método no es solo una forma de trabajar mejor —es también una forma de ser estratégico con un recurso que no es infinito.
+
+Y quizás lo más incómodo: ¿quiénes van a tener acceso a estas herramientas y quiénes no? La disparidad que eso puede generar es algo que quiero explorar con más cuidado.
+
+Son preguntas que no tengo resueltas, pero que quiero desarrollar en próximos posts.
+
 ---
 ### Notas
 
@@ -160,6 +172,8 @@ Con este método hacemos algo similar: adecuamos el proceso para encontrar la fr
 [^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post quiero explorar qué habilidades vamos a necesitar para adaptarnos, y también una visión más crítica sobre quiénes van a tener acceso a estas herramientas y la disparidad que eso puede generar.
 
 [^energia]: No es solo una metáfora. Cada consulta a un modelo de lenguaje consume energía y recursos. Usarlos sin criterio tiene un costo real.
+
+[^tokens]: Los proveedores de modelos (Anthropic, OpenAI, Google) cobran por cantidad de tokens procesados, tanto de entrada como de salida. Un token es aproximadamente una palabra o parte de una palabra. Las herramientas como Cursor o GitHub Copilot incluyen un cupo mensual; cuando se agota, o pagás más o esperás al mes siguiente. Esto crea una economía nueva donde hay que pensar cuándo y cómo usás cada consulta.
 
 [^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](https://phorma.sh/).
 
