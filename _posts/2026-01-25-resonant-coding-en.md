@@ -7,7 +7,7 @@ lang: en
 
 *This post is also available in [Spanish](/2026/01/25/resonant-coding.html).*
 
-*This article adapts ideas from Charly's post on Resonant Coding[^charly] and is an adaptation of what was presented in last week's *fridAI*[^fridai]. It assumes no prior technical knowledge.*
+*This article adapts ideas from Charly's post on Resonant Coding[^charly] and is an adaptation of what was presented in last week's fridAI[^fridai]. It assumes no prior technical knowledge.*
 
 ### The problem: people doing whatever
 

@@ -7,7 +7,7 @@ lang: es
 
 *This post is also available in [English](/2026/01/25/resonant-coding-en.html).*
 
-*Este artículo adapta ideas del post sobre *Resonant Coding* de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
+*Este artículo adapta ideas del post sobre Resonant Coding de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
 
 ### El problema: gente haciendo cualquiera
 
