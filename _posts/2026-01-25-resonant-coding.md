@@ -151,30 +151,30 @@ Son preguntas que no tengo resueltas, pero que quiero desarrollar en próximos p
 ---
 ### Notas
 
+[^charly]: El post original de Charly en [*Resonant Coding*](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding) tiene más detalles técnicos y ejemplos concretos.
+
+[^fridai]: Las **fridAI** son reuniones quincenales de una hora que hacemos en el equipo para compartir prácticas sobre el uso de IA en el trabajo.
+
 [^acelerar]: "Acelerar" es una de esas palabras que en contextos corporativos significa simultáneamente todo y nada. Puede significar "producir más" o "gastar menos" o "adoptar la tecnología de moda" o alguna combinación de las anteriores.
+
+[^context-eng]: Las ideas de *Context Engineering* de Dex Horthy se pueden explorar en este [documento técnico](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). Es denso pero vale la pena.
 
 [^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano. Esencialmente, predictores de texto probabilísticos muy avanzados.
 
-[^charly]: El post original de Charly en [*Resonant Coding*](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding) tiene más detalles técnicos y ejemplos concretos.
-
 [^memoria]: Lo que algunas herramientas llaman "memoria" es en realidad un truco: guardan parte de la conversación anterior y la agregan al mensaje nuevo. Tiene límites, y cuando se superan hay que recortar. Algo siempre se pierde.
-
-[^context-eng]: Las ideas de *Context Engineering* de Dex Horthy se pueden explorar en este [documento técnico](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). Es denso pero vale la pena.
 
 [^rule5]: La Regla de los 5 de Steve Yegge está en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
 [^shift]: A la práctica de detectar errores lo antes posible se la conoce como *shift-left*. La idea es que cuanto antes encontrás un problema, más barato es arreglarlo.
 
-[^ondas]: La Estación de Ondas es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de la Semana de la Física de la UBA.
-
-[^fridai]: Las **fridAI** son reuniones quincenales de una hora que hacemos en el equipo para compartir prácticas sobre el uso de IA en el trabajo.
+[^energia]: No es solo una metáfora. Cada consulta a un modelo de lenguaje consume energía y recursos. Usarlos sin criterio tiene un costo real.
 
 [^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post quiero explorar qué habilidades vamos a necesitar para adaptarnos, y también una visión más crítica sobre quiénes van a tener acceso a estas herramientas y la disparidad que eso puede generar.
 
-[^energia]: No es solo una metáfora. Cada consulta a un modelo de lenguaje consume energía y recursos. Usarlos sin criterio tiene un costo real.
-
-[^tokens]: Los proveedores de modelos (Anthropic, OpenAI, Google) cobran por cantidad de tokens procesados, tanto de entrada como de salida. Un token es aproximadamente una palabra o parte de una palabra. Las herramientas como Cursor o GitHub Copilot incluyen un cupo mensual; cuando se agota, o pagás más o esperás al mes siguiente. Esto crea una economía nueva donde hay que pensar cuándo y cómo usás cada consulta.
+[^ondas]: La Estación de Ondas es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de la Semana de la Física de la UBA.
 
 [^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](https://phorma.sh/).
+
+[^tokens]: Los proveedores de modelos (Anthropic, OpenAI, Google) cobran por cantidad de tokens procesados, tanto de entrada como de salida. Un token es aproximadamente una palabra o parte de una palabra. Las herramientas como Cursor o GitHub Copilot incluyen un cupo mensual; cuando se agota, o pagás más o esperás al mes siguiente. Esto crea una economía nueva donde hay que pensar cuándo y cómo usás cada consulta.
 
 ---

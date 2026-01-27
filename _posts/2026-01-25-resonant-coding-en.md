@@ -151,30 +151,30 @@ These are questions I don't have resolved, but that I want to develop in future 
 ---
 ### Notes
 
+[^charly]: Charly's original post on [Resonant Coding](https://charly-vibes.github.io/microdancing/en/posts/resonant-coding) has more technical details and concrete examples.
+
+[^fridai]: The ***fridAIs*** are bi-weekly one-hour meetings we hold in the team to share practices about using AI at work.
+
 [^accelerate]: "Accelerate" is one of those words that in corporate contexts simultaneously means everything and nothing. It can mean "produce more" or "spend less" or "adopt the trendy technology" or some combination of the above.
+
+[^context-eng]: Dex Horthy's "Context Engineering" ideas can be explored in this [technical document](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). It's dense but worth it.
 
 [^lm]: **LM (Large Language Model)**: A type of artificial intelligence program trained to understand and generate text in a way similar to a human. Essentially, probabilistic text predictors that are very advanced.
 
-[^charly]: Charly's original post on [Resonant Coding](https://charly-vibes.github.io/microdancing/en/posts/resonant-coding) has more technical details and concrete examples.
-
 [^memory]: What some tools call "memory" is actually a trick: they save part of the previous conversation and add it to the new message. It has limits, and when they're exceeded you have to trim. Something is always lost.
-
-[^context-eng]: Dex Horthy's "Context Engineering" ideas can be explored in this [technical document](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). It's dense but worth it.
 
 [^rule5]: Steve Yegge's Rule of 5 is in his [original documentation](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
 [^shift]: The practice of detecting errors as early as possible is known as "shift-left". The idea is that the sooner you find a problem, the cheaper it is to fix.
 
-[^waves]: The Wave Station is a physics experiment that shows the phenomenon of resonance. You can see a [video demonstration](https://www.youtube.com/watch?v=6zBknO95rB4) from Physics Week at UBA.
-
-[^fridai]: The ***fridAIs*** are bi-weekly one-hour meetings we hold in the team to share practices about using AI at work.
+[^energy]: It's not just a metaphor. Every query to a language model consumes energy and resources. Using them without criteria has a real cost.
 
 [^future-work]: The implications of these changes are profound. In a future post I want to explore what skills we'll need to adapt, and also a more critical view of who will have access to these tools and the disparity that could generate.
 
-[^energy]: It's not just a metaphor. Every query to a language model consumes energy and resources. Using them without criteria has a real cost.
-
-[^tokens]: Model providers (Anthropic, OpenAI, Google) charge by the number of tokens processed, both input and output. A token is approximately a word or part of a word. Tools like Cursor or GitHub Copilot include a monthly quota; when it runs out, you either pay more or wait until next month. This creates a new economy where you have to think about when and how you use each query.
+[^waves]: The Wave Station is a physics experiment that shows the phenomenon of resonance. You can see a [video demonstration](https://www.youtube.com/watch?v=6zBknO95rB4) from Physics Week at UBA.
 
 [^phorma]: I apply these same methodologies to scientific research and industry through my venture [phorma scientific](https://phorma.sh/).
+
+[^tokens]: Model providers (Anthropic, OpenAI, Google) charge by the number of tokens processed, both input and output. A token is approximately a word or part of a word. Tools like Cursor or GitHub Copilot include a monthly quota; when it runs out, you either pay more or wait until next month. This creates a new economy where you have to think about when and how you use each query.
 
 ---
