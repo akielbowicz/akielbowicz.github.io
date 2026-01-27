@@ -9,166 +9,155 @@ lang: es
 
 *Este artículo adapta ideas del post sobre Resonant Coding de Charly[^charly] y es una adaptación de lo presentado en las fridAI la semana pasada[^fridai], pero no asume conocimiento técnico previo.*
 
-### El problema: una avalancha de instrucciones
+### El problema: gente haciendo cualquiera
 
-Como líder de un equipo de desarrollo en Mercado Libre, me enfrenté a un desafío particular. Estábamos creando un proyecto desde cero, pero el equipo tenía pocos programadores con mucha experiencia, lo que exigía que yo revisara gran parte del trabajo. Al mismo tiempo, la empresa nos impulsaba a usar Inteligencia Artificial (IA) para ir más rápido.
+Desde hace unos meses estoy liderando un equipo de desarrollo en Mercado Libre, armando algo desde cero para dar soporte a Planificación Financiera. El equipo era nuevo, con poca gente experimentada, lo cual significaba que yo tenía que revisar casi todo. Y al mismo tiempo, la empresa nos empujaba a usar Inteligencia Artificial para "acelerar"[^acelerar].
 
-El resultado fue una paradoja. Nos vimos inundados por una cantidad abrumadora de "código" —las instrucciones que forman los programas— generado por estas IA. Estas instrucciones eran a menudo complicadas de entender, y no siempre tenían la calidad necesaria. El proceso de revisión se llenó de idas y vueltas, volviéndose lento y frustrante. En lugar de acelerar, nos habíamos estancado.
+El resultado fue una paradoja bastante absurda: nos vimos inundados de código generado por IA que era complicado de entender, no siempre cumplía con los requisitos mínimos de calidad, y hacía que las revisiones se convirtieran en una ida y vuelta interminable. En lugar de ir más rápido, nos habíamos trabado.
 
-Frustrado por el estancamiento, empecé a buscar referentes que hubieran enfrentado problemas similares. Así llegué a las ideas de Steve Yegge y Dex Horthy[^context-eng], que me dieron un marco para empezar a construir una solución. Esta es la síntesis que aplicamos en mi equipo para aterrizar esos conceptos.
+Frustrado, empecé a buscar referentes. Así llegué a las ideas de Steve Yegge y Dex Horthy[^context-eng], que me dieron un marco para empezar a armar algo. Esta es la síntesis que terminamos aplicando en el equipo.
 
-Curiosamente, el problema pareció resolverse solo por un momento. A finales de octubre, la calidad del trabajo que entregaba el equipo mejoró drásticamente. Al principio pensé que habíamos logrado algo, pero la razón era otra: una de las herramientas de programación con IA que usábamos había recibido una actualización importante. Esto reforzó mi convicción: no podíamos depender solo de las mejoras de la herramienta, necesitábamos un proceso de trabajo propio y robusto. Coincidentemente, por esa misma fecha salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando y que habíamos empezado a probar con el equipo.
+Y acá viene lo curioso: a finales de octubre, la calidad del código que entregaban mejoró de golpe. Por un par de días pensé que habíamos logrado algo. Que el método estaba funcionando.
 
-Para que nuestro proceso no dependa del azar de una actualización técnica, debemos dejar de ver a la IA como una caja negra mágica y entender cómo opera realmente su 'motor'. Solo conociendo sus límites podemos diseñar un método que los compense.
+Después descubrí que una de las herramientas que usábamos se había actualizado.
 
-### Entendiendo a la bestia: cómo "piensa" una IA
+No éramos nosotros. Era el software. Y si el software podía mejorar sin nuestra intervención, también podía empeorar. O cambiar de formas que no entendíamos. No podíamos depender de eso. Coincidentemente, por esas fechas salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
 
-La idea principal de este enfoque es tener un proceso estructurado para usar la IA, que sea flexible y simple. Para eso, primero hay que entender cómo funcionan estos modelos de lenguaje (MdL)[^mdl].
+Para que nuestro proceso no dependa del azar de una actualización, hay que dejar de ver a la IA como una caja negra mágica y entender cómo funciona realmente. Solo conociendo sus límites podemos diseñar algo que los compense.
 
-Podemos entender su funcionamiento bajo cuatro premisas clave:
-- Son **predictores de texto**, como el autocompletado del celular, pero inmensamente más avanzados.
-- **No tienen memoria**. No recuerdan conversaciones pasadas, solo ven el texto que les presentamos en un momento dado[^memoria].
-- Su **atención es limitada**. Cuanto más largo es el texto que les damos, menos eficientes se vuelden.
-- **No son predecibles**. Para la misma pregunta, pueden dar respuestas distintas.
+### Entendiendo a la bestia
 
-Para entender el poder y la limitación de su atención, hagamos un ejercicio. Imagina que en un almuerzo preguntas: "¿Qué puedo cocinar?". Las respuestas posibles son casi infinitas.
+Antes de hablar del método, un desvío necesario. Sin entender cómo funcionan estos modelos de lenguaje (MdL)[^mdl], nada de lo que sigue va a tener sentido.
 
-Ahora, añade detalles: "¿Qué comida fácil puedo hacer para seis amigos un domingo, si tengo pollo, papas y tomates?". La pregunta acotada guía a tus amigos hacia una respuesta útil. Con las IA pasa lo mismo: la calidad de la respuesta depende de la calidad de las instrucciones que les damos.
+Lo que hay que saber:
+- Son **predictores de texto**. Como el autocompletado del celular, pero entrenados con una cantidad de datos que es difícil de conceptualizar sin recurrir a metáforas astronómicas.
+- **No tienen memoria**. Cada vez que les hablás es como si fuera la primera vez. Lo que algunas herramientas llaman "memoria" es un truco: guardan parte de la conversación y la pegan silenciosamente al principio de cada mensaje nuevo[^memoria].
+- **Su atención es limitada**. Y cuanto más largo es el texto que les das, peor funcionan.
+- **No son predecibles**. Para la misma pregunta pueden dar respuestas distintas.
 
-El problema es que su atención limitada se "ensucia". Pensemos en una analogía: su atención es como un balde de agua limpia que usamos para lavar platos en un río.
-- Con un plato, un balde es más que suficiente.
-- Con diez platos, el agua empieza a enturbiarse.
-- Con cien platos, el agua está tan sucia que los últimos platos quedan peor que antes.
-- Peor aún, si echamos grasa al balde —el equivalente al "ruido" en los prompts, como información irrelevante o instrucciones contradictorias—, el agua se vuelve inservible de inmediato.
+Para entender el tema de la atención, hagamos un ejercicio. Estás en un almuerzo y preguntás: "¿Qué puedo cocinar?". Las respuestas posibles son infinitas y probablemente inútiles. Ahora preguntá: "Tengo que preparar algo para 6 amigos el domingo, que sea fácil, tengo pollo, papas y tomates". La pregunta acotada guía hacia una respuesta útil. Con las IA pasa exactamente lo mismo.
 
-Para aprovechar la atención limitada de las IA, debemos ser cuidadosos con la información que les damos y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando logramos que la información que le damos (la 'frecuencia' de nuestro mensaje) coincide con su capacidad de atención, el sistema 'resuena' y la calidad de la respuesta mejora drásticamente.
+El problema es que esa atención se "ensucia". La mejor manera de pensarlo es con una analogía que me vino durante una conversación sobre camping: imaginate que te fuiste de campamento y para lavar los platos tenés que ir al río con un balde a buscar agua.
 
-### La herramienta universal: La Regla de los 5
+- Con un plato, el balde sobra.
+- Con diez, el agua empieza a enturbiarse y hay que ser cuidadoso.
+- Con cien, el agua está tan sucia que los últimos platos salen peor de lo que entraron.
+- Y si en algún momento tirás algo grasoso al balde —información irrelevante, instrucciones contradictorias—, el agua queda inutilizable para todo lo que sigue.
 
-Para asegurar la calidad en cada paso, nos apoyamos en lo que Steve Yegge define como la **"Regla de los 5"**[^rule5], un filtro de calidad que adaptamos de la siguiente manera:
+Para aprovechar esa atención limitada, hay que ser cuidadoso con lo que le metés y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando lográs que la información que le das coincide con su capacidad de atención, el sistema "resuena" y la calidad de la respuesta mejora drásticamente.
 
-1.  **Borrador:** Crear el contenido inicial, buscando que sea completo antes que perfecto.
-2.  **Corrección:** ¿La información es correcta? Se corrigen errores e inconsistencias.
-3.  **Claridad:** ¿Se entiende con facilidad? Se simplifica el lenguaje y se explica todo claramente.
-4.  **Casos Límite:** ¿Qué podría salir mal? Se consideran escenarios poco comunes.
-5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Se busca optimizar o mejorar el resultado.
+### La Regla de los 5
 
-Este ciclo de revisión se aplica a cada una de las fases siguientes hasta que el resultado sea sólido.
+Acá entra el segundo ingrediente, algo que Steve Yegge llama la **"Regla de los 5"**[^rule5]. No es tanto una regla como un proceso iterativo de refinamiento. La versión simplificada: cuando generás algo, lo pasás por cinco filtros sucesivos.
 
-### El método: Investigación, Planificación e Implementación
+1.  **Borrador:** Crear el contenido inicial. No importa que sea perfecto, importa que esté todo. Preferir amplitud a profundidad.
+2.  **Corrección:** ¿Es correcto? Arreglar errores, inconsistencias, cosas que el modelo pudo haber inventado.
+3.  **Claridad:** ¿Se entiende? Simplificar, eliminar jerga, explicar todo claramente.
+4.  **Casos Límite:** ¿Qué podría salir mal? ¿Hay algo inusual que no estemos considerando?
+5.  **Excelencia:** ¿Es lo mejor que podemos hacer? Optimizar, pulir, mejorar.
 
-Implementamos una metodología en tres fases para manejar este flujo de trabajo.
+Los cinco pasos no tienen que aplicarse siempre en ese orden ni siempre completamente. A veces un documento necesita más trabajo en claridad que en corrección. El punto es tener una estructura de revisión, no seguirla ciegamente. Este ciclo se aplica a cada fase del método.
 
-#### 1. Investigación
+### El método: tres movimientos
 
-Dada una tarea, el primer paso es usar la IA para que investigue. Le pedimos que nos diga qué partes del programa son importantes, cómo se conectan entre sí y si hay documentación útil. Con esa información, le pedimos que cree un resumen. Este resumen es nuestro primer "balde de agua", cuidadosamente llenado.
+No voy a describir esto como una serie de pasos numerados porque eso traicionaría cómo realmente funciona, que es más caótico, más iterativo, más parecido a una espiral que a una escalera. Pero hay tres movimientos generales que se repiten.
 
-Una vez que tenemos el borrador, lo sometemos a la "Regla de los 5" hasta que la investigación sea sólida.
+#### Investigación
 
-#### 2. Planificación
+Antes de hacer cualquier cosa, hay que entender el problema. Le pedís al modelo que investigue lo que ya existe, que identifique las partes importantes y cómo se conectan entre sí, que encuentre documentación relevante. El modelo hace esto bastante bien porque es esencialmente lectura y síntesis.
 
-Con la investigación ya revisada, iniciamos una nueva conversación (un nuevo "balde de agua limpia"). Le entregamos el resumen y le pedimos que genere un plan de acción detallado.
+Pero —y este pero es crucial— el documento que genera tiene que ser revisado. No aceptado, *revisado*. Con la Regla de los 5 o con algo parecido, pero con la convicción firme de que el modelo pudo haber entendido mal, pudo haber inventado cosas, pudo haber mezclado información de diferentes proyectos. La revisión humana acá no es opcional; es el punto entero del ejercicio.
 
-Crucialmente, cada tarea del plan debe ser lo suficientemente pequeña para ser realizada en un solo paso. Para asegurar esto, dividimos el plan en subtareas y describimos cada una con la información necesaria. Luego, aplicamos la "Regla de los 5" a cada una de estas subtareas.
+#### Planificación
 
-#### 3. Implementación
+Con el documento de investigación ya revisado, iniciamos una nueva conversación (balde limpio) y generamos un plan de acción. El truco: cada tarea del plan tiene que ser lo suficientemente pequeña como para caber en un solo balde. Si una tarea es "armar todo el sistema de usuarios", es demasiado grande. Si es "agregar la verificación de contraseña en la pantalla de ingreso", estamos mejor.
 
-Con las tareas bien definidas, la fase de "escritura" de las instrucciones se vuelve muy predecible. La IA ejecuta cada pequeña tarea de forma independiente. Su facilidad para esto es enorme: puede modificar decenas de archivos o crear pruebas de validación en segundos, algo que a una persona le llevaría horas.
+Cada una de estas tareas pequeñas pasa, de nuevo, por la Regla de los 5. Un plan mal definido puede generar miles de líneas de código incorrecto, y para ese punto ya es tarde[^shift].
 
-Finalmente, una vez terminado todo, volvemos a aplicar la "Regla de los 5" al conjunto completo para asegurar que todo esté bien integrado. Este enfoque de detectar errores lo antes posible es algo en lo que las IA son extremadamente eficientes[^shift].
+#### Implementación
+
+Para este punto debería ser casi mecánica. Cada tarea está tan bien definida que el modelo no tiene espacio para inventar. Y acá es donde brillan de verdad: pueden modificar veinte archivos en segundos, crear pruebas de validación, reorganizar estructuras completas. Lo que a una persona le llevaría horas. Pero solo porque el trabajo difícil —el de pensar— ya se hizo antes.
+
+Al final, volvemos a aplicar la Regla de los 5 al conjunto completo.
 
 ### De la tarea a la plantilla
 
-Este flujo no solo nos entrega un programa funcionando; nos deja como 'subproducto' una serie de instrucciones y criterios que ya han sido filtrados por la Regla de los 5. Es aquí donde el método se vuelve escalar: estas piezas de conocimiento se convierten en plantillas reutilizables para cualquier otro desafío, desde la medicina hasta la organización de eventos.
+Lo bueno de este proceso es que es reutilizable. No solo te entrega un programa funcionando; te deja como subproducto una serie de instrucciones y criterios que ya fueron filtrados por la Regla de los 5. Estas piezas de conocimiento se convierten en plantillas reutilizables.
 
-Podemos aplicar el mismo método para generar los materiales que nos guían en cada paso, como "prompts" o plantillas específicas para un tipo de problema. Por ejemplo, Charly utiliza esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Esto nos permite aprovechar metodologías ya estudiadas en otras profesiones (desde la cirugía a la organización de un mundial) para que la IA nos ayude a aplicarlas en nuestros propios procesos.
+Por ejemplo, Charly usa esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Aprovechó herramientas de investigación profunda para estudiar metodologías y protocolos de otras profesiones —lanzar un cohete, hacer una cirugía, organizar un mundial— y ahora las puede aplicar a sus propios procesos. Es una forma de capital intelectual que se acumula: el tiempo invertido no se pierde, se invierte.
 
-### Guía de inicio rápido: Cómo aplicar Resonant Coding hoy
+### Guía de inicio rápido
 
-Para que este artículo pase de ser un ensayo a una guía accionable, aquí tienes una bajada a tierra para que sepas qué hacer la próxima vez que uses una IA para una tarea compleja.
+Para que esto pase de ensayo a algo accionable, acá va la bajada a tierra.
 
-#### 1. Elige tu Conversación (El Protocolo)
+#### Los tres expertos
 
-Imagina que tienes tres expertos en una sala. No le hablarías a los tres a la vez del mismo tema de forma desordenada. Asigna una tarea a cada uno:
+Imaginate que tenés tres expertos en una sala. No les hablarías a los tres a la vez del mismo tema. Asignales una tarea a cada uno:
 
-*   **El Investigador (Conversación 1):** Tu objetivo es entender.
-    *   **Petición:** "Actúa como un experto en [tema]. Quiero entender [situación]. Explícame los conceptos clave y resúmelos en 3 puntos."
-    *   **Tu Trabajo:** Revisa el resumen. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el resumen y pídele a la IA que lo mejore según la regla. Itera hasta que el resumen sea sólido.
+**El Investigador (Conversación 1):** Tu objetivo es entender. Pedile que actúe como experto en el tema, que te explique los conceptos clave y los resuma. Después revisá el resumen con la Regla de los 5. Si necesita mejoras, *iniciá una nueva conversación*, pegá el resumen y pedile que lo refine.
 
-*   **El Estratega (Conversación 2):** Tu objetivo es planificar.
-    *   **Acción:** Inicia una nueva conversación ("limpia el balde").
-    *   **Petición:** "Basado en este resumen [pega el resumen del Investigador], crea un plan paso a paso para lograr [tu objetivo]."
-    *   **Tu Trabajo:** Revisa el plan. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el plan y pídele a la IA que lo mejore según la regla. Pide los ajustes necesarios hasta que cada paso sea claro, atómico (es decir, que no se pueda dividir en tareas más pequeñas) y robusto.
+**El Estratega (Conversación 2):** Tu objetivo es planificar. Balde limpio. Pegá el resumen del investigador y pedí un plan paso a paso. Revisalo. Cada paso tiene que ser lo más pequeño posible, que no se pueda dividir más.
 
-*   **El Ejecutor (Conversaciones 3+):** Tu objetivo es actuar.
-    *   **Acción:** Por cada paso del plan, **inicia una nueva conversación**.
-    *   **Petición:** "Vamos a ejecutar este paso: [pega el paso del plan]."
-    *   **Tu Trabajo:** Verifica el resultado. Si es necesario aplicar la "Regla de los 5" para refinarlo, **inicia una nueva conversación**, pega el resultado y pídele a la IA que lo mejore según la regla.
+**El Ejecutor (Conversaciones 3+):** Por cada paso del plan, nueva conversación. Ejecutá, verificá el resultado, refiná si hace falta.
 
-#### 2. La Razón del "Balde Limpio": Gestionando el Contexto
+#### Por qué tantas conversaciones
 
-Cada vez que **inicias una nueva conversación**, te aseguras de que la IA solo vea la información más relevante y refinada. Esto es crucial porque la "atención" de la IA es un recurso limitado. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, lo que "ensucia el agua" y reduce la calidad de las respuestas.
+Cada vez que iniciás una conversación nueva, te asegurás de que la IA solo vea información relevante y refinada. En conversaciones largas, el contexto se llena de borradores, correcciones y dudas, y eso ensucia el agua.
 
-Para facilitar el "copiar y pegar" entre conversaciones, puedes pedirle a la IA que resuma el resultado final en un formato limpio.
+Un tip: al final de cada fase, pedile que resuma el resultado en un bloque limpio para poder copiarlo fácil.
 
-**Ejemplo de Petición al final de una fase:**
-> "Excelente. Ahora, resume nuestro plan final en un único bloque de texto plano, sin comentarios adicionales, para que pueda copiarlo fácilmente."
+#### El arte de preguntar
 
-#### 3. El Arte de Preguntar
+La calidad de la respuesta depende de la calidad de la pregunta.
 
-La calidad de la respuesta depende de la calidad de la pregunta. No es lo mismo pedir "ideas para vacaciones" que dar detalles que guíen a la IA.
+**Petición vaga:** "Ayúdame a planear un evento."
 
-**Petición Vaga:**
-> "Ayúdame a planear un evento."
+**Petición clara:** "Necesito planificar un evento de recaudación de fondos para un refugio de animales. El objetivo es recaudar $5,000. El evento será en un parque en tres meses, esperamos 100-150 personas. Dame un plan que incluya: actividades posibles (concurso de disfraces, puesto de adopción), cronograma de planificación, y cómo promocionarlo en redes. El tono tiene que ser entusiasta y centrado en la comunidad."
 
-**Petición Clara:**
-> "Actúa como un organizador de eventos profesional. Necesito planificar un evento de recaudación de fondos para un refugio de animales local. El objetivo es recaudar $5,000 y aumentar la conciencia sobre la adopción. El evento será en un parque local en tres meses y esperamos 100-150 asistentes. Dame un plan detallado que incluya: una lista de posibles actividades (ej. concurso de disfraces de mascotas, puesto de adopción), un cronograma de planificación desde ahora hasta el evento, y sugerencias para promocionar el evento en redes sociales. El tono debe ser entusiasta y centrado en la comunidad."
+#### Sé el director, no el espectador
 
-#### 4. Sé el Director, no el Espectador
+Tu rol es dirigir. Antes de aceptar una respuesta, filtrala:
+- ¿Es correcto?
+- ¿Se entiende a la primera?
+- ¿Qué podría salir mal?
+- ¿Es lo mejor que puede ser, o solo "aceptable"?
 
-Tu rol es dirigir a la IA. Antes de aceptar una respuesta, usa la "Regla de los 5" como un filtro mental:
+Si no cumple, pedí una mejora. Y si tenés preferencias de estilo, guardalas y pasalas al inicio de cada conversación.
 
-*   **¿Es correcto?** ¿La información tiene sentido?
-*   **¿Es claro?** ¿Lo entiendo a la primera?
-*   **¿Considera alternativas?** ¿Qué podría salir mal?
-*   **¿Es excelente?** ¿O solo "aceptable"?
+### Encontrar la resonancia
 
-Si no cumple tus expectativas, pide una mejora.
+Una instrucción mal dada puede generar cientos de líneas de código incorrecto. Un plan mal definido, decenas de miles. Por eso este proceso es vital. Los resultados de cada paso tienen que ser revisados por personas. Los modelos son muy buenos, pero el conocimiento que solo existe en la cabeza del equipo —implícito, no escrito en ningún lado— todavía tiene que ser aportado por nosotros.
 
-#### 5. Define tu Estilo
+Hay algo que me molesta de la narrativa dominante sobre la IA: la idea de que te permite "ir más rápido". No es falso exactamente, pero es engañoso. La velocidad sin dirección no sirve de mucho. Generar código no es lo mismo que resolver problemas.
 
-Si tienes preferencias sobre el estilo de comunicación, guárdalas. Al inicio de una conversación, puedes pedirle a la IA que las adopte.
+Este método no es un atajo. Toma más tiempo que tirarle una instrucción al modelo y esperar que salga algo bueno. Pero ese tiempo se recupera multiplicado porque los errores se detectan temprano, el trabajo no tiene que rehacerse, y cuando algo se termina ya se sabe que está bien[^future-work].
 
-*   **Ejemplo:** "En todas tus respuestas, utiliza un tono formal y académico. Cita tus fuentes cuando sea posible y estructura la información en listas."
+Durante un tiempo dudé del nombre. "Resonant Coding" suena pretencioso, lo sé. Pero seguía volviendo a una imagen que me quedó de la facultad: la Estación de Ondas[^ondas] en el playón del pabellón 2 durante la Semana de la Física. Alguien agarra una soga y la empieza a agitar. Al principio es puro caos, ondas que chocan entre sí. Pero si encontrás la frecuencia correcta, algo extraordinario pasa: el caos se ordena. Aparecen puntos que no se mueven y puntos que oscilan al máximo. Ondas estacionarias. Estructuras que se sostienen solas porque el sistema entró en resonancia.
 
-### Conclusión: Encontrar la resonancia
-
-Una instrucción mal dada puede generar cientos de líneas de código erróneo. Un plan mal definido, decenas de miles. Por eso, este proceso estructurado es vital. Los resultados de cada paso deben ser revisados por personas. Las IA son buenas, pero el conocimiento que solo existe en la cabeza del equipo aún debe ser aportado por nosotros.
-
-Este enfoque nos permite generar un trabajo de mucha más calidad de lo que podría hacer por mi cuenta, y en una fracción del tiempo[^future-work].
-
-Elegí el nombre "Resonant Coding" para bautizar esta síntesis de influencias porque me recuerda a la "Estación de Ondas"[^ondas] que vi en la facultad. Si agitas una soga a una frecuencia específica, el caos de movimiento se transforma en estructuras fijas y armónicas. Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema "vibra". dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
+Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema vibra. Dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
 
 ---
 ### Notas
 
-[^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano.
+[^acelerar]: "Acelerar" es una de esas palabras que en contextos corporativos significa simultáneamente todo y nada. Puede significar "producir más" o "gastar menos" o "adoptar la tecnología de moda" o alguna combinación de las anteriores.
 
-[^charly]: Se puede encontrar el post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding).
+[^mdl]: **MdL (Modelo de Lenguaje Grande)**: Un tipo de programa de inteligencia artificial entrenado para entender y generar texto de manera similar a un humano. Esencialmente, predictores de texto probabilísticos muy avanzados.
 
-[^memoria]: Algunas herramientas simulan tener **memoria**, pero lo que hacen es agregar información de la conversación pasada a la conversación actual para mantener el hilo.
+[^charly]: El post original de Charly en [Resonant Coding](https://charly-vibes.github.io/microdancing/es/posts/resonant-coding) tiene más detalles técnicos y ejemplos concretos.
 
-[^context-eng]: Las ideas de "Context Engineering" de Dex Horthy se pueden explorar en este documento sobre [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md).
+[^memoria]: Lo que algunas herramientas llaman "memoria" es en realidad un truco: guardan parte de la conversación anterior y la agregan al mensaje nuevo. Tiene límites, y cuando se superan hay que recortar. Algo siempre se pierde.
 
-[^rule5]: La "Regla de los 5" es un concepto detallado por Steve Yegge. Puede leerse más en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
+[^context-eng]: Las ideas de "Context Engineering" de Dex Horthy se pueden explorar en este [documento técnico](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md). Es denso pero vale la pena.
 
-[^shift]: En la industria del software, a esta práctica de adelantar la detección de errores se la conoce como "shift-left".
+[^rule5]: La Regla de los 5 de Steve Yegge está en su [documentación original](https://github.com/steveyegge/gastown/blob/main/internal/formula/formulas/rule-of-five.formula.toml).
 
-[^ondas]: La **Estación de Ondas** es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de una de las exhibiciones de la Semana de la Física en la UBA.
+[^shift]: A la práctica de detectar errores lo antes posible se la conoce como "shift-left". La idea es que cuanto antes encontrás un problema, más barato es arreglarlo.
 
-[^fridai]: Las **fridAI** son reuniones quincenales de una hora que se realizan en el equipo para discutir y compartir prácticas y el uso de la Inteligencia Artificial en el trabajo.
+[^ondas]: La Estación de Ondas es un experimento de física que muestra el fenómeno de la resonancia. Se puede ver una [demostración en video](https://www.youtube.com/watch?v=6zBknO95rB4) de la Semana de la Física de la UBA.
 
-[^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post, planeo explorar qué habilidades necesitaremos para adaptarnos a la nueva estructura global del trabajo, así como una visión crítica sobre quiénes tendrán acceso a estas herramientas y la disparidad que esto podría generar.
+[^fridai]: Las **fridAI** son reuniones quincenales de una hora que hacemos en el equipo para compartir prácticas sobre el uso de IA en el trabajo.
+
+[^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post quiero explorar qué habilidades vamos a necesitar para adaptarnos, y también una visión más crítica sobre quiénes van a tener acceso a estas herramientas y la disparidad que eso puede generar.
 
 [^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](por-que-arme-phorma).
 
