@@ -21,7 +21,7 @@ Y acá viene lo curioso: a finales de octubre, la calidad del código que entreg
 
 Después descubrí que una de las herramientas que usábamos se había actualizado.
 
-No éramos nosotros. Era el software. Y si el software podía mejorar sin nuestra intervención, también podía empeorar. O cambiar de formas que no entendíamos. No podíamos depender de eso. Coincidentemente, por esas fechas salió el libro *Vibe Coding*, que validó muchas de las ideas que ya venía madurando.
+No éramos nosotros. Era el software. Y si el software podía mejorar sin nuestra intervención, también podía empeorar. O cambiar de formas que no entendíamos. No podíamos depender de eso. Coincidentemente, por esas fechas salió el libro *[Vibe Coding](https://itrevolution.com/product/vibe-coding-book/)*, que validó muchas de las ideas que ya venía madurando.
 
 Para que nuestro proceso no dependa del azar de una actualización, hay que dejar de ver a la IA como una caja negra mágica y entender cómo funciona realmente. Solo conociendo sus límites podemos diseñar algo que los compense.
 
@@ -60,13 +60,13 @@ Los cinco pasos no tienen que aplicarse siempre en ese orden ni siempre completa
 
 ### El método: tres movimientos
 
-No voy a describir esto como una serie de pasos numerados porque eso traicionaría cómo realmente funciona, que es más caótico, más iterativo, más parecido a una espiral que a una escalera. Pero hay tres movimientos generales que se repiten.
+No voy a describir esto como una receta de cocina porque en la práctica es más desordenado. Pero hay tres movimientos generales que se repiten.
 
 #### Investigación
 
 Antes de hacer cualquier cosa, hay que entender el problema. Le pedís al modelo que investigue lo que ya existe, que identifique las partes importantes y cómo se conectan entre sí, que encuentre documentación relevante. El modelo hace esto bastante bien porque es esencialmente lectura y síntesis.
 
-Pero —y este pero es crucial— el documento que genera tiene que ser revisado. No aceptado, *revisado*. Con la Regla de los 5 o con algo parecido, pero con la convicción firme de que el modelo pudo haber entendido mal, pudo haber inventado cosas, pudo haber mezclado información de diferentes proyectos. La revisión humana acá no es opcional; es el punto entero del ejercicio.
+Pero —y esto es importante— el documento que genera tiene que ser revisado de manera exhaustiva. Los modelos son muy buenos, pero siempre hay cosas que se les escapan porque no existen de manera concreta en los materiales del proyecto. Son ideas o conocimiento que está implícito en la cabeza de las personas. La revisión humana es la oportunidad de hacerlo explícito.
 
 #### Planificación
 
@@ -76,7 +76,7 @@ Cada una de estas tareas pequeñas pasa, de nuevo, por la Regla de los 5. Un pla
 
 #### Implementación
 
-Para este punto debería ser casi mecánica. Cada tarea está tan bien definida que el modelo no tiene espacio para inventar. Y acá es donde brillan de verdad: pueden modificar veinte archivos en segundos, crear pruebas de validación, reorganizar estructuras completas. Lo que a una persona le llevaría horas. Pero solo porque el trabajo difícil —el de pensar— ya se hizo antes.
+Para este punto debería ser casi mecánica. Ya tenemos casi totalmente definido qué se va a hacer, de manera que no hay mucho lugar para que el modelo se desvíe o invente cosas nuevas. Y acá es donde brillan de verdad: no les cuesta nada modificar veinte archivos, crear pruebas de validación, reorganizar estructuras completas. Lo que a una persona le llevaría horas, para ellos es cuestión de segundos.
 
 Al final, volvemos a aplicar la Regla de los 5 al conjunto completo.
 
@@ -84,7 +84,7 @@ Al final, volvemos a aplicar la Regla de los 5 al conjunto completo.
 
 Lo bueno de este proceso es que es reutilizable. No solo te entrega un programa funcionando; te deja como subproducto una serie de instrucciones y criterios que ya fueron filtrados por la Regla de los 5. Estas piezas de conocimiento se convierten en plantillas reutilizables.
 
-Por ejemplo, Charly usa esta idea para crear distintas "visiones" de cómo implementar código, definiendo sus preferencias y estilo. Aprovechó herramientas de investigación profunda para estudiar metodologías y protocolos de otras profesiones —lanzar un cohete, hacer una cirugía, organizar un mundial— y ahora las puede aplicar a sus propios procesos. Es una forma de capital intelectual que se acumula: el tiempo invertido no se pierde, se invierte.
+Por ejemplo, Charly aprovechó herramientas de investigación profunda para estudiar metodologías y protocolos de otras profesiones —lanzar un cohete, hacer una cirugía, organizar un mundial— y ahora puede aplicarlas en sus propios procesos. Son procedimientos que ya están recontra estudiados y ahora podemos aprovecharlos.
 
 ### Guía de inicio rápido
 
@@ -96,7 +96,7 @@ Imaginate que tenés tres expertos en una sala. No les hablarías a los tres a l
 
 **El Investigador (Conversación 1):** Tu objetivo es entender. Pedile que actúe como experto en el tema, que te explique los conceptos clave y los resuma. Después revisá el resumen con la Regla de los 5. Si necesita mejoras, *iniciá una nueva conversación*, pegá el resumen y pedile que lo refine.
 
-**El Estratega (Conversación 2):** Tu objetivo es planificar. Balde limpio. Pegá el resumen del investigador y pedí un plan paso a paso. Revisalo. Cada paso tiene que ser lo más pequeño posible, que no se pueda dividir más.
+**La Estratega (Conversación 2):** Tu objetivo es planificar. Balde limpio. Pegá el resumen del investigador y pedí un plan paso a paso. Revisalo. Cada paso tiene que ser lo más pequeño posible, que no se pueda dividir más.
 
 **El Ejecutor (Conversaciones 3+):** Por cada paso del plan, nueva conversación. Ejecutá, verificá el resultado, refiná si hace falta.
 
@@ -128,13 +128,13 @@ Si no cumple, pedí una mejora. Y si tenés preferencias de estilo, guardalas y 
 
 Una instrucción mal dada puede generar cientos de líneas de código incorrecto. Un plan mal definido, decenas de miles. Por eso este proceso es vital. Los resultados de cada paso tienen que ser revisados por personas. Los modelos son muy buenos, pero el conocimiento que solo existe en la cabeza del equipo —implícito, no escrito en ningún lado— todavía tiene que ser aportado por nosotros.
 
-Hay algo que me molesta de la narrativa dominante sobre la IA: la idea de que te permite "ir más rápido". No es falso exactamente, pero es engañoso. La velocidad sin dirección no sirve de mucho. Generar código no es lo mismo que resolver problemas.
+Hay algo que me molesta de la narrativa dominante sobre la IA: la idea de que te permite "ir más rápido". No es falso exactamente, pero es engañoso. Si lo que hacemos es mandar todo de una, vamos a seguir quemando árboles por el gusto de ver cómo se quema un árbol[^energia].
 
 Este método no es un atajo. Toma más tiempo que tirarle una instrucción al modelo y esperar que salga algo bueno. Pero ese tiempo se recupera multiplicado porque los errores se detectan temprano, el trabajo no tiene que rehacerse, y cuando algo se termina ya se sabe que está bien[^future-work].
 
-Durante un tiempo dudé del nombre. "Resonant Coding" suena pretencioso, lo sé. Pero seguía volviendo a una imagen que me quedó de la facultad: la Estación de Ondas[^ondas] en el playón del pabellón 2 durante la Semana de la Física. Alguien agarra una soga y la empieza a agitar. Al principio es puro caos, ondas que chocan entre sí. Pero si encontrás la frecuencia correcta, algo extraordinario pasa: el caos se ordena. Aparecen puntos que no se mueven y puntos que oscilan al máximo. Ondas estacionarias. Estructuras que se sostienen solas porque el sistema entró en resonancia.
+La idea de llevar un proceso a algo más estructurado me retrae a la Estación de Ondas[^ondas] en el playón del pabellón 2 de la facultad durante la Semana de la Física. Alguien agarra una soga y la empieza a agitar. Al principio es puro caos, ondas que chocan entre sí. Pero si encontrás la frecuencia correcta, algo pasa: el caos se ordena. Aparecen puntos que no se mueven y puntos que oscilan al máximo. Estructuras que se sostienen solas porque el sistema entró en resonancia.
 
-Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia correcta en la cual nuestro sistema vibra. Dejamos de generar ruido y empezamos a crear con resonancia[^phorma].
+Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia en la cual el equipo vibra[^phorma].
 
 ---
 ### Notas
@@ -159,6 +159,8 @@ Con este método hacemos algo similar: adecuamos el proceso para encontrar la fr
 
 [^future-work]: Las implicaciones de estos cambios son profundas. En un futuro post quiero explorar qué habilidades vamos a necesitar para adaptarnos, y también una visión más crítica sobre quiénes van a tener acceso a estas herramientas y la disparidad que eso puede generar.
 
-[^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](por-que-arme-phorma).
+[^energia]: No es solo una metáfora. Cada consulta a un modelo de lenguaje consume energía y recursos. Usarlos sin criterio tiene un costo real.
+
+[^phorma]: Llevo estas mismas metodologías a la investigación científica y la industria a través de mi emprendimiento [phorma scientific](https://phorma.sh/).
 
 ---
