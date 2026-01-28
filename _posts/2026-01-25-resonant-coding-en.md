@@ -23,7 +23,7 @@ Then I discovered that one of the tools we were using had updated itself.
 
 It wasn't us. It was the software. And if the software could improve without our intervention, it could also get worse. Or change in ways we didn't understand. We couldn't depend on that. Coincidentally, around that time the book *[Vibe Coding](https://itrevolution.com/product/vibe-coding-book/)* came out, which validated many of the ideas I had been developing.
 
-For our process not to depend on the randomness of an update, we need to stop seeing AI as a magical black box and understand how it actually works. Only by knowing its limits can we design something that compensates for them.
+That's when I understood something: for our process not to depend on the randomness of an update, we need to stop seeing AI as a magical black box and understand how it actually works. Only by knowing its limits can we design something that compensates for them.
 
 ### Understanding the beast
 
@@ -37,14 +37,14 @@ What you need to know:
 
 To understand the attention issue, let's do an exercise. You're at lunch and you ask: "What can I cook?". The possible answers are infinite and probably useless. Now ask: "I need to prepare something for 6 friends on Sunday, something easy, I have chicken, potatoes and tomatoes". The constrained question guides toward a useful answer. The same thing happens with AI.
 
-The problem is that attention gets "dirty". The best way to think about it is with an analogy that came to me during a conversation about camping: imagine you went camping and to wash dishes you have to go to the river with a bucket to fetch water.
+But giving good context isn't enough. The problem is that attention gets "dirty". The best way to think about it is with an analogy that came to me during a conversation about camping: imagine you went camping and to wash dishes you have to go to the river with a bucket to fetch water.
 
 - With one dish, the bucket is more than enough.
 - With ten, the water starts to get murky and you have to be careful.
 - With a hundred, the water is so dirty that the last dishes come out worse than they went in.
 - And if at some point you throw something greasy into the bucket—irrelevant information, contradictory instructions—the water becomes unusable for everything that follows.
 
-To take advantage of that limited attention, you need to be careful about what you put in and divide big problems into smaller parts, using a "clean bucket of water" for each one. When you manage to match the information you give with its attention capacity, the system "resonates" and the quality of the response improves dramatically.
+To take advantage of that limited attention, you need to be careful about what you put in and divide big problems into smaller parts, using a "clean bucket of water" for each one. When you manage to match the information you give with its attention capacity, the system "resonates" and the quality of the response improves dramatically. That's the first ingredient: clean buckets for small problems.
 
 ### The Rule of 5
 
@@ -82,7 +82,7 @@ At the end, we apply the Rule of 5 to the complete set again.
 
 ### From task to template
 
-The good thing about this process is that it's reusable. It doesn't just deliver a working program; it leaves you with a byproduct of instructions and criteria that have already been filtered through the Rule of 5. These pieces of knowledge become reusable templates.
+But there's something more that comes out of this process. It doesn't just deliver a working program; it leaves you with a byproduct of instructions and criteria that have already been filtered through the Rule of 5. These pieces of knowledge become reusable templates.
 
 For example, Charly used deep research tools to study methodologies and protocols from other professions—launching a rocket, performing surgery, organizing a World Cup—and now he can apply them in his own processes. These are procedures that have been thoroughly studied and now we can take advantage of them.
 
@@ -126,13 +126,15 @@ If it doesn't meet the bar, ask for an improvement. And if you have style prefer
 
 ### Finding resonance
 
-A poorly given instruction can generate hundreds of lines of incorrect code. A poorly defined plan, tens of thousands. That's why this process is vital. The results of each step have to be reviewed by people. The models are very good, but the knowledge that only exists in the team's heads—implicit, not written anywhere—still has to be contributed by us.
+That's the mechanics. But it's worth coming back to why all this matters.
+
+A poorly given instruction can generate hundreds of lines of incorrect code. A poorly defined plan, tens of thousands. That's why this process is vital. The results of each step have to be reviewed by people. There are things no model can know: what's in the team's heads and was never written down.
 
 There's something that bothers me about the dominant narrative around AI: the idea that it lets you "go faster". It's not exactly false, but it's misleading. If what we do is send everything at once, we're going to keep burning trees just for the pleasure of watching them burn[^energy].
 
 This method is not a shortcut. It takes more time than throwing an instruction at the model and hoping something good comes out. But that time is recovered multiplied because errors are detected early, work doesn't have to be redone, and when something is finished you already know it's right[^future-work].
 
-The idea of taking a process to something more structured brings me back to the Wave Station[^waves] in the courtyard of building 2 at university during Physics Week. Someone grabs a rope and starts shaking it. At first it's pure chaos, waves crashing into each other. But if you find the right frequency, something happens: the chaos orders itself. Points appear that don't move and points that oscillate to the maximum. Structures that sustain themselves because the system entered resonance.
+And there's an image that helps me think about this. The idea of taking a process to something more structured brings me back to the Wave Station[^waves] in the courtyard of building 2 at university during Physics Week. Someone grabs a rope and starts shaking it. At first it's pure chaos, waves crashing into each other. But if you find the right frequency, something happens: the chaos orders itself. Points appear that don't move and points that oscillate to the maximum. Structures that sustain themselves because the system entered resonance.
 
 With this method we do something similar: we adjust the process to find the frequency at which the team vibrates[^phorma].
 
@@ -144,7 +146,7 @@ Where are our jobs heading when the tasks that used to define a "professional" c
 
 And there's another layer I don't want to ignore: tokens cost money[^tokens]. Every query has a price. Some companies give you a monthly quota; when it runs out, it runs out. Others charge per use. In any case, we're entering a new form of consumption where "thinking" has a direct and measurable cost. What happens when you run out of tokens in the middle of a project? How do you decide what's worth asking the machine and what isn't? This method isn't just a way to work better—it's also a way to be strategic with a resource that isn't infinite.
 
-And perhaps the most uncomfortable question: who will have access to these tools and who won't? The disparity that could generate is something I want to explore more carefully.
+And perhaps the most uncomfortable: this won't be available to everyone equally. That gap is something I want to explore more carefully.
 
 These are questions I don't have resolved, but that I want to develop in future posts.
 

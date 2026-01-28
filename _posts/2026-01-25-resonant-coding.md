@@ -23,7 +23,7 @@ Después descubrí que una de las herramientas que usábamos se había actualiza
 
 No éramos nosotros. Era el software. Y si el software podía mejorar sin nuestra intervención, también podía empeorar. O cambiar de formas que no entendíamos. No podíamos depender de eso. Coincidentemente, por esas fechas salió el libro *[Vibe Coding](https://itrevolution.com/product/vibe-coding-book/)*, que validó muchas de las ideas que ya venía madurando.
 
-Para que nuestro proceso no dependa del azar de una actualización, hay que dejar de ver a la IA como una caja negra mágica y entender cómo funciona realmente. Solo conociendo sus límites podemos diseñar algo que los compense.
+Ahí entendí algo: para que nuestro proceso no dependa del azar de una actualización, hay que dejar de ver a la IA como una caja negra mágica y entender cómo funciona realmente. Solo conociendo sus límites podemos diseñar algo que los compense.
 
 ### Entendiendo a la bestia
 
@@ -37,14 +37,14 @@ Lo que hay que saber:
 
 Para entender el tema de la atención, hagamos un ejercicio. Estás en un almuerzo y preguntás: "¿Qué puedo cocinar?". Las respuestas posibles son infinitas y probablemente inútiles. Ahora preguntá: "Tengo que preparar algo para 6 amigos el domingo, que sea fácil, tengo pollo, papas y tomates". La pregunta acotada guía hacia una respuesta útil. Con las IA pasa exactamente lo mismo.
 
-El problema es que esa atención se "ensucia". La mejor manera de pensarlo es con una analogía que me vino durante una conversación sobre camping: imaginate que te fuiste de campamento y para lavar los platos tenés que ir al río con un balde a buscar agua.
+Pero dar buen contexto no alcanza. El problema es que esa atención se "ensucia". La mejor manera de pensarlo es con una analogía que me vino durante una conversación sobre camping: imaginate que te fuiste de campamento y para lavar los platos tenés que ir al río con un balde a buscar agua.
 
 - Con un plato, el balde sobra.
 - Con diez, el agua empieza a enturbiarse y hay que ser cuidadoso.
 - Con cien, el agua está tan sucia que los últimos platos salen peor de lo que entraron.
 - Y si en algún momento tirás algo grasoso al balde —información irrelevante, instrucciones contradictorias—, el agua queda inutilizable para todo lo que sigue.
 
-Para aprovechar esa atención limitada, hay que ser cuidadoso con lo que le metés y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando lográs que la información que le das coincide con su capacidad de atención, el sistema "resuena" y la calidad de la respuesta mejora drásticamente.
+Para aprovechar esa atención limitada, hay que ser cuidadoso con lo que le metés y dividir los problemas grandes en partes más pequeñas, usando un "balde de agua limpia" para cada una. Cuando lográs que la información que le das coincide con su capacidad de atención, el sistema "resuena" y la calidad de la respuesta mejora drásticamente. Ese es el primer ingrediente: baldes limpios para problemas pequeños.
 
 ### La Regla de los 5
 
@@ -82,7 +82,7 @@ Al final, volvemos a aplicar la Regla de los 5 al conjunto completo.
 
 ### De la tarea a la plantilla
 
-Lo bueno de este proceso es que es reutilizable. No solo te entrega un programa funcionando; te deja como subproducto una serie de instrucciones y criterios que ya fueron filtrados por la Regla de los 5. Estas piezas de conocimiento se convierten en plantillas reutilizables.
+Pero hay algo más que sale de este proceso. No solo te entrega un programa funcionando; te deja como subproducto una serie de instrucciones y criterios que ya fueron filtrados por la Regla de los 5. Estas piezas de conocimiento se convierten en plantillas reutilizables.
 
 Por ejemplo, Charly aprovechó herramientas de investigación profunda para estudiar metodologías y protocolos de otras profesiones —lanzar un cohete, hacer una cirugía, organizar un mundial— y ahora puede aplicarlas en sus propios procesos. Son procedimientos que ya están recontra estudiados y ahora podemos aprovecharlos.
 
@@ -126,13 +126,15 @@ Si no cumple, pedí una mejora. Y si tenés preferencias de estilo, guardalas y 
 
 ### Encontrar la resonancia
 
-Una instrucción mal dada puede generar cientos de líneas de código incorrecto. Un plan mal definido, decenas de miles. Por eso este proceso es vital. Los resultados de cada paso tienen que ser revisados por personas. Los modelos son muy buenos, pero el conocimiento que solo existe en la cabeza del equipo —implícito, no escrito en ningún lado— todavía tiene que ser aportado por nosotros.
+Hasta acá la mecánica. Pero vale la pena volver a por qué todo esto importa.
+
+Una instrucción mal dada puede generar cientos de líneas de código incorrecto. Un plan mal definido, decenas de miles. Por eso este proceso es vital. Los resultados de cada paso tienen que ser revisados por personas. Hay cosas que ningún modelo puede saber: lo que está en la cabeza del equipo y nunca se escribió en ningún lado.
 
 Hay algo que me molesta de la narrativa dominante sobre la IA: la idea de que te permite "ir más rápido". No es falso exactamente, pero es engañoso. Si lo que hacemos es mandar todo de una, vamos a seguir quemando árboles por el gusto de ver cómo se quema un árbol[^energia].
 
 Este método no es un atajo. Toma más tiempo que tirarle una instrucción al modelo y esperar que salga algo bueno. Pero ese tiempo se recupera multiplicado porque los errores se detectan temprano, el trabajo no tiene que rehacerse, y cuando algo se termina ya se sabe que está bien[^future-work].
 
-La idea de llevar un proceso a algo más estructurado me retrae a la Estación de Ondas[^ondas] en el playón del pabellón 2 de la facultad durante la Semana de la Física. Alguien agarra una soga y la empieza a agitar. Al principio es puro caos, ondas que chocan entre sí. Pero si encontrás la frecuencia correcta, algo pasa: el caos se ordena. Aparecen puntos que no se mueven y puntos que oscilan al máximo. Estructuras que se sostienen solas porque el sistema entró en resonancia.
+Y hay una imagen que me ayuda a pensar esto. La idea de llevar un proceso a algo más estructurado me retrae a la Estación de Ondas[^ondas] en el playón del pabellón 2 de la facultad durante la Semana de la Física. Alguien agarra una soga y la empieza a agitar. Al principio es puro caos, ondas que chocan entre sí. Pero si encontrás la frecuencia correcta, algo pasa: el caos se ordena. Aparecen puntos que no se mueven y puntos que oscilan al máximo. Estructuras que se sostienen solas porque el sistema entró en resonancia.
 
 Con este método hacemos algo similar: adecuamos el proceso para encontrar la frecuencia en la cual el equipo vibra[^phorma].
 
@@ -144,7 +146,7 @@ Hay algo que me quedó dando vueltas mientras escribía esto: hoy puedo generar 
 
 Y hay otra capa que no quiero ignorar: los tokens cuestan plata[^tokens]. Cada consulta tiene un precio. Algunas empresas te dan un cupo mensual; cuando se acaba, se acaba. Otras te cobran por uso. En cualquier caso, estamos entrando en una nueva forma de consumo donde "pensar" tiene un costo directo y medible. ¿Qué pasa cuando te quedás sin tokens a mitad de un proyecto? ¿Cómo decidís qué vale la pena preguntarle a la máquina y qué no? Este método no es solo una forma de trabajar mejor —es también una forma de ser estratégico con un recurso que no es infinito.
 
-Y quizás lo más incómodo: ¿quiénes van a tener acceso a estas herramientas y quiénes no? La disparidad que eso puede generar es algo que quiero explorar con más cuidado.
+Y quizás lo más incómodo: esto no va a estar disponible para todos por igual. Esa brecha es algo que quiero explorar con más cuidado.
 
 Son preguntas que no tengo resueltas, pero que quiero desarrollar en próximos posts.
 
