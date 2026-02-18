@@ -13,7 +13,7 @@ This reflection led me to make a decision: I am leaving my role at a large compa
 
 Above all, it's a commitment to time. Time to read, to explore, and to think big. Alan Kay used to say that the best way to predict the future is to invent it. But inventing requires space, requires creative leisure, and a mindset of exploration[^leguin]. My goal is to deliberately build that space. In this new era, AI is not an end, but an enabler that allows us to reach horizons that were once science fiction. As I explored in my post about [Resonant Coding](/2026/01/25/resonant-coding-en.html) (also available in [Spanish](/2026/01/25/resonant-coding.html)), my interest is not in acceleration for acceleration's sake, but in using these new tools to start imagining what questions we can now ask ourselves.
 
-In practice, this translates into several facets. I will be offering **technical consulting services** in software architecture, performance, and team leadership. On the other hand, and as I explained in the post about [why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html) (also available in [Spanish](/2026/02/18/por-que-cree-phorma.html)), my project [Phorma](https://phorma.sh/) will continue to be my laboratory for building the bridge between industry and the scientific world through *Research Software Engineering*. The rest of my time will be dedicated to teaching, giving back to the communities what they have given me, and to that necessary free experimentation.
+In practice, this translates into several facets. I will be offering consulting and training services, focusing on **quantitative software architecture**[^quantitative], the development of **agentic solutions**[^agentic], and training teams in the effective use of AI. On the other hand, and as I explained in the post about [why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html) (also available in [Spanish](/2026/02/18/por-que-cree-phorma.html)), my project [Phorma](https://phorma.sh/) will continue to be my laboratory for building the bridge between industry and the scientific world through *Research Software Engineering*. The rest of my time will be dedicated to teaching, giving back to the communities what they have given me, and to that necessary free experimentation.
 
 The future is uncertain, but I have never felt so much enthusiasm for taking the first step.
 
@@ -21,3 +21,7 @@ The future is uncertain, but I have never felt so much enthusiasm for taking the
 ### **Notes**
 
 [^leguin]: "A good traveler has no fixed plans and is not intent on arriving," translates Ursula K. Le Guin in the Tao Te Ching. A good compass for this unexplored territory.
+
+[^quantitative]: Refers to systems where numerical correctness and performance are critical, such as in finance, scientific simulations, or risk models.
+
+[^agentic]: Refers to systems composed of multiple AI agents that collaborate to solve complex problems, one of the most fascinating frontiers in computing today.

@@ -13,7 +13,7 @@ Esta reflexión me llevó a tomar una decisión: dejo mi rol en una gran empresa
 
 Sobre todo, es una apuesta por el tiempo. Tiempo para leer, para explorar y para pensar en grande. Alan Kay decía que la mejor forma de predecir el futuro es inventarlo. Pero inventar requiere espacio, requiere ocio creativo y una mentalidad de exploración[^leguin]. Mi meta es construir deliberadamente ese espacio. En esta nueva era, la IA no es un fin, sino un habilitador que nos permite alcanzar horizontes que antes eran ciencia ficción. Como exploré en mi post sobre [Resonant Coding](/2026/01/25/resonant-coding.html), mi interés no está en la aceleración por la aceleración, sino en usar estas nuevas herramientas para empezar a imaginar qué preguntas podemos hacernos ahora.
 
-En la práctica, esto se traduce en varias facetas. Estaré ofreciendo **servicios de consultoría técnica** en arquitectura de software, performance y liderazgo de equipos. Por otro lado, y como conté en el post sobre [por qué creé Phorma](/2026/02/18/por-que-cree-phorma.html), mi proyecto [Phorma](https://phorma.sh/) seguirá siendo mi laboratorio para construir el puente entre la industria y el mundo científico a través del *Research Software Engineering*. El resto de mi tiempo lo dedicaré a la enseñanza, a devolver a las comunidades lo que me han dado, y a esa necesaria experimentación libre.
+En la práctica, esto se traduce en varias facetas. Estaré ofreciendo servicios de consultoría y capacitación, enfocándome en **arquitectura de software cuantitativo**[^cuantitativo], el desarrollo de **soluciones agénticas**[^agenticas] y la formación de equipos en el uso efectivo de IA. Por otro lado, y como conté en el post sobre [por qué creé Phorma](/2026/02/18/por-que-cree-phorma.html), mi proyecto [Phorma](https://phorma.sh/) seguirá siendo mi laboratorio para construir el puente entre la industria y el mundo científico a través del *Research Software Engineering*. El resto de mi tiempo lo dedicaré a la enseñanza, a devolver a las comunidades lo que me han dado, y a esa necesaria experimentación libre.
 
 El futuro es incierto, pero nunca sentí tanto entusiasmo por dar el primer paso.
 
@@ -21,3 +21,7 @@ El futuro es incierto, pero nunca sentí tanto entusiasmo por dar el primer paso
 ### **Notas**
 
 [^leguin]: "El buen viajero no tiene planes fijos, ni se empeña en llegar", traduce Ursula K. Le Guin en el Tao Te Ching. Una buena brújula para este territorio inexplorado.
+
+[^cuantitativo]: Sistemas donde la correctitud numérica y la performance son críticas, como en finanzas, simulaciones científicas o modelos de riesgo.
+
+[^agenticas]: Sistemas compuestos por múltiples agentes de IA que colaboran para resolver problemas complejos, una de las fronteras más fascinantes de la computación actual.
