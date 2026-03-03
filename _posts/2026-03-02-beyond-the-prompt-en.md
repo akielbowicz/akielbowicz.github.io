@@ -6,6 +6,8 @@ lang: en
 
 # Beyond the Prompt: Building Software with Intentionality
 
+*Este artículo también está disponible en [español](/2026/03/02/mas-alla-del-prompt.html).*
+
 Since I decided to [take the first step](/2026/02/18/the-first-step-en.html) and leave behind known structures, one obsession has dominated my thoughts: how to preserve the sense of craft in an age of near-infinite production. Writing code has shifted from manual carving to heavy machinery operation, but the problem is that today we are operating these machines without blueprints and in the dark.
 
 We can raise structures at terminal velocity, but that speed is a trap. Without a clear design, we end up accumulating digital debris faster than we can understand it. In a post by Charly on [Walk this WAI](https://charly-vibes.github.io/microdancing/en/posts/walk-this-wai.html), he speaks about the philosophy of intentionality and why it makes no sense to insist on hand-coding tasks that the machine has already solved. Today, I want to bring that down to earth and show exactly what the workflow I am implementing looks like, step by step.

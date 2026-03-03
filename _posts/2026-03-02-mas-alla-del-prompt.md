@@ -6,6 +6,8 @@ lang: es
 
 # Más allá del prompt: Construyendo software con intencionalidad
 
+*This post is also available in [English](/2026/03/02/beyond-the-prompt-en.html).*
+
 Desde que decidí [dar el primer paso](/2026/02/18/el-primer-paso.html) y soltar las estructuras conocidas, mi obsesión ha sido una sola: cómo no perder el sentido del oficio en una época donde la producción es casi infinita. La escritura de código dejó de ser un tallado manual para convertirse en una operación de maquinaria pesada, pero el problema es que hoy estamos operando esas máquinas sin planos y a oscuras.
 
 Podemos levantar estructuras a una velocidad terminal, pero esa velocidad es una trampa. Sin un diseño claro, terminamos acumulando escombros digitales más rápido de lo que podemos entenderlos. En un post de Charly sobre [Walk this WAI](https://charly-vibes.github.io/microdancing/es/posts/walk-this-wai.html), se habla de la filosofía de la intencionalidad y de por qué no tiene sentido insistir en el trabajo a pulso para tareas que la máquina ya resolvió. Hoy quiero bajar a algo concreto y mostrar cómo se ve, paso a paso, el flujo de trabajo que estoy implementando.
