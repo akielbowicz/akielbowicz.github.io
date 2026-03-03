@@ -1,0 +1,37 @@
+### 🇦🇷 Versión en Español: "Corto y al pie"
+
+¿Estás operando maquinaria pesada sin planos? 🚜
+
+Producir código hoy es casi gratis, pero el costo de los errores en el diseño es total. La respuesta ética a la velocidad de la IA es el **antídoto de la pausa**: producir menos para pensar mucho más; la única forma de garantizar que lo que construimos sea de verdadera calidad.
+
+Uso **WAI** para integrar los **Beads** de Steve Yegge y **OpenSpec**, gestionando todo el contexto y los artefactos de conocimiento para blindar la intención antes de tocar un solo archivo.
+
+Un flujo de trabajo diseñado para que el sistema resuene:
+Auditoría -> Delta -> Tareas -> Refinamiento -> Implementación.
+
+El oficio no murió, se transformó de la ejecución de detalles a la maestría de sistemas.
+
+Pasá a leerlo acá: 
+👉 https://ak.saxa.xyz/2026/03/02/mas-alla-del-prompt.html
+
+#BuildInPublic #AI #SoftwareDevelopment #Productivity #SystemsMastery #WAI #Beads #OpenSpec
+
+---
+
+### 🇺🇸 English Version: "Short & Sharp"
+
+Are you operating heavy machinery without blueprints? 🚜
+
+Producing code today is almost free, but the cost of design errors is absolute. The ethical response to AI velocity is the **antidote of the pause**: produce less to think much more; the only way to ensure that what we build is of true quality.
+
+I use **WAI** to integrate Steve Yegge's **Beads** and **OpenSpec**, managing the entire context and knowledge artifacts to bulletproof intent before touching a single file.
+
+A workflow designed for the system to resonate:
+Audit -> Delta -> Tasks -> Refinement -> Implementation.
+
+The craft didn't die; it evolved from the execution of details to systems mastery.
+
+Read the full piece here: 
+👉 https://ak.saxa.xyz/2026/03/02/beyond-the-prompt-en.html
+
+#BuildInPublic #AI #SoftwareDevelopment #Productivity #SystemsMastery #WAI #Beads #OpenSpec

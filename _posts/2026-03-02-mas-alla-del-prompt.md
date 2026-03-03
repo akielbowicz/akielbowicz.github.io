@@ -47,7 +47,7 @@ Muchos me preguntan si este flujo de trabajo deja de lado la experiencia técnic
 
 Pero este camino también funciona a la inversa: es la llave para que personas sin un trasfondo técnico puedan empezar a construir. **Hoy ya no necesitás saber programar** en el sentido tradicional para levantar un sistema, pero lo que sí es innegociable es seguir una metodología clara. Mi objetivo es darle a esos creadores el rigor y los procesos necesarios para que su visión no se diluya y termine convertida en una estructura frágil.
 
-Como dice el post de Charly, la respuesta ética a la hiper-velocidad de la IA es el **antídoto de la pausa**: producir menos, pero pensar mucho más. Este es el núcleo de mi nueva etapa como consultor: ayudar a otros a evolucionar de la **ejecución de detalles** a la **maestría de sistemas**. 
+Como dice el post de Charly, la respuesta ética a la hiper-velocidad de la IA es el **antídoto de la pausa**: producir menos para pensar mucho más; la única forma de garantizar que lo que construimos sea de verdadera calidad. Este es el núcleo de mi nueva etapa como consultor: ayudar a otros a evolucionar de la **ejecución de detalles** a la **maestría de sistemas**. 
 
 No se trata de aprender a usar una herramienta nueva, sino de rediseñar nuestra relación con la técnica. Es dejar de pelear con la corriente para empezar a construir los diques que le dan forma y propósito al agua.
 

@@ -47,7 +47,7 @@ Many ask me if this workflow sets technical experience aside. My answer is that 
 
 But this path also works in reverse: it is the key for non-technical people to begin building. **Today, you no longer need to know how to program** in the traditional sense to raise a system, but what is non-negotiable is following a clear methodology. My goal is to provide these creators with the rigor and processes necessary so that their vision doesn't get diluted into a fragile structure.
 
-As Charly’s post says, the ethical response to the hyper-velocity of AI is the **antidote of the pause**: producing less, but thinking much more. This is the core of my new chapter as a consultant: helping others evolve from the **execution of details** to **systemic mastery**.
+As Charly’s post says, the ethical response to the hyper-velocity of AI is the **antidote of the pause**: produce less to think much more; the only way to ensure that what we build is of true quality. This is the core of my new chapter as a consultant: helping others evolve from the **execution of details** to **systemic mastery**.
 
 It’s not about learning to use a new tool; it’s about redesigning our relationship with technology. It's about stopping the fight against the current and starting to build the dams that give shape and purpose to the water.
 
