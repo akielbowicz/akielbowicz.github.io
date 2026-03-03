@@ -104,6 +104,15 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 ## Experiencia Profesional
 
+### Phorma (Co-fundador)
+**Research Software Engineering & Scientific Computing**
+*Febrero 2026 - Presente* | Buenos Aires, Argentina
+
+Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para tender puentes entre la investigación científica y la industria a través del *Research Software Engineering* (RSE).
+- Consultoría especializada en la transformación de modelos teóricos en sistemas de producción robustos.
+- Diseño de arquitecturas para equipos de R&D, BioImage y Finanzas Cuantitativas.
+- Implementación de mejores prácticas de ingeniería en contextos de alta complejidad matemática.
+
 ### Consultor Independiente
 **Software Cuantitativo y Computación Científica**
 *Enero 2026 - Presente* | Buenos Aires, Argentina

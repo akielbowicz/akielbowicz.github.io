@@ -97,6 +97,15 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 ## Professional Experience
 
+### Phorma (Co-founder)
+**Research Software Engineering & Scientific Computing**
+*February 2026 - Present* | Buenos Aires, Argentina
+
+Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE).
+- Specialized consulting on transforming theoretical models into robust production systems.
+- Designing architectures for R&D, BioImage, and Quantitative Finance teams.
+- Implementing engineering best practices in high-mathematical complexity contexts.
+
 ### Independent Consultant
 **Quantitative Software & Scientific Computing**
 *January 2026 - Present* | Buenos Aires, Argentina

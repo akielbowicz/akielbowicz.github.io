@@ -12,6 +12,12 @@ I architect high-performance engines for Quantitative Finance and Scientific Com
 
 ## What I Do
 
+### Research Software Engineering (RSE)
+
+I bridge the gap between scientific research and industrial-grade software engineering through **Phorma**, a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/). We help R&D, BioImage, and Quantitative Finance teams build robust, reliable, and reproducible systems.
+
+**Mission**: Enable scientists to focus on discovery while we ensure their software is as rigorous as their thought. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
+
 ### High-Performance Computing (HPC) Sprints
 
 Your Python models are too slow. I optimize numerical bottlenecks using Vectorization, Caching, and Parallelism.
