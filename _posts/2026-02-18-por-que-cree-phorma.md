@@ -7,6 +7,8 @@ lang: es
 
 *This post is also available in [English](/2026/02/18/por-que-cree-phorma-en.html).*
 
+*Actualización (3 de marzo de 2026): Se han añadido enlaces a reflexiones complementarias de Agustín Corbat, cofundador de Phorma.*
+
 Había algo que no me cerraba en la academia. Me fascinaba la teoría, la elegancia de los modelos, pero me encontraba cada vez más alejado de una pregunta fundamental: ¿cómo se *construyen* las cosas? ¿Cómo se pasa de una idea en un pizarrón a un sistema que funciona en el mundo real, que no se rompe, que entrega valor de forma consistente?
 
 Decidí hacer mi tesis en física aplicada, un intento de acercarme al "hacer". La experiencia fue brutal y reveladora. Mis días no se iban en la belleza de la física, sino en una batalla constante contra la fragilidad de mi propio código. Simulaciones que corrían distinto cada vez, resultados que no podía garantizar, y una sensación permanente de que todo estaba atado con alambre.
@@ -40,6 +42,6 @@ Si algo de esto te resuena, si ves arquitectos brillantes frustrados porque el e
 
 [^sintesis]: En este contexto, **Análisis** es desarmar (entender un fenómeno dividiéndolo en partes). **Síntesis** es armar (crear un sistema funcional a partir de componentes). Un científico necesita ser un gran analista; un ingeniero, un gran sintetizador. El problema es que a menudo se espera que la misma persona sea experta en ambos sin darle las herramientas para el segundo.
 
-[^puente]: La idea de este "puente" no es una abstracción. Significa crear proyectos conjuntos, modelos de consultoría donde los investigadores no abandonan la ciencia, y flujos de trabajo que permitan a la industria financiar y beneficiarse de la investigación fundamental sin desvirtuarla.
+[^puente]: La idea de este "puente" no es una abstracción. Significa crear proyectos conjuntos, modelos de consultoría donde los investigadores no abandonan la ciencia, y flujos de trabajo que permitan a la industria financiar y beneficiarse de la investigación fundamental sin desvirtuarla. (Para una reflexión profunda sobre este perfil híbrido, recomiendo leer ["Científico Romántico"](https://acorbat.github.io/blog-posts/2026-02-22-cientifico-romatico.html) de Agustín Corbat, con quien fundamos Phorma).
 
-[^phorma]: Phorma es la consultora a través de la cual aplico estas metodologías en la industria y la investigación científica. Puedes conocer más en [phorma.sh](https://phorma.sh).
+[^phorma]: Phorma es la consultora que fundamos junto a Agustín Corbat para aplicar estas metodologías en la industria y la investigación científica. Puedes conocer más en [phorma.sh](https://phorma.sh).

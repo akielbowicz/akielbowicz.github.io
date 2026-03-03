@@ -7,6 +7,8 @@ lang: en
 
 *This post is also available in [Spanish](/2026/02/18/por-que-cree-phorma.html).*
 
+*Update (March 3, 2026): Links to complementary reflections by Agustín Corbat, co-founder of Phorma, have been added.*
+
 There was something that didn't add up for me in academia. I was fascinated by theory, by the elegance of models, but I found myself increasingly distant from a fundamental question: how are things *built*? How do you go from an idea on a blackboard to a system that works in the real world, that doesn't break, that consistently delivers value?
 
 I decided to do my thesis in applied physics, an attempt to get closer to "doing." The experience was brutal and revealing. My days weren't spent on the beauty of physics, but in a constant battle against the fragility of my own code. Simulations that ran differently each time, results I couldn't guarantee, and a permanent feeling that everything was held together with duct tape.
@@ -40,6 +42,6 @@ If any of this resonates with you, if you see brilliant architects frustrated be
 
 [^synthesis]: In this context, **Analysis** is disassembly (understanding a phenomenon by breaking it into parts). **Synthesis** is assembly (creating a functional system from components). A scientist needs to be a great analyst; an engineer, a great synthesizer. The problem is that the same person is often expected to be an expert in both without being given the tools for the second.
 
-[^bridge]: The idea of this "bridge" is not an abstraction. It means creating joint projects, consulting models where researchers don't abandon science, and workflows that allow industry to fund and benefit from fundamental research without corrupting it.
+[^bridge]: The idea of this "bridge" is not an abstraction. It means creating joint projects, consulting models where researchers don't abandon science, and workflows that allow industry to fund and benefit from fundamental research without corrupting it. (For a deep reflection on this hybrid profile, I recommend reading ["Scientific Romantic"](https://acorbat.github.io/blog-posts/2026-02-22-scientific-romantic-en.html) by Agustín Corbat, with whom I co-founded Phorma).
 
-[^phorma]: Phorma is the consultancy through which I apply these methodologies in industry and scientific research. You can learn more at [phorma.sh](https://phorma.sh).
+[^phorma]: Phorma is the consultancy that I co-founded with Agustín Corbat to apply these methodologies in industry and scientific research. You can learn more at [phorma.sh](https://phorma.sh).
