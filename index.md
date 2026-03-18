@@ -54,6 +54,16 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 ---
 
+## Profiles
+
+| Profile | Description |
+|---------|-------------|
+| [saxa.xyz](https://saxa.xyz) | Personal blog — thoughts, reflections, and informal writing |
+| [charly-vibes.github.io](https://charly-vibes.github.io) | AI experiments and interactions |
+| [ak.saxa.xyz/blog](https://ak.saxa.xyz/blog) | Professional blog |
+
+---
+
 ## Contact
 
 **Email**: augusto [dot] kiel [at] gmail [dot] com
@@ -61,9 +71,6 @@ I design custom languages that allow Quants to define complex pricing models saf
 **GitHub**: [github.com/akielbowicz](https://github.com/akielbowicz)
 
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
-
-**Professional Blog**: [ak.saxa.xyz/blog](https://ak.saxa.xyz/blog)
-**Personal Page (more informal)**: [saxa.xyz](https://saxa.xyz)
 
 ---
 
