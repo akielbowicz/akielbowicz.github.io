@@ -1,6 +1,6 @@
 @page {
   size: A4;
-  margin: 10mm 11mm;
+  margin: 14mm 14mm 12mm;
 }
 
 html,
@@ -13,9 +13,11 @@ body.pdf-export {
   margin: 0;
   background: #fff;
   background-image: none;
-  color: #111;
-  font-size: 10pt;
-  line-height: 1.35;
+  color: #1a1a1a;
+  font-family: "Source Serif 4", "Source Serif Pro", "Charter", "Georgia",
+    "Times New Roman", serif;
+  font-size: 10.25pt;
+  line-height: 1.38;
 }
 
 body.pdf-export::before {
@@ -29,7 +31,43 @@ body.pdf-export .wrapper {
   padding: 0;
 }
 
-body.pdf-export .pdf-hero,
+body.pdf-export nav,
+body.pdf-export footer,
+body.pdf-export header#title-block-header {
+  display: none;
+}
+
+/* --- Hero (everything before the first h2) ------------------------------- */
+body.pdf-export .pdf-hero {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Social icons row: keep tight, right-align so it sits beside the title block */
+body.pdf-export .pdf-hero > p:first-of-type {
+  margin: 0 0 0.15rem;
+  text-align: right;
+  line-height: 1;
+}
+
+body.pdf-export .pdf-hero > p:first-of-type a {
+  margin-left: 0.45rem;
+}
+
+body.pdf-export img[alt="gh-logo"],
+body.pdf-export img[alt="linkedin-logo"],
+body.pdf-export img[alt="globe-logo"] {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+/* Drop the first <hr> immediately after the title - it just adds dead space */
+body.pdf-export .pdf-hero > hr:last-child {
+  display: none;
+}
+
+/* --- Sections ------------------------------------------------------------ */
 body.pdf-export .pdf-section {
   display: block;
 }
@@ -40,7 +78,9 @@ body.pdf-export .pdf-section.page-break-before {
 }
 
 body.pdf-export .pdf-entry {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.35rem;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 body.pdf-export .pdf-entry-header {
@@ -48,18 +88,14 @@ body.pdf-export .pdf-entry-header {
   page-break-inside: avoid;
 }
 
-body.pdf-export nav,
-body.pdf-export footer {
-  display: none;
-}
-
+/* --- Block spacing ------------------------------------------------------- */
 body.pdf-export p,
 body.pdf-export ul,
 body.pdf-export ol,
 body.pdf-export table,
 body.pdf-export pre,
 body.pdf-export blockquote {
-  margin: 0 0 0.55rem;
+  margin: 0 0 0.35rem;
   orphans: 3;
   widows: 3;
 }
@@ -70,9 +106,13 @@ body.pdf-export pre {
   break-inside: avoid;
 }
 
+/* --- Headings ------------------------------------------------------------ */
 body.pdf-export h1,
 body.pdf-export h2,
 body.pdf-export h3 {
+  font-family: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", "Arial",
+    sans-serif;
+  color: #111;
   page-break-after: avoid;
   break-after: avoid;
   page-break-inside: avoid;
@@ -86,46 +126,92 @@ body.pdf-export .pdf-entry-heading {
 }
 
 body.pdf-export h1 {
-  margin: 0.25rem 0 0.7rem;
-  padding-bottom: 0.3rem;
-  font-size: 20pt;
-  line-height: 1.1;
+  margin: 0 0 0.35rem;
+  padding: 0;
+  border: none;
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0;
 }
 
 body.pdf-export h2 {
-  margin-top: 0.9rem;
-  margin-bottom: 0.45rem;
-  padding-bottom: 0.15rem;
+  margin: 0.7rem 0 0.3rem;
+  padding-bottom: 2pt;
+  border-bottom: 1px solid #2a2a2a;
   font-size: 12.5pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 body.pdf-export h3 {
-  margin-top: 0.7rem;
-  margin-bottom: 0.25rem;
-  font-size: 10.5pt;
+  margin: 0.45rem 0 0.15rem;
+  font-size: 11pt;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0a0a0a;
 }
 
+/* --- HR rules ------------------------------------------------------------ */
 body.pdf-export hr {
-  margin: 0.6rem 0;
+  border: 0;
+  border-top: 0.5pt solid #b5b5b5;
+  margin: 0.35rem 0;
   page-break-after: avoid;
   break-after: avoid;
 }
 
+/* HR directly after a section heading is redundant with the heading rule */
+body.pdf-export .pdf-section-heading + hr {
+  display: none;
+}
+
+/* Hide separator hrs inside sections. Entries are already visually grouped
+   by their bold sans-serif h3 headings, and stray hrs floating between
+   entries cause awkward thin lines at page-break boundaries. */
+body.pdf-export .pdf-section > hr,
+body.pdf-export .pdf-entry > hr:last-child {
+  display: none;
+}
+
+/* --- Lists --------------------------------------------------------------- */
 body.pdf-export ul,
 body.pdf-export ol {
   padding-left: 1rem;
 }
 
-body.pdf-export li + li {
-  margin-top: 0.08rem;
+body.pdf-export li {
+  margin: 0;
 }
 
+body.pdf-export li + li {
+  margin-top: 0.05rem;
+}
+
+/* --- Links --------------------------------------------------------------- */
 body.pdf-export a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body.pdf-export .pdf-entry-heading a,
+body.pdf-export .pdf-section-heading a {
   color: inherit;
 }
 
-body.pdf-export img[alt="gh-logo"],
-body.pdf-export img[alt="linkedin-logo"],
-body.pdf-export img[alt="globe-logo"] {
-  width: 14px;
+/* --- Code / inline ------------------------------------------------------- */
+body.pdf-export code {
+  font-family: "IBM Plex Mono", "Menlo", "Consolas", monospace;
+  font-size: 0.92em;
+  padding: 0 0.15rem;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.pdf-export pre {
+  font-family: "IBM Plex Mono", "Menlo", "Consolas", monospace;
+  font-size: 9pt;
+  padding: 6pt 8pt;
+  border-left: 2pt solid #2a2a2a;
+  background: rgba(0, 0, 0, 0.04);
 }
