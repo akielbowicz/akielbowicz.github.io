@@ -8,12 +8,7 @@ run = "python scripts/build.py"
 
 [tasks."cv:pdf"]
 description = "Build CV PDFs from the generated site"
-depends = ["build"]
-run = '''
-mkdir -p out
-uvx --from weasyprint weasyprint dist/cv/en.html out/cv-en.pdf
-uvx --from weasyprint weasyprint dist/cv/es.html out/cv-es.pdf
-'''
+run = "python scripts/build.py --pdf"
 
 [tasks.clean]
 description = "Remove generated site artifacts"

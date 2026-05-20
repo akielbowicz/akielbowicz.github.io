@@ -1,0 +1,131 @@
+@page {
+  size: A4;
+  margin: 10mm 11mm;
+}
+
+html,
+body {
+  min-height: auto;
+}
+
+body.pdf-export {
+  display: block;
+  margin: 0;
+  background: #fff;
+  background-image: none;
+  color: #111;
+  font-size: 10pt;
+  line-height: 1.35;
+}
+
+body.pdf-export::before {
+  content: none;
+}
+
+body.pdf-export .wrapper {
+  max-width: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body.pdf-export .pdf-hero,
+body.pdf-export .pdf-section {
+  display: block;
+}
+
+body.pdf-export .pdf-section.page-break-before {
+  page-break-before: always;
+  break-before: page;
+}
+
+body.pdf-export .pdf-entry {
+  margin-bottom: 0.45rem;
+}
+
+body.pdf-export .pdf-entry-header {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+body.pdf-export nav,
+body.pdf-export footer {
+  display: none;
+}
+
+body.pdf-export p,
+body.pdf-export ul,
+body.pdf-export ol,
+body.pdf-export table,
+body.pdf-export pre,
+body.pdf-export blockquote {
+  margin: 0 0 0.55rem;
+  orphans: 3;
+  widows: 3;
+}
+
+body.pdf-export table,
+body.pdf-export blockquote,
+body.pdf-export pre {
+  break-inside: avoid;
+}
+
+body.pdf-export h1,
+body.pdf-export h2,
+body.pdf-export h3 {
+  page-break-after: avoid;
+  break-after: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+body.pdf-export .pdf-section-heading,
+body.pdf-export .pdf-entry-heading {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+body.pdf-export h1 {
+  margin: 0.25rem 0 0.7rem;
+  padding-bottom: 0.3rem;
+  font-size: 20pt;
+  line-height: 1.1;
+}
+
+body.pdf-export h2 {
+  margin-top: 0.9rem;
+  margin-bottom: 0.45rem;
+  padding-bottom: 0.15rem;
+  font-size: 12.5pt;
+}
+
+body.pdf-export h3 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.25rem;
+  font-size: 10.5pt;
+}
+
+body.pdf-export hr {
+  margin: 0.6rem 0;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+body.pdf-export ul,
+body.pdf-export ol {
+  padding-left: 1rem;
+}
+
+body.pdf-export li + li {
+  margin-top: 0.08rem;
+}
+
+body.pdf-export a {
+  color: inherit;
+}
+
+body.pdf-export img[alt="gh-logo"],
+body.pdf-export img[alt="linkedin-logo"],
+body.pdf-export img[alt="globe-logo"] {
+  width: 14px;
+}

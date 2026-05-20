@@ -4,9 +4,13 @@ from __future__ import annotations
 import re
 import shutil
 import subprocess
+import sys
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
+
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
@@ -199,10 +203,127 @@ def build_pages() -> None:
     render(build_blog_index(posts))
 
 
+def localize_root_relative_urls(html: str, html_path: Path) -> str:
+    def replace(match: re.Match[str]) -> str:
+        attr, url = match.groups()
+        parts = urlsplit(url)
+        if parts.scheme or parts.netloc or not parts.path.startswith("/"):
+            return match.group(0)
+        if parts.path == "/":
+            target = DIST / "index.html"
+        else:
+            target = DIST / parts.path.lstrip("/")
+        localized = rel(html_path, target)
+        new_url = urlunsplit(("", "", localized, parts.query, parts.fragment))
+        return f'{attr}="{new_url}"'
+
+    return re.sub(r'(href|src)="([^"]+)"', replace, html)
+
+
+def structure_pdf_html(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    main = soup.find("main")
+    if not isinstance(main, Tag):
+        return html
+
+    forced_break_sections = {
+        "Teaching Experience",
+        "Experiencia en Docencia",
+    }
+
+    nav: Tag | None = None
+    hero = soup.new_tag("section", attrs={"class": "pdf-hero"})
+    sections: list[Tag] = []
+    current_section: Tag | None = None
+    current_entry: Tag | None = None
+    current_entry_header: Tag | None = None
+    seen_h2 = False
+
+    for child in list(main.contents):
+        if isinstance(child, NavigableString):
+            if not child.strip():
+                child.extract()
+                continue
+            target = current_entry or current_section or hero
+            target.append(child.extract())
+            continue
+
+        if child.name == "nav":
+            nav = child.extract()
+            continue
+
+        if child.name == "h2":
+            seen_h2 = True
+            current_entry = None
+            current_entry_header = None
+            title = child.get_text(" ", strip=True)
+            section_classes = ["pdf-section"]
+            if title in forced_break_sections:
+                section_classes.append("page-break-before")
+            current_section = soup.new_tag("section", attrs={"class": section_classes})
+            child_classes = child.get("class", [])
+            child["class"] = [*child_classes, "pdf-section-heading"]
+            current_section.append(child.extract())
+            sections.append(current_section)
+            continue
+
+        if child.name == "h3" and seen_h2 and current_section is not None:
+            current_entry = soup.new_tag("section", attrs={"class": "pdf-entry"})
+            current_entry_header = soup.new_tag("div", attrs={"class": "pdf-entry-header"})
+            child_classes = child.get("class", [])
+            child["class"] = [*child_classes, "pdf-entry-heading"]
+            current_entry_header.append(child.extract())
+            current_entry.append(current_entry_header)
+            current_section.append(current_entry)
+            continue
+
+        if current_entry is not None and current_entry_header is not None:
+            if child.name in {"ul", "ol", "table", "pre", "blockquote"}:
+                current_entry.append(child.extract())
+            elif child.name == "hr":
+                current_entry = None
+                current_entry_header = None
+                current_section.append(child.extract())
+            else:
+                current_entry_header.append(child.extract())
+            continue
+
+        target = hero if not seen_h2 else (current_section or hero)
+        target.append(child.extract())
+
+    main.clear()
+    if nav is not None:
+        main.append(nav)
+    if hero.contents:
+        main.append(hero)
+    for section in sections:
+        main.append(section)
+    return str(soup)
+
+
+def prepare_pdf_html(src: Path, pdf_html: Path) -> str:
+    html = localize_root_relative_urls(src.read_text(), pdf_html)
+    html = re.sub(r'<p><a href="(?:\.\./)?(?:cv/)?(?:en|es)\.html">(?:English|Español)</a></p>\s*', "", html, count=1)
+    html = structure_pdf_html(html)
+    pdf_css = rel(pdf_html, DIST / "assets" / "css" / "pdf.css")
+    html = html.replace("</head>", f'  <link rel="stylesheet" href="{pdf_css}" />\n</head>', 1)
+    html = html.replace("<body>", '<body class="pdf-export">', 1)
+    return html
+
+
+def build_pdf(src: Path, dst: Path) -> None:
+    pdf_html = src.with_name(f".{src.stem}.pdf.html")
+    pdf_html.write_text(prepare_pdf_html(src, pdf_html))
+    try:
+        subprocess.run(["uvx", "--from", "weasyprint", "weasyprint", str(pdf_html), str(dst)], check=True)
+    finally:
+        pdf_html.unlink(missing_ok=True)
+
+
 def build_pdfs() -> None:
     OUT.mkdir(exist_ok=True)
-    subprocess.run(["uvx", "--from", "weasyprint", "weasyprint", str(DIST / "cv" / "en.html"), str(OUT / "cv-en.pdf")], check=True)
-    subprocess.run(["uvx", "--from", "weasyprint", "weasyprint", str(DIST / "cv" / "es.html"), str(OUT / "cv-es.pdf")], check=True)
+    build_pdf(DIST / "cv" / "en.html", OUT / "cv-en.pdf")
+    build_pdf(DIST / "cv" / "es.html", OUT / "cv-es.pdf")
 
 
 def main() -> None:
@@ -215,6 +336,8 @@ def main() -> None:
         shutil.copy2(ROOT / "CNAME", DIST / "CNAME")
     (DIST / ".nojekyll").write_text("")
     build_pages()
+    if "--pdf" in sys.argv[1:]:
+        build_pdfs()
 
 
 if __name__ == "__main__":
