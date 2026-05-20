@@ -2,9 +2,7 @@
 
 ## Scientific Software Architect & Research Engineer
 
-I architect high-performance engines for Quantitative Finance and Scientific Computing.
-
-I translate heavy computational models into fault-tolerant, 3x faster production systems using **Julia**, **C#**, and **Stochastic AI**.
+I architect production-grade AI systems and high-performance engines for Quantitative Finance and Scientific Computing. I translate heavy computational models and agentic workflows into fault-tolerant, 3x faster systems using **Julia**, **C#**, and **Stochastic AI**, with a focus on rigorous evaluation and large-scale integration.
 
 ---
 
@@ -24,9 +22,9 @@ Your Python models are too slow. I optimize numerical bottlenecks using Vectoriz
 
 ### Deterministic AI Architecture
 
-Integration of Neural Stochastic Differential Equations (NeuralSDEs) and Math-Aware RAG systems. I build the "guardrails" that allow Large Language Models to handle financial data without hallucination.
+Integration of Neural Stochastic Differential Equations (NeuralSDEs), Agentic Orchestration, and Math-Aware RAG systems. I build the "guardrails" and evaluation frameworks that allow Large Language Models to handle financial and scientific data without hallucination.
 
-**Key work**: Research into NeuralSDEs using Julia, combining deep learning with physical laws for superior convergence.
+**Key work**: Implementation of agentic workflows using Model Context Protocol (MCP) and research into NeuralSDEs using Julia for superior convergence.
 
 ### Domain-Specific Language (DSL) Design
 

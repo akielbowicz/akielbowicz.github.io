@@ -17,7 +17,7 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 ## Executive Profile
 
-Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, **Agentic AI Platforms**, and **Domain-Specific Languages**. I help firms translate research into production by engineering systems that are mathematically rigorous, computationally efficient, and operationally usable by humans and agents.
+Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **Research Software Engineering (RSE)**, **High-Performance Computing**, and **Production-Grade AI Engineering**. My work focuses on translating complex mathematical models into stable production systems, ranging from **Neural Stochastic Differential Equations (NeuralSDEs)** and **Domain-Specific Languages (DSL)** to **Agentic Orchestration** and **Evaluation Frameworks (Evals)**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous, computationally efficient, and operationally stable for both humans and agents.
 
 My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally stable.
 
