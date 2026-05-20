@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#   "beautifulsoup4",
+# ]
+# ///
 from __future__ import annotations
 
 import re

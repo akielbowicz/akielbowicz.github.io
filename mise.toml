@@ -4,11 +4,11 @@ uv = "latest"
 
 [tasks.build]
 description = "Build the static site into dist/"
-run = "python scripts/build.py"
+run = "uv run scripts/build.py"
 
 [tasks."cv:pdf"]
 description = "Build CV PDFs from the generated site"
-run = "python scripts/build.py --pdf"
+run = "uv run scripts/build.py --pdf"
 
 [tasks.clean]
 description = "Remove generated site artifacts"
