@@ -187,17 +187,21 @@ nav a:hover {
 }
 
 footer {
-  position: relative;
-  z-index: 1;
-  max-width: 900px;
-  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  width: 270px;
   box-sizing: border-box;
-  margin: 50px auto 0;
-  padding: 20px 40px 30px;
-  border-top: 1px solid #2a2a2a;
+  padding: 0 20px;
+  z-index: 2;
   text-align: center;
   color: #2a2a2a;
   font-size: 0.9em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+footer p {
+  margin: 0;
 }
 
 header#title-block-header {
