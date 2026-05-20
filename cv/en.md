@@ -17,9 +17,9 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 ## Executive Profile
 
-Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, **Agentic AI Platforms**, and **Domain-Specific Languages**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous, computationally efficient, and operationally usable by humans and agents.
+Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, **Agentic AI Platforms**, and **Domain-Specific Languages**. I help firms translate research into production by engineering systems that are mathematically rigorous, computationally efficient, and operationally usable by humans and agents.
 
-My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
+My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally stable.
 
 **Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Agentic AI platforms • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
@@ -47,7 +47,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 ### Domain-Specific Language (DSL) Architecture
 - Custom language design for complex pricing models
 - Interactive UI development for quantitative libraries
-- Democratizing access to sophisticated mathematical models
+- Simplifying access to sophisticated mathematical models
 - Research Software Engineering (RSE) enablement: Standardizing analytical workflows from Jupyter to production
 
 ### Training & Knowledge Transfer
@@ -91,7 +91,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 **The Solution**: Designed and developed a Proof-of-Concept **Domain-Specific Language (DSL)** and integrated interactive Jupyter-based UIs (Voila/ipywidgets).
 
-**Outcome**: Democratized access to complex models, allowing non-engineers to safely construct and test pricing logic.
+**Outcome**: Enabled non-engineers to safely construct and test pricing logic by abstracting underlying complexity.
 
 ---
 

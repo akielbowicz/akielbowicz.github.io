@@ -17,9 +17,9 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 ## Perfil Ejecutivo
 
-Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Cómputo de Alto Rendimiento (HPC)**, **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)**, **Plataformas de IA Agéntica** y **Lenguajes de Dominio Específico (DSL)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción", diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente utilizables por personas y agentes.
+Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Cómputo de Alto Rendimiento (HPC)**, **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)**, **Plataformas de IA Agéntica** y **Lenguajes de Dominio Específico (DSL)**. Ayudo a las firmas a llevar la investigación a producción, diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente utilizables por personas y agentes.
 
-Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente robustas.
+Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente estables.
 
 **Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Plataformas de IA agéntica • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 
@@ -47,7 +47,7 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 ### Arquitectura de Lenguajes de Dominio Específico (DSL)
 - Diseño de lenguajes personalizados para modelos de pricing complejos
 - Desarrollo de interfaces interactivas para librerías cuantitativas
-- Democratización del acceso a modelos matemáticos sofisticados
+- Simplificación del acceso a modelos matemáticos sofisticados
 - Habilitación en Ingeniería de Software de Investigación (RSE): Estandarización de flujos analíticos desde Jupyter a producción
 
 ### Capacitación y Transferencia de Conocimiento
@@ -98,7 +98,7 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 **La Solución**: Diseñé y desarrollé una Prueba de Concepto de un **Lenguaje de Dominio Específico (DSL)** e integré interfaces interactivas basadas en Jupyter (Voila/ipywidgets).
 
-**Resultado**: Democraticé el acceso a modelos complejos, permitiendo a no-ingenieros construir y testear lógica de pricing de forma segura.
+**Resultado**: Facilité el uso de modelos complejos, permitiendo a perfiles no técnicos construir y probar lógica de pricing de forma segura.
 
 ---
 

@@ -4,9 +4,7 @@
 
 I architect high-performance engines for Quantitative Finance and Scientific Computing.
 
-**The Challenge**: Most research code is mathematically brilliant but operationally fragile.
-
-**My Solution**: I bridge the gap between research and production. I transform heavy computational models into robust, 3x faster production systems using **Julia**, **C#**, and **Stochastic AI**.
+I translate heavy computational models into fault-tolerant, 3x faster production systems using **Julia**, **C#**, and **Stochastic AI**.
 
 ---
 
@@ -14,9 +12,9 @@ I architect high-performance engines for Quantitative Finance and Scientific Com
 
 ### Research Software Engineering (RSE)
 
-I bridge the gap between scientific research and industrial-grade software engineering through **Phorma**, a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/). We help R&D, BioImage, and Quantitative Finance teams build robust, reliable, and reproducible systems.
+I translate scientific research into industrial-grade software engineering through **Phorma**, a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/). We help R&D, BioImage, and Quantitative Finance teams build stable and reproducible systems.
 
-**Mission**: Enable scientists to focus on discovery while we ensure their software is as rigorous as their thought. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
+**Mission**: We handle the engineering so scientists can focus on discovery. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
 
 ### High-Performance Computing (HPC) Sprints
 
@@ -34,7 +32,7 @@ Integration of Neural Stochastic Differential Equations (NeuralSDEs) and Math-Aw
 
 I design custom languages that allow Quants to define complex pricing models safely and intuitively, abstracting away the code complexity.
 
-**Outcome**: Democratize access to complex models, allowing non-engineers to safely construct and test pricing logic.
+**Outcome**: Enable non-engineers to construct and test pricing logic without exposing underlying complexity.
 
 ---
 
