@@ -1,13 +1,39 @@
 # Como armar el cv
 
+El CV ahora se construye como parte del sitio estático.
 
-Basado en [pandoc_resume](https://mszep.github.io/pandoc_resume/)
+## Con mise
 
-```
-pandoc --standalone --from markdown --to pdf --output out/cv.pdf --pdf-engine wkhtmltopdf cv.md
-```
-
-```
-pandoc --standalone --from markdown --to html --output out/cv.html --css cv/style.css cv.md
+```bash
+mise run build
 ```
 
+Esto genera:
+- `dist/cv/en.html`
+- `dist/cv/es.html`
+
+PDFs:
+
+```bash
+mise run cv:pdf
+```
+
+Esto genera:
+- `out/cv-en.pdf`
+- `out/cv-es.pdf`
+
+Preview local:
+
+```bash
+mise run serve
+```
+
+Y luego:
+- `http://localhost:8000/cv/en.html`
+- `http://localhost:8000/cv/es.html`
+
+## Dependencias
+
+- `pandoc` (gestionado por `mise`)
+- `python`
+- `uv` / `uvx` para PDFs

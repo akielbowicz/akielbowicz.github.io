@@ -1,0 +1,230 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f9f8f5;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 0, 0, 0.03) 2px, rgba(0, 0, 0, 0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0, 0, 0, 0.03) 2px, rgba(0, 0, 0, 0.03) 4px);
+  color: #1a1a1a;
+  font: 16px/1.8 "IBM Plex Mono", "Courier New", Courier, monospace;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, transparent 0%, rgba(255, 255, 255, 0.3) 100%),
+    radial-gradient(circle at 80% 80%, transparent 0%, rgba(0, 0, 0, 0.03) 100%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+}
+
+main {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+h1 {
+  margin-top: 40px;
+  padding-bottom: 12px;
+  border-bottom: 3px double #1a1a1a;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  margin-top: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 24px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+blockquote {
+  margin: 0 0 20px;
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 20px;
+  border-left: 4px solid #2a2a2a;
+  font-style: italic;
+}
+
+code,
+pre {
+  font-family: inherit;
+}
+
+code {
+  padding: 0.15rem 0.35rem;
+  background: rgba(0, 0, 0, 0.08);
+  color: #000;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 20px;
+  border-left: 3px solid #2a2a2a;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+a {
+  color: #0a0a0a;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+a:hover {
+  opacity: 0.65;
+  text-decoration-style: solid;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #2a2a2a;
+  margin: 30px 0;
+  opacity: 0.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(42, 42, 42, 0.25);
+}
+
+img {
+  max-width: 100%;
+}
+
+img[alt="gh-logo"],
+img[alt="linkedin-logo"],
+img[alt="globe-logo"] {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+nav a {
+  padding: 5px 10px;
+  border: 1px solid #2a2a2a;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #2a2a2a;
+  color: #f9f8f5;
+  opacity: 1;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 50px auto 0;
+  padding: 20px 40px 30px;
+  border-top: 1px solid #2a2a2a;
+  text-align: center;
+  color: #2a2a2a;
+  font-size: 0.9em;
+}
+
+header#title-block-header {
+  display: none;
+}
+
+.footnotes {
+  margin-top: 40px;
+  font-size: 0.95em;
+}
+
+@media (max-width: 768px) {
+  .wrapper,
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.35em;
+  }
+
+  h3 {
+    font-size: 1.15em;
+  }
+}

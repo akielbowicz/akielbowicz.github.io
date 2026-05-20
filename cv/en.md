@@ -5,9 +5,9 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 [![gh-logo](../cv/github.png)](https://github.com/akielbowicz)
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
-[![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz/en)
+[![globe-logo](../cv/earth-americas-solid.png)](https://ak.saxa.xyz)
 
-[Español](./es.md)
+[Español](./es.html)
 
 # Independent Consultant in Agentic AI, Scientific Computing, and Quantitative Systems Architecture
 
@@ -102,6 +102,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 *March 2026 - Present* | Remote
 
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
+
 - Integrating internal knowledge and productivity systems, including Confluence and Microsoft 365, through MCPs to expand the platform's operational context.
 - Designing and running evals to assess agent quality, reliability, and task performance.
 - Contributing to User Content Personalization initiatives to improve relevance and user experience.
@@ -114,6 +115,7 @@ Advancing the R&D Agentic Platform and strengthening internal developer enableme
 *February 2026 - Present* | Buenos Aires, Argentina
 
 Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE).
+
 - Specialized consulting on transforming theoretical models into robust production systems.
 - Designing architectures for R&D, BioImage, and Quantitative Finance teams.
 - Implementing engineering best practices in high-mathematical complexity contexts.
@@ -123,6 +125,7 @@ Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to brid
 *January 2026 - Present* | Buenos Aires, Argentina
 
 Providing specialized consulting services to financial institutions and technology companies:
+
 - Quantitative finance system architecture and development
 - Scientific computing and numerical software optimization
 - Technical leadership and team mentorship
@@ -139,6 +142,7 @@ Providing specialized consulting services to financial institutions and technolo
 Leading technology strategy and managing 14 engineers across Financial Planning & Analytics for Latin America's largest e-commerce ecosystem.
 
 **Key Focus**: Strategy, Standardization & AI Workflows
+
 - Architecting scalable financial planning and analytics platforms
 - Championing AI-assisted development workflows and clean architecture standards
 - Transforming ad-hoc Jupyter analyses into CI/CD-managed production systems
@@ -154,6 +158,7 @@ Leading technology strategy and managing 14 engineers across Financial Planning 
 *March 2024 - May 2025 | 1 year 3 months*
 
 **Key Focus**: Core Analytics & Quant UI
+
 - Developed Domain-Specific Language (DSL) POC for pricing model interaction
 - Created LLM-based RAG system for financial documentation Q&A
 - Integrated Quant UI with Axioma Risk UI for institutional investors
@@ -166,6 +171,7 @@ Leading technology strategy and managing 14 engineers across Financial Planning 
 [*@akielbowicz-qontigo*](https://github.com/akielbowicz-qontigo)
 
 **Key Focus**: Core Quant Libraries & High-Performance Computing
+
 - Designed and developed core Quant Monorepo (C#) for Analytical Libraries
 - Managed NeuralSDE research internship for European Option Pricing using Julia
 - Built Axioma Pricing Library (APL) from ground up with 100% accuracy
@@ -188,7 +194,7 @@ Leading technology strategy and managing 14 engineers across Financial Planning 
 **Scientific Software & Educational Tools**
 *February 2016 - Present | 9+ years*
 
-[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
+[*\@akielbowicz*](https://github.com/akielbowicz) | [YouTube: \@SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
 - Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
 - Development of interactive educational materials based on Jupyter notebooks
@@ -217,6 +223,7 @@ Leading technology strategy and managing 14 engineers across Financial Planning 
 ## Speaking & Community
 
 Active participant in technology conferences and meetups as speaker and collaborator:
+
 - **SciPy Latinoamérica 2022** (Argentina): Workshop presenter
 - Regular speaker at Python and Julia user groups in Buenos Aires
 - Represented Qontigo at ECI UBA (School of Information Sciences, University of Buenos Aires)

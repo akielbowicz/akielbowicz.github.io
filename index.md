@@ -49,8 +49,8 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 ## Resume / CV
 
-- [English](./cv/en.md)
-- [Español](./cv/es.md)
+- [English](./cv/en.html)
+- [Español](./cv/es.html)
 
 ---
 

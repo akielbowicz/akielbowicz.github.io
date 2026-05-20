@@ -1,0 +1,27 @@
+[tools]
+pandoc = "latest"
+uv = "latest"
+
+[tasks.build]
+description = "Build the static site into dist/"
+run = "python scripts/build.py"
+
+[tasks."cv:pdf"]
+description = "Build CV PDFs from the generated site"
+depends = ["build"]
+run = '''
+mkdir -p out
+uvx --from weasyprint weasyprint dist/cv/en.html out/cv-en.pdf
+uvx --from weasyprint weasyprint dist/cv/es.html out/cv-es.pdf
+'''
+
+[tasks.clean]
+description = "Remove generated site artifacts"
+run = "rm -rf dist out/cv-en.pdf out/cv-es.pdf"
+
+[tasks.serve]
+description = "Build and serve the static site locally"
+run = '''
+mise run build
+python -m http.server 8000 -d dist
+'''

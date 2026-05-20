@@ -5,9 +5,9 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 [![gh-logo](../cv/github.png)](https://github.com/akielbowicz)
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
-[![globe-logo](../cv/earth-americas-solid.png)](https://saxa.xyz)
+[![globe-logo](../cv/earth-americas-solid.png)](https://ak.saxa.xyz)
 
-[English](./en.md)
+[English](./en.html)
 
 # Consultor Independiente en IA Agéntica, Computación Científica y Arquitectura de Sistemas Cuantitativos
 
@@ -109,6 +109,7 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 *Marzo 2026 - Presente* | Remoto
 
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
+
 - Integración de sistemas internos de conocimiento y productividad, incluyendo Confluence y Microsoft 365, mediante MCPs para ampliar el contexto operativo de la plataforma.
 - Diseño y ejecución de evals para medir calidad, confiabilidad y desempeño de agentes.
 - Colaboración en iniciativas de User Content Personalization para mejorar relevancia y experiencia de usuario.
@@ -121,6 +122,7 @@ Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación inter
 *Febrero 2026 - Presente* | Buenos Aires, Argentina
 
 Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para tender puentes entre la investigación científica y la industria a través del *Research Software Engineering* (RSE).
+
 - Consultoría especializada en la transformación de modelos teóricos en sistemas de producción robustos.
 - Diseño de arquitecturas para equipos de R&D, BioImage y Finanzas Cuantitativas.
 - Implementación de mejores prácticas de ingeniería en contextos de alta complejidad matemática.
@@ -130,6 +132,7 @@ Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para 
 *Enero 2026 - Presente* | Buenos Aires, Argentina
 
 Brindo servicios de consultoría especializados a instituciones financieras y empresas tecnológicas:
+
 - Arquitectura y desarrollo de sistemas de finanzas cuantitativas
 - Optimización de software científico y computación numérica
 - Liderazgo técnico y mentoría de equipos
@@ -146,6 +149,7 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Planning & Analytics para el ecosistema de e-commerce más grande de América Latina.
 
 **Enfoque Clave**: Estrategia, Estandarización y Flujos de Trabajo de IA
+
 - Arquitectura de plataformas escalables de planificación financiera y analítica
 - Promoción de workflows de desarrollo asistido por IA y estándares de arquitectura limpia
 - Transformación de análisis ad-hoc en Jupyter a sistemas productivos gestionados por CI/CD
@@ -161,6 +165,7 @@ Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Plann
 *Marzo 2024 - Mayo 2025 | 1 año 3 meses*
 
 **Enfoque Clave**: Core Analytics y UI Quant
+
 - Desarrollé POC de Lenguaje de Dominio Específico (DSL) para interacción con modelos de pricing
 - Creé sistema RAG basado en LLMs para Q&A de documentación financiera
 - Integré Quant UI con Axioma Risk UI para inversores institucionales
@@ -175,6 +180,7 @@ Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Plann
 [*@akielbowicz-qontigo*](https://github.com/akielbowicz-qontigo)
 
 **Enfoque Clave**: Librerías Quant Core y Cómputo de Alto Rendimiento
+
 - Diseñé y desarrollé Monorepo Quant core (C#) para Librerías Analíticas
 - Gestioné internship de investigación en NeuralSDE para Pricing de Opciones Europeas usando Julia
 - Construí Axioma Pricing Library (APL) desde cero con 100% de precisión
@@ -199,7 +205,7 @@ Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Plann
 **Software Científico y Herramientas Educativas**
 *Febrero 2016 - Presente | 9+ años*
 
-[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
+[*\@akielbowicz*](https://github.com/akielbowicz) | [YouTube: \@SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
 - Creador de **SCA314**, un canal educativo de YouTube enfocado en artesanía de software, computación científica con Julia y prácticas de testing automatizado en Castellano/Español
 - Desarrollo de materiales educativos interactivos basados en Jupyter notebooks
@@ -232,6 +238,7 @@ Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Plann
 ## Charlas y Comunidad
 
 Participante activo en conferencias y meetups tecnológicos como orador y colaborador:
+
 - **SciPy Latinoamérica 2022** (Argentina): Presenter de workshop
 - Orador regular en grupos de usuarios de Python y Julia en Buenos Aires
 - Representé a Qontigo en ECI UBA (Escuela de Ciencias de la Información, Universidad de Buenos Aires)
