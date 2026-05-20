@@ -1,6 +1,6 @@
 # Sasha (Augusto) Kielbowicz
 
-**Quantitative Systems Architect | Research Software Engineer**
+**Independent Consultant in Agentic AI, Scientific Computing, and Quantitative Systems Architecture**
 
 Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/en)
 
@@ -10,13 +10,13 @@ Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/e
 
 ## Executive Profile
 
-Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, and **Domain-Specific Languages**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous and computationally efficient.
+Scientific Architect with a Physics background and elite tenure at Tier-1 financial institutions (Qontigo, SimCorp, Mercado Libre). I specialize in **High-Performance Computing**, **Neural Stochastic Differential Equations (NeuralSDEs)**, **Agentic AI Platforms**, and **Domain-Specific Languages**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous, computationally efficient, and operationally usable by humans and agents.
 
 My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally robust.
 
-**Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
+**Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Agentic AI platforms • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
-**Engagement Focus**: Performance Optimization Sprints, Deterministic AI Architecture, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
+**Engagement Focus**: Performance Optimization Sprints, Deterministic AI Architecture, Agentic Platform Integration, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
 
 ---
 
@@ -32,6 +32,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 ### Deterministic AI & Scientific Machine Learning
 - Neural Stochastic Differential Equations (NeuralSDEs) implementation
 - Math-aware RAG systems for financial documentation
+- Agentic platform integration with internal knowledge and productivity systems
 - Integration of deep learning with physical laws and constraints
 - Safe AI architecture for financial applications
 - Model calibration and validation using RSE principles
@@ -80,6 +81,19 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 ---
 
 ## Professional Experience
+
+### AstraZeneca | Senior AI Engineer (Independent Contractor)
+**March 2026 - Present** | Remote
+
+Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
+
+**Key Focus**: Agentic Platform Integration, Evals & Developer Experience
+- Integrating internal knowledge and productivity systems, including Confluence and Microsoft 365, through MCPs to expand the platform's operational context
+- Designing and running evals to assess agent quality, reliability, and task performance
+- Contributing to User Content Personalization initiatives to improve relevance and user experience
+- Improving team development tooling to reduce onboarding friction and support a smoother agentic development lifecycle
+
+---
 
 ### Independent Consultant | Quantitative Software & Scientific Computing
 **January 2026 - Present** | Buenos Aires, Argentina
@@ -184,6 +198,7 @@ Developed critical infrastructure for interest rate derivatives trading desk ser
 - Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
 - Development of interactive educational materials based on Jupyter notebooks
 - Contributions to scientific computing and data visualization projects
+- Created **charly-vibes** ([site](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) as a personal R&D initiative to explore the capabilities and limits of AI-assisted coding and agentic autonomous development across platforms
 - Educational content bridging academic knowledge and industry best practices
 
 ---

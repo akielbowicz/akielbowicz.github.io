@@ -9,8 +9,7 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 [English](./en.md)
 
-# Arquitecto de Software Científico y Estratega de Riesgo Cuantitativo
-## Especialista en Cómputo de Alto Rendimiento
+# Consultor Independiente en IA Agéntica, Computación Científica y Arquitectura de Sistemas Cuantitativos
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com
 
@@ -18,13 +17,13 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 ## Perfil Ejecutivo
 
-Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Cómputo de Alto Rendimiento (HPC)**, **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción", diseñando sistemas que son matemáticamente rigurosos y computacionalmente eficientes.
+Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Cómputo de Alto Rendimiento (HPC)**, **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)**, **Plataformas de IA Agéntica** y **Lenguajes de Dominio Específico (DSL)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción", diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente utilizables por personas y agentes.
 
 Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente robustas.
 
-**Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
+**Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Plataformas de IA agéntica • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 
-**Enfoque de Consultoría**: Sprints de Optimización de Rendimiento, Arquitectura de IA Determinística, Diseño de DSL, Sprints de Diseño Arquitectónico, Capacitación Corporativa Especializada.
+**Enfoque de Consultoría**: Sprints de Optimización de Rendimiento, Arquitectura de IA Determinística, Integración de Plataformas Agénticas, Diseño de DSL, Sprints de Diseño Arquitectónico, Capacitación Corporativa Especializada.
 
 ---
 
@@ -40,6 +39,7 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 ### IA Determinística y Aprendizaje Automático Científico
 - Implementación de Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)
 - Sistemas RAG conscientes de la matemática para documentación financiera
+- Integración de plataformas agénticas con sistemas internos de conocimiento y productividad
 - Integración de deep learning con leyes físicas y restricciones
 - Arquitectura de IA segura para aplicaciones financieras
 - Calibración y validación de modelos usando principios RSE
@@ -103,6 +103,18 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 ---
 
 ## Experiencia Profesional
+
+### AstraZeneca
+**Senior AI Engineer (Contratista Independiente)**
+*Marzo 2026 - Presente* | Remoto
+
+Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
+- Integración de sistemas internos de conocimiento y productividad, incluyendo Confluence y Microsoft 365, mediante MCPs para ampliar el contexto operativo de la plataforma.
+- Diseño y ejecución de evals para medir calidad, confiabilidad y desempeño de agentes.
+- Colaboración en iniciativas de User Content Personalization para mejorar relevancia y experiencia de usuario.
+- Mejora de herramientas de desarrollo del equipo para reducir la fricción de onboarding y sostener un ciclo de vida de desarrollo agéntico más fluido.
+
+---
 
 ### Phorma (Co-fundador)
 **Research Software Engineering & Scientific Computing**
@@ -192,6 +204,7 @@ Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Plann
 - Creador de **SCA314**, un canal educativo de YouTube enfocado en artesanía de software, computación científica con Julia y prácticas de testing automatizado en Castellano/Español
 - Desarrollo de materiales educativos interactivos basados en Jupyter notebooks
 - Contribuciones a proyectos de computación científica y visualización de datos
+- Creé **charly-vibes** ([sitio](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) como una iniciativa personal de I+D para explorar las capacidades y los límites del coding asistido por IA y del desarrollo autónomo agéntico en distintas plataformas
 - Contenido educativo que une conocimiento académico con mejores prácticas de la industria
 
 ---
