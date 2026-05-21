@@ -3,7 +3,7 @@
 ---
 
 ## TITULAR
-Consultor Independiente | Arquitecto de Software Cuantitativo | Ingeniería de Software de Investigación (RSE) para Modelado Financiero
+Senior AI Engineer en AstraZeneca | Arquitecto de Software Cuantitativo | Ingeniería de Software de Investigación (RSE)
 
 ---
 
@@ -14,9 +14,9 @@ Buenos Aires, Argentina
 
 ## SECCIÓN ACERCA DE
 
-Ayudo a instituciones financieras y empresas tecnológicas a resolver desafíos cuantitativos y arquitectónicos complejos a través de consultoría de alto nivel en computación científica, sistemas de gestión de riesgos y software numérico de alto rendimiento.
+Construyo sistemas de IA y software científico de grado productivo en dominios de investigación y alta complejidad, combinando rigor cuantitativo con prácticas sólidas de ingeniería.
 
-Con más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma Risk, SimCorp y Mercado Libre, ahora trabajo de forma independiente con organizaciones que necesitan experiencia profunda en:
+Actualmente trabajo como **Senior AI Engineer en AstraZeneca (Oncology R&D)**. Antes de eso, pasé más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma Risk, SimCorp y Mercado Libre. Mis fortalezas principales incluyen:
 
 **Finanzas Cuantitativas y Sistemas de Riesgo**
 • Frameworks de pricing y valuación multi-activo
@@ -75,13 +75,32 @@ Brindo servicios de consultoría especializados en:
 
 ---
 
+### AstraZeneca
+**Título del puesto:** Senior AI Engineer
+**Tipo de empleo:** Contrato
+**Nombre de la empresa:** AstraZeneca
+**Ubicación:** Remoto
+**Fecha de inicio:** Marzo 2026
+**Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
+
+**Descripción:**
+Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
+
+**Responsabilidades Clave:**
+• Integrar sistemas internos de conocimiento y productividad, incluyendo Confluence y Microsoft 365, mediante MCPs para ampliar el contexto operativo de la plataforma
+• Diseñar y ejecutar evals para medir calidad, confiabilidad y desempeño de agentes
+• Colaborar en iniciativas de User Content Personalization para mejorar relevancia y experiencia de usuario
+• Mejorar herramientas de desarrollo del equipo para reducir la fricción de onboarding y sostener un ciclo de vida de desarrollo agéntico más fluido
+
+---
+
 ### Mercado Libre
 **Título del puesto:** Technical Lead, Ingeniería de Financial Planning & Analytics
 **Tipo de empleo:** Tiempo completo
 **Nombre de la empresa:** Mercado Libre
 **Ubicación:** Provincia de Buenos Aires, Argentina
 **Fecha de inicio:** Junio 2025
-**Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
+**Fecha de finalización:** Marzo 2026
 
 **Descripción:**
 Liderando la estrategia tecnológica para plataformas que optimizan y estandarizan reporting, flujos de datos y procesos analíticos en el ecosistema de e-commerce más grande de América Latina. Gestionando dos equipos de ingeniería cross-funcionales (Fintech & Cross, Commerce) con 14 ingenieros en backend, frontend y datos.

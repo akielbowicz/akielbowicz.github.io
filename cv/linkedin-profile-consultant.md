@@ -1,5 +1,5 @@
 # Sasha (Augusto) Kielbowicz
-## Independent Consultant | Quantitative Software Architect | Research Software Engineering (RSE) for Financial Modeling
+## Senior AI Engineer at AstraZeneca | Quantitative Software Architect | Research Software Engineering (RSE)
 
 **Buenos Aires, Argentina**
 
@@ -7,9 +7,9 @@
 
 ## About
 
-I help financial institutions and technology companies solve complex quantitative and architectural challenges through elite-level consulting in scientific computing, risk management systems, and high-performance numerical software.
+I build production-grade AI and scientific software systems across research and high-complexity domains, combining quantitative rigor with strong engineering practice.
 
-After 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre, I now work independently with organizations that need deep expertise in:
+I currently work as **Senior AI Engineer at AstraZeneca (Oncology R&D)**. Before that, I spent 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre. My core strengths include:
 
 **Quantitative Finance & Risk Systems**
 - Multi-asset class pricing and valuation frameworks
@@ -67,9 +67,24 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 
 ---
 
+### AstraZeneca
+**Senior AI Engineer**
+*March 2026 - Present*
+Remote
+
+Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
+
+**Key Responsibilities**:
+- Integrating internal knowledge and productivity systems, including Confluence and Microsoft 365, through MCPs to expand the platform's operational context
+- Designing and running evals to assess agent quality, reliability, and task performance
+- Contributing to User Content Personalization initiatives to improve relevance and user experience
+- Improving team development tooling to reduce onboarding friction and support a smoother agentic development lifecycle
+
+---
+
 ### Mercado Libre
 **Technical Lead, Financial Planning & Analytics Engineering**
-*June 2025 - Present*
+*June 2025 - March 2026*
 Buenos Aires Province, Argentina
 
 Leading technology strategy for platforms that optimize and standardize reporting, data workflows, and analytical processes across Latin America's largest e-commerce ecosystem. Managing two cross-functional engineering teams (Fintech & Cross, Commerce) with 14 engineers across backend, frontend, and data.

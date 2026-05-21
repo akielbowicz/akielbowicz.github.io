@@ -37,7 +37,7 @@ I design custom languages that allow Quants to define complex pricing models saf
 ## Trust Markers
 
 - Architected Core Libraries for **Qontigo** & **SimCorp**
-- Tech Lead at **Mercado Libre**
+- Senior AI Engineer at **AstraZeneca**
 - Published Research in Hydrodynamical Instability Processes
 - 7+ years at tier-1 financial institutions (JP Morgan, Qontigo, SimCorp)
 
@@ -70,5 +70,5 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 ---
 
-Currently **Software Technical Lead at Mercado Libre** (Financial Planning & Analytics).
+Currently **Senior AI Engineer at AstraZeneca** (Oncology R&D).
 

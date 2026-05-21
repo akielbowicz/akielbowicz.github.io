@@ -17,7 +17,7 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 ## Perfil Ejecutivo
 
-Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel (Qontigo, SimCorp, Mercado Libre). Me especializo en **Ingeniería de Software de Investigación (RSE)**, **Cómputo de Alto Rendimiento** e **Ingeniería de IA de Grado Productivo**. Mi trabajo se centra en traducir modelos matemáticos complejos en sistemas de producción estables, abarcando desde **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)** hasta **Orquestación Agéntica** y **Frameworks de Evaluación (Evals)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción" diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente estables tanto para personas como para agentes.
+Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel y organizaciones de I+D científica (Qontigo, SimCorp, Mercado Libre, AstraZeneca). Me especializo en **Ingeniería de Software de Investigación (RSE)**, **Cómputo de Alto Rendimiento** e **Ingeniería de IA de Grado Productivo**. Mi trabajo se centra en traducir modelos matemáticos complejos en sistemas de producción estables, abarcando desde **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)** hasta **Orquestación Agéntica** y **Frameworks de Evaluación (Evals)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción" diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente estables tanto para personas como para agentes.
 
 Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente estables.
 
@@ -144,7 +144,7 @@ Brindo servicios de consultoría especializados a instituciones financieras y em
 
 ### Mercado Libre
 **Software Technical Lead, IT Staff / Financial Planning & Analytics**
-*Junio 2025 - Presente*
+*Junio 2025 - Marzo 2026*
 
 Liderando estrategia tecnológica y gestionando 14 ingenieros en Financial Planning & Analytics para el ecosistema de e-commerce más grande de América Latina.
 

@@ -21,7 +21,7 @@ Throughout my career at firms like Qontigo, SimCorp, and J.P. Morgan, I have spe
 
 My unique foundation in Physics, combined with hands-on experience in production environments, allows me to craft solutions that are both mathematically sound and operationally efficient. I have designed and implemented Domain-Specific Languages (DSLs) to democratize access to complex financial models and have managed research into advanced techniques like Neural Stochastic Differential Equations (NeuralSDEs) to build safer, more deterministic AI systems.
 
-I am highly proficient in a range of technologies, with production-level expertise in Python, C#, and Julia, and extensive experience with cloud deployment on Azure, CI/CD pipelines, and containerization. My recent role at Mercado Libre has further honed my skills in leading engineering teams and architecting scalable financial planning platforms in a large-scale, distributed environment.
+I am highly proficient in a range of technologies, with production-level expertise in Python, C#, and Julia, and extensive experience with cloud deployment on Azure, CI/CD pipelines, and containerization. My current role as Senior AI Engineer at AstraZeneca has further honed my skills in building production-grade AI systems, enabling scientific workflows, and applying robust engineering practices in a research-intensive environment.
 
 I am confident that my ability to architect, optimize, and deliver mission-critical quantitative systems will bring significant value to your team. Thank you for your time and consideration. I have attached my CV for your review and welcome the opportunity to discuss my qualifications and experience in more detail.
 
