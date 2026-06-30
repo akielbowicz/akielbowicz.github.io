@@ -48,7 +48,7 @@ I take on a limited number of specialized engagements alongside my primary commi
 
 For team-scale projects or longer R&D engagements, we work through **Phorma**.
 
-**To start**: email [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description) with subject `[Consulting] Brief description` — or reach out on [LinkedIn](https://www.linkedin.com/in/augusto-kiel/).
+**[→ Book a call](https://calendar.app.google/txzedFUh1p7nvuAX8)** — or email [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description) if you'd prefer to reach out first.
 
 ---
 
@@ -68,6 +68,8 @@ For team-scale projects or longer R&D engagements, we work through **Phorma**.
 ---
 
 ## Contact
+
+**Book a call**: [calendar.app.google/txzedFUh1p7nvuAX8](https://calendar.app.google/txzedFUh1p7nvuAX8)
 
 **Email**: [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description)
 
