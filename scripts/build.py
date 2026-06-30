@@ -328,8 +328,100 @@ def build_pdf(src: Path, dst: Path) -> None:
 
 def build_pdfs() -> None:
     OUT.mkdir(exist_ok=True)
-    build_pdf(DIST / "cv" / "en.html", OUT / "cv-en.pdf")
-    build_pdf(DIST / "cv" / "es.html", OUT / "cv-es.pdf")
+    cv_dist = DIST / "cv"
+    cv_dist.mkdir(parents=True, exist_ok=True)
+    for lang in ("en", "es"):
+        src = DIST / "cv" / f"{lang}.html"
+        # local out/ copy (gitignored, for local use)
+        build_pdf(src, OUT / f"cv-{lang}.pdf")
+        # dist/ copy — served on GH Pages
+        shutil.copy2(OUT / f"cv-{lang}.pdf", cv_dist / f"cv-{lang}.pdf")
+
+
+# ---------------------------------------------------------------------------
+# Plain-text export (ATS-safe)
+# ---------------------------------------------------------------------------
+
+_NOISE_PATTERNS = [
+    # image badges at the top: [![alt](img)](url)
+    re.compile(r'\[!\[.*?\]\(.*?\)\]\(.*?\)\n?'),
+    # language toggle links: [Español](...) / [English](...)
+    re.compile(r'\[(English|Español)\]\(.*?\)\n?'),
+    # hidden AI-prompt div (span all lines until closing </div>)
+    re.compile(r'<div[^>]*display:\s*none.*?</div>\s*', re.DOTALL | re.IGNORECASE),
+]
+
+
+def _strip_md_noise(text: str) -> str:
+    """Remove front-matter and visual/non-text noise from a CV markdown file."""
+    # strip YAML/... front matter
+    text = re.sub(r'^---\n.*?\n\.\.\.\n', '', text, count=1, flags=re.DOTALL)
+    for pat in _NOISE_PATTERNS:
+        text = pat.sub('', text)
+    return text
+
+
+def build_plain_text(src_md: Path, dst_txt: Path) -> None:
+    """Render a CV markdown source to a clean ATS-safe plain-text file."""
+    clean_md = _strip_md_noise(src_md.read_text())
+    result = subprocess.run(
+        ["pandoc", "--from", "markdown", "--to", "plain", "--wrap=none"],
+        input=clean_md,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    dst_txt.parent.mkdir(parents=True, exist_ok=True)
+    dst_txt.write_text(result.stdout)
+
+
+def build_plain_text_pdf(src_md: Path, dst_pdf: Path) -> None:
+    """Render plain-text CV markdown to an ATS-safe no-frills PDF via weasyprint."""
+    dst_pdf.parent.mkdir(parents=True, exist_ok=True)
+    # Build a minimal HTML from the cleaned markdown, then weasyprint it
+    clean_md = _strip_md_noise(src_md.read_text())
+    plain_html_result = subprocess.run(
+        ["pandoc", "--from", "markdown", "--to", "html", "--standalone",
+         "--metadata", "title=CV",
+         "--css", ""],  # no external CSS — keep it bare
+        input=clean_md,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    # Inject minimal inline style for readable margins and font
+    minimal_style = (
+        "<style>"
+        "body{font-family:monospace;font-size:10pt;"
+        "margin:15mm 20mm;line-height:1.4;}"
+        "h1,h2,h3{font-family:sans-serif;}"
+        "hr{border:none;border-top:1px solid #ccc;}"
+        "</style>"
+    )
+    plain_html = plain_html_result.stdout.replace("</head>", f"{minimal_style}</head>", 1)
+    tmp_html = dst_pdf.with_suffix(".plain.html")
+    tmp_html.write_text(plain_html)
+    try:
+        subprocess.run(
+            ["uvx", "--from", "weasyprint", "weasyprint", str(tmp_html), str(dst_pdf)],
+            check=True,
+        )
+    finally:
+        tmp_html.unlink(missing_ok=True)
+
+
+def build_plain_texts() -> None:
+    OUT.mkdir(exist_ok=True)
+    cv_dist = DIST / "cv"
+    cv_dist.mkdir(parents=True, exist_ok=True)
+    for lang in ("en", "es"):
+        src_md = ROOT / "cv" / f"{lang}.md"
+        txt_out = OUT / f"cv-{lang}.txt"
+        txt_pdf_out = OUT / f"cv-{lang}-plain.pdf"
+        build_plain_text(src_md, txt_out)
+        shutil.copy2(txt_out, cv_dist / f"cv-{lang}.txt")
+        build_plain_text_pdf(src_md, txt_pdf_out)
+        shutil.copy2(txt_pdf_out, cv_dist / f"cv-{lang}-plain.pdf")
 
 
 def main() -> None:
@@ -344,6 +436,11 @@ def main() -> None:
     build_pages()
     if "--pdf" in sys.argv[1:]:
         build_pdfs()
+    if "--txt" in sys.argv[1:]:
+        build_plain_texts()
+    if "--all" in sys.argv[1:]:
+        build_pdfs()
+        build_plain_texts()
 
 
 if __name__ == "__main__":

@@ -7,8 +7,16 @@ description = "Build the static site into dist/"
 run = "uv run scripts/build.py"
 
 [tasks."cv:pdf"]
-description = "Build CV PDFs from the generated site"
+description = "Build CV PDFs from the generated site (also copies to dist/cv/)"
 run = "uv run scripts/build.py --pdf"
+
+[tasks."cv:txt"]
+description = "Build ATS-safe plain-text CVs and plain-text PDFs (also copies to dist/cv/)"
+run = "uv run scripts/build.py --txt"
+
+[tasks."cv:all"]
+description = "Build all CV formats: styled PDF, plain-text, and plain-text PDF"
+run = "uv run scripts/build.py --all"
 
 [tasks.clean]
 description = "Remove generated site artifacts"
