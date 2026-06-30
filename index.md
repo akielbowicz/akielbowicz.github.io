@@ -45,8 +45,10 @@ I design custom languages that allow Quants to define complex pricing models saf
 
 ## Resume / CV
 
-- [English](./cv/en.html)
-- [Español](./cv/es.html)
+| Language | HTML | Styled PDF | Plain PDF | Plain Text |
+|----------|------|------------|-----------|------------|
+| English | [View](./cv/en.html) | [PDF](./cv/cv-en.pdf) | [Plain PDF](./cv/cv-en-plain.pdf) | [.txt](./cv/cv-en.txt) |
+| Español | [Ver](./cv/es.html) | [PDF](./cv/cv-es.pdf) | [PDF plano](./cv/cv-es-plain.pdf) | [.txt](./cv/cv-es.txt) |
 
 ---
 

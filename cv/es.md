@@ -9,6 +9,8 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 [English](./en.html)
 
+**Descargar:** [PDF con formato](/cv/cv-es.pdf) · [PDF texto plano](/cv/cv-es-plain.pdf) · [Texto plano (.txt)](/cv/cv-es.txt)
+
 # Consultor Independiente en IA Agéntica, Computación Científica y Arquitectura de Sistemas Cuantitativos
 
 **Contacto**: augusto [dot] kiel [at] gmail [dot] com

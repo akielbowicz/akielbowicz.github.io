@@ -433,6 +433,8 @@ def main() -> None:
     if (ROOT / "CNAME").exists():
         shutil.copy2(ROOT / "CNAME", DIST / "CNAME")
     (DIST / ".nojekyll").write_text("")
+    if (ROOT / "llms.txt").exists():
+        shutil.copy2(ROOT / "llms.txt", DIST / "llms.txt")
     build_pages()
     if "--pdf" in sys.argv[1:]:
         build_pdfs()

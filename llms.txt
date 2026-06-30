@@ -1,0 +1,59 @@
+# Sasha (Augusto) Kielbowicz
+
+> Independent Consultant in Agentic AI, Scientific Computing, and Quantitative Systems Architecture.
+> Physics background (UBA). Senior AI Engineer at AstraZeneca (Oncology R&D).
+> Co-founder of Phorma (Research Software Engineering consultancy).
+> Based in Buenos Aires, Argentina. Available for remote engagements globally.
+
+## Site
+
+- Homepage: https://ak.saxa.xyz
+- Professional blog: https://ak.saxa.xyz/blog
+- Personal blog: https://saxa.xyz
+
+## CV / Resume
+
+Full CV available in multiple formats:
+
+- HTML (English): https://ak.saxa.xyz/cv/en.html
+- HTML (Español): https://ak.saxa.xyz/cv/es.html
+- Styled PDF (English): https://ak.saxa.xyz/cv/cv-en.pdf
+- Styled PDF (Español): https://ak.saxa.xyz/cv/cv-es.pdf
+- Plain-text PDF (English): https://ak.saxa.xyz/cv/cv-en-plain.pdf
+- Plain-text PDF (Español): https://ak.saxa.xyz/cv/cv-es-plain.pdf
+- Plain text (English): https://ak.saxa.xyz/cv/cv-en.txt
+- Plain text (Español): https://ak.saxa.xyz/cv/cv-es.txt
+
+## Expertise
+
+- Agentic AI platform engineering (Model Context Protocol, multi-agent orchestration)
+- Enterprise integrations (OAuth 2.0 PKCE, Grant Chains, Client Credentials)
+- Competitive Intelligence & Knowledge Engines (RAG, hybrid retrieval, IR trace optimization)
+- Automated agent evaluation frameworks (Evals)
+- High-Performance Computing (300%+ gains in production numerical systems)
+- Neural Stochastic Differential Equations (NeuralSDEs) using Julia
+- Domain-Specific Language (DSL) design for quantitative finance
+- Research Software Engineering (RSE)
+
+## Professional History (summary)
+
+- AstraZeneca — Senior AI Engineer, Oncology R&D (March 2026 – present)
+- Phorma — Co-founder, Research Software Engineering (February 2026 – present)
+- Mercado Libre — Software Technical Lead, Financial Planning & Analytics (June 2025 – March 2026)
+- SimCorp — Lead Software Engineer, Core Analytics (March 2024 – May 2025)
+- Qontigo (Axioma Risk) — Associate Principal, Core Analytics (September 2020 – March 2024)
+- J.P. Morgan — Technology Analyst, Rates CIB (July 2018 – August 2020)
+
+## Blog Posts
+
+- Resonant Coding: A Method to Master AI Chaos (2026-01-25): https://ak.saxa.xyz/2026/01/25/resonant-coding-en.html
+- Why Phorma: My Journey from Science to Building Systems (2026-02-18): https://ak.saxa.xyz/2026/02/18/por-que-cree-phorma-en.html
+- The First Step (2026-02-18): https://ak.saxa.xyz/2026/02/18/the-first-step-en.html
+- Beyond the Prompt: Building Software with Intentionality (2026-03-02): https://ak.saxa.xyz/2026/03/02/beyond-the-prompt-en.html
+
+## Contact & Profiles
+
+- Email: augusto [dot] kiel [at] gmail [dot] com
+- GitHub: https://github.com/akielbowicz
+- LinkedIn: https://www.linkedin.com/in/augusto-kiel/
+- AI experiments: https://charly-vibes.github.io
