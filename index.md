@@ -2,7 +2,7 @@
 
 ## Independent Consultant — Agentic AI & Research Software Engineering
 
-I help R&D, BioImage, and Quantitative Finance teams move research-quality models into production without losing mathematical correctness or computational performance. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre. Currently Senior AI Engineer at AstraZeneca (Oncology R&D).
+I help R&D and Quantitative Finance teams move research-quality models into production without losing mathematical correctness or computational performance. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre. Currently Senior AI Engineer at AstraZeneca (Oncology R&D).
 
 ---
 
@@ -31,7 +31,7 @@ Your Python or R research prototypes are stalling your pipeline. I optimize nume
 
 ### Research Software Engineering (RSE)
 
-Through **[Phorma](https://acorbat.github.io/)** — a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/) — we help R&D, BioImage, and Quantitative Finance teams build stable, reproducible, production-grade systems. Scientists keep their research focus; Phorma handles the engineering. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
+Through **[Phorma](https://acorbat.github.io/)** — a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/) — we help R&D and Quantitative Finance teams build stable, reproducible, production-grade systems. Scientists keep their research focus; Phorma handles the engineering. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
 
 ### Domain-Specific Language (DSL) Design
 
@@ -46,7 +46,7 @@ I take on a limited number of specialized engagements alongside my primary commi
 - **The Architecture Audit** — A focused review of your current pipeline to diagnose computational bottlenecks, LLM integration risks, or RSE gaps. 1–2 hours, actionable findings.
 - **The Focused Sprint** — A 1–4 week intensive targeting a specific bottleneck: numerical optimization, MCP integration, agentic Evals, or DSL prototype.
 
-For team-scale projects, longer R&D support, or BioImage/scientific computing engagements, we work through **Phorma**.
+For team-scale projects or longer R&D engagements, we work through **Phorma**.
 
 **To start**: email [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description) with subject `[Consulting] Brief description` — or reach out on [LinkedIn](https://www.linkedin.com/in/augusto-kiel/).
 
