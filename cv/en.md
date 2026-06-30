@@ -19,9 +19,9 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 ## Executive Profile
 
-Scientific Architect with a Physics background and elite tenure across Tier-1 financial institutions and scientific R&D organizations (Qontigo, SimCorp, Mercado Libre, AstraZeneca). I specialize in **Research Software Engineering (RSE)**, **High-Performance Computing**, and **Production-Grade AI Engineering**. My work focuses on translating complex mathematical models into stable production systems, ranging from **Neural Stochastic Differential Equations (NeuralSDEs)** and **Domain-Specific Languages (DSL)** to **Agentic Orchestration** and **Evaluation Frameworks (Evals)**. I help firms bridge the gap between "Research" and "Production" by engineering systems that are mathematically rigorous, computationally efficient, and operationally stable for both humans and agents.
+Scientific Architect with a Physics background and elite tenure across Tier-1 financial institutions and scientific R&D organizations (Qontigo, SimCorp, Mercado Libre, AstraZeneca). I specialize in **Research Software Engineering (RSE)**, **High-Performance Computing**, and **Production-Grade AI Engineering**. My work focuses on translating complex mathematical models into stable production systems, ranging from **Neural Stochastic Differential Equations (NeuralSDEs)** and **Domain-Specific Languages (DSL)** to **Agentic Orchestration** and **Evaluation Frameworks (Evals)**. I help firms move research-quality models into production without losing mathematical correctness or computational performance.
 
-My Physics degree (Licenciatura, University of Buenos Aires) taught me to model complex problems by finding the right level of abstraction. Combined with production experience across tier-1 financial institutions, I deliver solutions that are both theoretically sound and operationally stable.
+My Physics degree (Licenciatura, University of Buenos Aires) taught me to find the right level of abstraction before writing a line of code. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre taught me what production actually costs.
 
 **Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Agentic AI platforms • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
@@ -109,7 +109,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 **The Solution**: Architected production-grade MCP servers with multi-tenant OAuth patterns; built automated Evals frameworks to quantifiably measure agent task accuracy and tool-calling reliability; designed document ingestion pipelines and optimized IR traces for a Competitive Intelligence Knowledge Engine; engineered multi-layer agent memory and personalization systems.
 
-**Outcome**: Delivered the full external integration layer to production; established reusable OAuth blueprints for all future integrations; reduced LLM token consumption by **13%+** through semantic pre-filtering and cache optimization; created a measurable quality baseline for ongoing agent development.
+**Outcome**: Delivered the full external integration layer to production; established reusable OAuth blueprints adopted for all subsequent integrations; reduced LLM token consumption by **13%+** through semantic pre-filtering and cache optimization; established an Evals suite tracking tool-calling accuracy and retrieval precision as ongoing KPIs.
 
 ---
 
@@ -122,9 +122,9 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
 
 - **Enterprise Agentic Integrations**: Architected and shipped the external integration surface of the R&D agentic platform, designing production-grade **Model Context Protocol (MCP)** servers with robust multi-tenant authentication patterns (OAuth 2.0 PKCE, Grant Chains, and Client Credentials).
-- **Competitive Intelligence & Knowledge Engines**: Constructed automated document ingestion pipelines to continuously process and index enterprise sources into the LLM-Wiki/Knowledge Base. Engineered hybrid search algorithms and analyzed/optimized information retrieval (IR) traces to dramatically reduce retrieval latency and maximize source precision.
-- **Automated Agent Evaluations (Evals)**: Spearheaded the design and deployment of automated evaluation frameworks to quantifiably measure agent task-execution accuracy, tool-calling reliability, and retrieval stability across model updates.
-- **Multi-Layer Memory & Personalization**: Engineered user content personalization engines and structured agent memory systems—integrating episodic, semantic, and working memory layers—to deliver contextually tailored, high-fidelity experiences across the platform.
+- **Competitive Intelligence & Knowledge Engines**: Built automated document ingestion pipelines to index enterprise sources into the LLM-Wiki/Knowledge Base. Tuned hybrid search (dense + sparse) and analyzed IR traces to cut retrieval latency and improve source hit rate.
+- **Automated Agent Evaluations (Evals)**: Designed and ran automated evaluation frameworks measuring agent task-execution accuracy, tool-calling reliability, and retrieval stability across model updates.
+- **Multi-Layer Memory & Personalization**: Built user content personalization engines and structured agent memory systems—episodic, semantic, and working memory layers—so agents return context-relevant responses rather than generic ones.
 - **LLM Security & Threat Modeling**: Audited tool-use capabilities in advanced reasoning architectures, identifying and neutralizing critical tool-injection vectors and token-abuse vulnerabilities before execution in production.
 - **Agentic Cost Engineering**: Optimized execution graphs, achieving a **13%+ reduction in LLM token consumption** through semantic pre-filtering and custom cache optimization layers.
 
@@ -134,12 +134,11 @@ Advancing the R&D Agentic Platform and strengthening internal developer enableme
 **Co-founder & Research Software Engineer**
 *February 2026 - Present* | Buenos Aires, Argentina
 
-Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE). Phorma delivers specialized consulting to R&D, BioImage, and Quantitative Finance teams.
+Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to apply *Research Software Engineering* (RSE) to R&D, BioImage, and Quantitative Finance teams. Scientists keep their research focus; Phorma owns the engineering execution.
 
 - Transforming research-quality models and workflows into stable, reproducible production systems
 - Designing RSE architectures for BioImage analysis, scientific simulation, and quantitative finance
 - Establishing engineering best practices (testing, CI/CD, reproducibility) in high-mathematical-complexity codebases
-- Collaborative consulting model: scientists keep doing science while Phorma handles the engineering
 
 ### Independent Consultant
 **Quantitative Software & Scientific Computing**

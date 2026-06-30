@@ -19,9 +19,9 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 ## Perfil Ejecutivo
 
-Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel y organizaciones de I+D científica (Qontigo, SimCorp, Mercado Libre, AstraZeneca). Me especializo en **Ingeniería de Software de Investigación (RSE)**, **Cómputo de Alto Rendimiento** e **Ingeniería de IA de Grado Productivo**. Mi trabajo se centra en traducir modelos matemáticos complejos en sistemas de producción estables, abarcando desde **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)** hasta **Orquestación Agéntica** y **Frameworks de Evaluación (Evals)**. Ayudo a las firmas a cerrar la brecha entre "Investigación" y "Producción" diseñando sistemas que son matemáticamente rigurosos, computacionalmente eficientes y operativamente estables tanto para personas como para agentes.
+Arquitecto Científico con formación en Física (UBA) y trayectoria de élite en instituciones financieras de primer nivel y organizaciones de I+D científica (Qontigo, SimCorp, Mercado Libre, AstraZeneca). Me especializo en **Ingeniería de Software de Investigación (RSE)**, **Cómputo de Alto Rendimiento** e **Ingeniería de IA de Grado Productivo**. Mi trabajo se centra en traducir modelos matemáticos complejos en sistemas de producción estables, abarcando desde **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y **Lenguajes de Dominio Específico (DSL)** hasta **Orquestación Agéntica** y **Frameworks de Evaluación (Evals)**. Ayudo a las firmas a llevar modelos de calidad investigativa a producción sin perder corrección matemática ni rendimiento computacional.
 
-Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a modelar problemas complejos encontrando el nivel correcto de abstracción. Combinado con experiencia en instituciones financieras de primer nivel, entrego soluciones que son teóricamente sólidas y operacionalmente estables.
+Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a encontrar el nivel correcto de abstracción antes de escribir una línea de código. Siete años en JP Morgan, Qontigo, SimCorp y Mercado Libre me enseñaron lo que producción realmente cuesta.
 
 **Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Plataformas de IA agéntica • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 
@@ -116,7 +116,7 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 **La Solución**: Diseñé servidores MCP de grado productivo con patrones OAuth multi-inquilino; construí frameworks de Evals automatizados para medir la precisión de tareas y la confiabilidad de tool-calling; diseñé pipelines de ingesta documental y optimicé trazas de recuperación para un Motor de Inteligencia Competitiva; y diseñé sistemas de memoria multi-capa y personalización.
 
-**Resultado**: Entregué la capa de integración externa completa a producción; establecí blueprints OAuth reutilizables para futuras integraciones; reduje el consumo de tokens LLM en más del **13%** mediante pre-filtrado semántico y optimización de caché; y creé una línea base de calidad medible para el desarrollo agéntico continuo.
+**Resultado**: Entregué la capa de integración externa completa a producción; establecí blueprints OAuth adoptados en todas las integraciones posteriores; reduje el consumo de tokens LLM en más del **13%** mediante pre-filtrado semántico y optimización de caché; y establecí una suite de Evals que rastrea precisión de tool-calling y precisión de recuperación como KPIs continuos.
 
 ---
 
@@ -129,9 +129,9 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
 
 - **Integraciones Agénticas Corporativas**: Diseñé e implementé la capa de integración de la plataforma de agentes de I+D, desarrollando servidores **Model Context Protocol (MCP)** productivos con patrones de autenticación multi-inquilino (OAuth 2.0 PKCE, Grant Chains y Client Credentials).
-- **Motores de Inteligencia Competitiva y Bases de Conocimiento**: Diseñé e implementé pipelines automatizados de ingesta de documentos a escala para procesar e indexar fuentes organizacionales dentro de la LLM-Wiki/Base de Conocimiento. Desarrollé estrategias de búsqueda híbrida y analicé/optimicé trazas de recuperación de información (IR traces) para reducir drásticamente la latencia de consulta y maximizar la precisión de extracción.
-- **Evaluaciones Automatizadas de Agentes (Evals)**: Lideré el diseño y despliegue de frameworks de evaluación automatizados para medir de forma cuantitativa la precisión de ejecución de tareas, la confiabilidad de llamado de funciones (tool-calling) y la estabilidad de recuperación tras actualizaciones de modelos.
-- **Memoria Multi-Capa y Personalización**: Desarrollé sistemas de personalización de contenido y arquitecturas de memoria estructurada para agentes—integrando capas de memoria episódica, semántica y de trabajo (working memory)—para proveer experiencias adaptadas y de alta fidelidad dentro de la plataforma.
+- **Motores de Inteligencia Competitiva y Bases de Conocimiento**: Construí pipelines automatizados de ingesta documental para indexar fuentes organizacionales en la LLM-Wiki/Base de Conocimiento. Ajusté búsqueda híbrida (densa + dispersa) y analicé trazas de recuperación (IR traces) para reducir latencia e incrementar la tasa de acierto por fuente.
+- **Evaluaciones Automatizadas de Agentes (Evals)**: Diseñé y ejecuté frameworks de evaluación automatizados para medir la precisión de ejecución de tareas, la confiabilidad de tool-calling y la estabilidad de recuperación tras actualizaciones de modelos.
+- **Memoria Multi-Capa y Personalización**: Construí motores de personalización de contenido y arquitecturas de memoria estructurada para agentes—capas episódica, semántica y de trabajo (working memory)—para que los agentes devuelvan respuestas contextualmente relevantes en lugar de genéricas.
 - **Seguridad de LLMs y Modelado de Amenazas**: Audité capacidades de uso de herramientas (tool-use) en modelos con razonamiento avanzado, detectando y mitigando riesgos de inyección de herramientas (tool-injection) y vulnerabilidades de consumo de tokens antes de su paso a producción.
 - **Ingeniería de Costos en IA**: Optimicé grafos de ejecución agénticos logrando una **reducción de más del 13% en el consumo de tokens** de LLMs mediante estrategias de pre-filtrado semántico y optimización en la capa de caché.
 
@@ -141,12 +141,11 @@ Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación inter
 **Co-fundador e Ingeniero de Software de Investigación**
 *Febrero 2026 - Presente* | Buenos Aires, Argentina
 
-Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para tender puentes entre la investigación científica y la industria a través del *Research Software Engineering* (RSE). Phorma brinda consultoría especializada a equipos de I+D, BioImagen y Finanzas Cuantitativas.
+Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para aplicar *Research Software Engineering* (RSE) a equipos de I+D, BioImagen y Finanzas Cuantitativas. Los científicos mantienen el foco en la investigación; Phorma se hace cargo de la ejecución de ingeniería.
 
 - Transformación de modelos y workflows de calidad investigativa en sistemas de producción estables y reproducibles
 - Diseño de arquitecturas RSE para análisis de BioImagen, simulación científica y finanzas cuantitativas
 - Establecimiento de mejores prácticas de ingeniería (testing, CI/CD, reproducibilidad) en codebases de alta complejidad matemática
-- Modelo de consultoría colaborativo: los científicos siguen haciendo ciencia mientras Phorma se encarga de la ingeniería
 
 ### Consultor Independiente
 **Software Cuantitativo y Computación Científica**
