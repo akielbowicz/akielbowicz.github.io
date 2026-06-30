@@ -35,7 +35,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 - Translating research-quality code into stable, reproducible production systems
 - **Neural Stochastic Differential Equations (NeuralSDEs)** and physics-informed ML for scientific simulation and quantitative finance
 - Standardizing analytical workflows from Jupyter notebooks to CI/CD-managed pipelines
-- Reproducibility, testing, and DevOps practices for R&D, BioImage, and Quantitative Finance teams
+- Reproducibility, testing, and DevOps practices for R&D and Quantitative Finance teams
 - Scientific computing architecture for high-mathematical-complexity domains
 - Migration and modernization of legacy analytical systems
 
@@ -116,10 +116,10 @@ Advancing the R&D Agentic Platform and strengthening internal developer enableme
 ### Phorma | Co-founder & Research Software Engineer
 **February 2026 - Present** | Buenos Aires, Argentina
 
-Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE). Phorma delivers specialized consulting to R&D, BioImage, and Quantitative Finance teams.
+Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE). Phorma delivers specialized consulting to R&D and Quantitative Finance teams.
 
 - Transforming research-quality models and workflows into stable, reproducible production systems
-- Designing RSE architectures for BioImage analysis, scientific simulation, and quantitative finance
+- Designing RSE architectures for scientific simulation and quantitative finance
 - Establishing engineering best practices (testing, CI/CD, reproducibility) in high-mathematical-complexity codebases
 - Collaborative consulting model: scientists keep doing science while Phorma handles the engineering
 

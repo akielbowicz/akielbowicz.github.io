@@ -44,7 +44,7 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 - Transformación de código de calidad investigativa en sistemas de producción estables y reproducibles
 - **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y ML informado por física para simulación científica y finanzas cuantitativas
 - Estandarización de flujos analíticos desde Jupyter notebooks a pipelines gestionados por CI/CD
-- Reproducibilidad, testing y prácticas DevOps para equipos de I+D, BioImagen y Finanzas Cuantitativas
+- Reproducibilidad, testing y prácticas DevOps para equipos de I+D y Finanzas Cuantitativas
 - Arquitectura de computación científica para dominios de alta complejidad matemática
 - Migración y modernización de sistemas analíticos heredados
 
@@ -141,10 +141,10 @@ Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación inter
 **Co-fundador e Ingeniero de Software de Investigación**
 *Febrero 2026 - Presente* | Buenos Aires, Argentina
 
-Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para aplicar *Research Software Engineering* (RSE) a equipos de I+D, BioImagen y Finanzas Cuantitativas. Los científicos mantienen el foco en la investigación; Phorma se hace cargo de la ejecución de ingeniería.
+Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para aplicar *Research Software Engineering* (RSE) a equipos de I+D y Finanzas Cuantitativas. Los científicos mantienen el foco en la investigación; Phorma se hace cargo de la ejecución de ingeniería.
 
 - Transformación de modelos y workflows de calidad investigativa en sistemas de producción estables y reproducibles
-- Diseño de arquitecturas RSE para análisis de BioImagen, simulación científica y finanzas cuantitativas
+- Diseño de arquitecturas RSE para simulación científica y finanzas cuantitativas
 - Establecimiento de mejores prácticas de ingeniería (testing, CI/CD, reproducibilidad) en codebases de alta complejidad matemática
 
 ### Consultor Independiente
