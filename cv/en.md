@@ -42,6 +42,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 ### Research Software Engineering (RSE)
 - Translating research-quality code into stable, reproducible production systems
+- **Neural Stochastic Differential Equations (NeuralSDEs)** and physics-informed ML for scientific simulation and quantitative finance
 - Standardizing analytical workflows from Jupyter notebooks to CI/CD-managed pipelines
 - Reproducibility, testing, and DevOps practices for R&D, BioImage, and Quantitative Finance teams
 - Scientific computing architecture for high-mathematical-complexity domains

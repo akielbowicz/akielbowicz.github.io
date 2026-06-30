@@ -42,6 +42,7 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 
 ### Ingeniería de Software de Investigación (RSE)
 - Transformación de código de calidad investigativa en sistemas de producción estables y reproducibles
+- **Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)** y ML informado por física para simulación científica y finanzas cuantitativas
 - Estandarización de flujos analíticos desde Jupyter notebooks a pipelines gestionados por CI/CD
 - Reproducibilidad, testing y prácticas DevOps para equipos de I+D, BioImagen y Finanzas Cuantitativas
 - Arquitectura de computación científica para dominios de alta complejidad matemática
