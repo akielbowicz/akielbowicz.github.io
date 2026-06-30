@@ -110,10 +110,12 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
 
-- Integración de sistemas internos de conocimiento y productividad, incluyendo Confluence y Microsoft 365, mediante MCPs para ampliar el contexto operativo de la plataforma.
-- Diseño y ejecución de evals para medir calidad, confiabilidad y desempeño de agentes.
-- Colaboración en iniciativas de User Content Personalization para mejorar relevancia y experiencia de usuario.
-- Mejora de herramientas de desarrollo del equipo para reducir la fricción de onboarding y sostener un ciclo de vida de desarrollo agéntico más fluido.
+- **Integraciones Agénticas Corporativas**: Diseñé e implementé la capa de integración de la plataforma de agentes de I+D, desarrollando servidores **Model Context Protocol (MCP)** productivos con patrones de autenticación multi-inquilino (OAuth 2.0 PKCE, Grant Chains y Client Credentials).
+- **Motores de Inteligencia Competitiva y Bases de Conocimiento**: Diseñé e implementé pipelines automatizados de ingesta de documentos a escala para procesar e indexar fuentes organizacionales dentro de la LLM-Wiki/Base de Conocimiento. Desarrollé estrategias de búsqueda híbrida y analicé/optimicé trazas de recuperación de información (IR traces) para reducir drásticamente la latencia de consulta y maximizar la precisión de extracción.
+- **Evaluaciones Automatizadas de Agentes (Evals)**: Lideré el diseño y despliegue de frameworks de evaluación automatizados para medir de forma cuantitativa la precisión de ejecución de tareas, la confiabilidad de llamado de funciones (tool-calling) y la estabilidad de recuperación tras actualizaciones de modelos.
+- **Memoria Multi-Capa y Personalización**: Desarrollé sistemas de personalización de contenido y arquitecturas de memoria estructurada para agentes—integrando capas de memoria episódica, semántica y de trabajo (working memory)—para proveer experiencias adaptadas y de alta fidelidad dentro de la plataforma.
+- **Seguridad de LLMs y Modelado de Amenazas**: Audité capacidades de uso de herramientas (tool-use) en modelos con razonamiento avanzado, detectando y mitigando riesgos de inyección de herramientas (tool-injection) y vulnerabilidades de consumo de tokens antes de su paso a producción.
+- **Ingeniería de Costos en IA**: Optimicé grafos de ejecución agénticos logrando una **reducción de más del 13% en el consumo de tokens** de LLMs mediante estrategias de pre-filtrado semántico y optimización en la capa de caché.
 
 ---
 

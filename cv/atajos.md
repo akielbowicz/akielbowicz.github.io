@@ -12,7 +12,7 @@ Quick access to all CV versions and formats.
 - [Consultant Profile](./linkedin-profile-consultant.md) - Consultant-focused version
 
 ### Legacy/Alternative Versions
-- [Consultant CV 2025](./CV-Consultant-2025.md) - Alternative consultant format
+- [Consultant CV](./CV-Consultant.md) - Alternative consultant format
 
 ---
 

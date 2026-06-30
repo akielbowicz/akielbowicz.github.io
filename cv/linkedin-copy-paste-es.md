@@ -87,10 +87,12 @@ Brindo servicios de consultoría especializados en:
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
 
 **Responsabilidades Clave:**
-• Integrar sistemas internos de conocimiento y productividad, incluyendo Confluence y Microsoft 365, mediante MCPs para ampliar el contexto operativo de la plataforma
-• Diseñar y ejecutar evals para medir calidad, confiabilidad y desempeño de agentes
-• Colaborar en iniciativas de User Content Personalization para mejorar relevancia y experiencia de usuario
-• Mejorar herramientas de desarrollo del equipo para reducir la fricción de onboarding y sostener un ciclo de vida de desarrollo agéntico más fluido
+• Integraciones Agénticas Corporativas: Diseñé e implementé la capa de integración de la plataforma de agentes de I+D, desarrollando servidores Model Context Protocol (MCP) productivos con patrones de autenticación multi-inquilino (OAuth 2.0 PKCE, Grant Chains y Client Credentials)
+• Motores de Inteligencia Competitiva y Bases de Conocimiento: Construí pipelines automatizados de ingesta de documentos para procesar e indexar fuentes organizacionales dentro de la LLM-Wiki/Base de Conocimiento; desarrollé búsqueda híbrida y optimicé trazas de recuperación de información (IR traces) para reducir latencia y maximizar precisión de extracción
+• Evaluaciones Automatizadas de Agentes (Evals): Lideré el diseño y despliegue de frameworks de evaluación automatizados para medir precisión de ejecución de tareas, confiabilidad de tool-calling y estabilidad de recuperación tras actualizaciones de modelos
+• Memoria Multi-Capa y Personalización: Desarrollé sistemas de personalización de contenido y arquitecturas de memoria estructurada integrando capas de memoria episódica, semántica y de trabajo (working memory)
+• Seguridad de LLMs y Modelado de Amenazas: Audité capacidades de uso de herramientas (tool-use) en modelos con razonamiento avanzado, mitigando riesgos de inyección de herramientas y vulnerabilidades de consumo de tokens antes de producción
+• Ingeniería de Costos en IA: Optimicé grafos de ejecución agénticos logrando una reducción de más del 13% en el consumo de tokens mediante pre-filtrado semántico y optimización en la capa de caché
 
 ---
 

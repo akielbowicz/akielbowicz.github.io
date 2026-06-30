@@ -88,10 +88,12 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
 
 **Key Focus**: Agentic Platform Integration, Evals & Developer Experience
-- Integrating internal knowledge and productivity systems, including Confluence and Microsoft 365, through MCPs to expand the platform's operational context
-- Designing and running evals to assess agent quality, reliability, and task performance
-- Contributing to User Content Personalization initiatives to improve relevance and user experience
-- Improving team development tooling to reduce onboarding friction and support a smoother agentic development lifecycle
+- **Enterprise Agentic Integrations**: Architected and shipped the external integration surface of the R&D agentic platform, designing production-grade **Model Context Protocol (MCP)** servers with robust multi-tenant authentication patterns (OAuth 2.0 PKCE, Grant Chains, and Client Credentials).
+- **Competitive Intelligence & Knowledge Engines**: Constructed automated document ingestion pipelines to continuously process and index enterprise sources into the LLM-Wiki/Knowledge Base. Engineered hybrid search algorithms and analyzed/optimized information retrieval (IR) traces to dramatically reduce retrieval latency and maximize source precision.
+- **Automated Agent Evaluations (Evals)**: Spearheaded the design and deployment of automated evaluation frameworks to quantifiably measure agent task-execution accuracy, tool-calling reliability, and retrieval stability across model updates.
+- **Multi-Layer Memory & Personalization**: Engineered user content personalization engines and structured agent memory systems—integrating episodic, semantic, and working memory layers—to deliver contextually tailored, high-fidelity experiences across the platform.
+- **LLM Security & Threat Modeling**: Audited tool-use capabilities in advanced reasoning architectures, identifying and neutralizing critical tool-injection vectors and token-abuse vulnerabilities before execution in production.
+- **Agentic Cost Engineering**: Optimized execution graphs, achieving a **13%+ reduction in LLM token consumption** through semantic pre-filtering and custom cache optimization layers.
 
 ---
 
