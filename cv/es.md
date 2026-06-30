@@ -25,11 +25,27 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 
 **Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Plataformas de IA agéntica • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 
-**Enfoque de Consultoría**: Sprints de Optimización de Rendimiento, Arquitectura de IA Determinística, Integración de Plataformas Agénticas, Diseño de DSL, Sprints de Diseño Arquitectónico, Capacitación Corporativa Especializada.
+**Enfoque de Consultoría**: Sprints de Optimización de Rendimiento, Integración de Plataformas Agénticas, Arquitectura de Motores de Conocimiento, Frameworks de Evaluación de Agentes, Consultoría RSE, Diseño de DSL, Sprints de Diseño Arquitectónico, Capacitación Corporativa Especializada.
 
 ---
 
 ## Servicios de Consultoría
+
+### Ingeniería de IA Agéntica
+- Diseño e implementación de servidores **Model Context Protocol (MCP)** de grado productivo
+- Arquitectura de autenticación empresarial multi-inquilino (OAuth 2.0 PKCE, Grant Chains, CCG)
+- Motores de Inteligencia Competitiva y Bases de Conocimiento: pipelines de ingesta documental, RAG híbrido, optimización de trazas de recuperación (IR)
+- Frameworks de **Evaluación de Agentes (Evals)** para precisión de tareas, confiabilidad de tool-calling y estabilidad de recuperación
+- Sistemas de memoria multi-capa (episódica, semántica, de trabajo) y motores de personalización
+- Arquitectura de seguridad de LLMs y modelado de amenazas para modelos de razonamiento avanzado
+- Ingeniería de costos agénticos: pre-filtrado, caché y optimización de grafos de ejecución
+
+### Ingeniería de Software de Investigación (RSE)
+- Transformación de código de calidad investigativa en sistemas de producción estables y reproducibles
+- Estandarización de flujos analíticos desde Jupyter notebooks a pipelines gestionados por CI/CD
+- Reproducibilidad, testing y prácticas DevOps para equipos de I+D, BioImagen y Finanzas Cuantitativas
+- Arquitectura de computación científica para dominios de alta complejidad matemática
+- Migración y modernización de sistemas analíticos heredados
 
 ### Sprints de Cómputo de Alto Rendimiento (HPC)
 - Auditoría y optimización de rendimiento para cuellos de botella numéricos
@@ -38,23 +54,14 @@ Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó
 - Optimización de finanzas computacionales en tiempo real
 - Frameworks de pricing y valuación multi-activo
 
-### IA Determinística y Aprendizaje Automático Científico
-- Implementación de Ecuaciones Diferenciales Estocásticas Neuronales (NeuralSDEs)
-- Sistemas RAG conscientes de la matemática para documentación financiera
-- Integración de plataformas agénticas con sistemas internos de conocimiento y productividad
-- Integración de deep learning con leyes físicas y restricciones
-- Arquitectura de IA segura para aplicaciones financieras
-- Calibración y validación de modelos usando principios RSE
-
 ### Arquitectura de Lenguajes de Dominio Específico (DSL)
 - Diseño de lenguajes personalizados para modelos de pricing complejos
-- Desarrollo de interfaces interactivas para librerías cuantitativas
-- Simplificación del acceso a modelos matemáticos sofisticados
-- Habilitación en Ingeniería de Software de Investigación (RSE): Estandarización de flujos analíticos desde Jupyter a producción
+- Desarrollo de interfaces interactivas para librerías cuantitativas (ipywidgets, Voilà)
+- Simplificación del acceso a modelos matemáticos sofisticados para perfiles no técnicos
 
 ### Capacitación y Transferencia de Conocimiento
 - Talleres de Computación Numérica de Alto Rendimiento con Julia
-- Capacitación en desarrollo de software científico y numérico
+- Mejores prácticas de Ingeniería de Software de Investigación (RSE) para equipos científicos
 - Talleres corporativos sobre finanzas cuantitativas y métodos computacionales
 - Mentoría técnica para equipos cuantitativos y de ingeniería
 - Materiales educativos interactivos usando Jupyter notebooks
@@ -102,6 +109,14 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 **Resultado**: Facilité el uso de modelos complejos, permitiendo a perfiles no técnicos construir y probar lógica de pricing de forma segura.
 
+### 4. La Plataforma Agéntica Empresarial (AstraZeneca, Oncología I+D)
+
+**El Desafío**: Una plataforma agéntica de I+D necesitaba una superficie de integración externa completa, un framework de calidad medible y recuperación de conocimiento confiable — ninguno de los cuales existía.
+
+**La Solución**: Diseñé servidores MCP de grado productivo con patrones OAuth multi-inquilino; construí frameworks de Evals automatizados para medir la precisión de tareas y la confiabilidad de tool-calling; diseñé pipelines de ingesta documental y optimicé trazas de recuperación para un Motor de Inteligencia Competitiva; y diseñé sistemas de memoria multi-capa y personalización.
+
+**Resultado**: Entregué la capa de integración externa completa a producción; establecí blueprints OAuth reutilizables para futuras integraciones; reduje el consumo de tokens LLM en más del **13%** mediante pre-filtrado semántico y optimización de caché; y creé una línea base de calidad medible para el desarrollo agéntico continuo.
+
 ---
 
 ## Experiencia Profesional
@@ -121,15 +136,16 @@ Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación inter
 
 ---
 
-### Phorma (Co-fundador)
-**Research Software Engineering & Scientific Computing**
+### Phorma
+**Co-fundador e Ingeniero de Software de Investigación**
 *Febrero 2026 - Presente* | Buenos Aires, Argentina
 
-Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para tender puentes entre la investigación científica y la industria a través del *Research Software Engineering* (RSE).
+Co-fundé **Phorma** junto a [Agustín Corbat](https://acorbat.github.io/) para tender puentes entre la investigación científica y la industria a través del *Research Software Engineering* (RSE). Phorma brinda consultoría especializada a equipos de I+D, BioImagen y Finanzas Cuantitativas.
 
-- Consultoría especializada en la transformación de modelos teóricos en sistemas de producción robustos.
-- Diseño de arquitecturas para equipos de R&D, BioImage y Finanzas Cuantitativas.
-- Implementación de mejores prácticas de ingeniería en contextos de alta complejidad matemática.
+- Transformación de modelos y workflows de calidad investigativa en sistemas de producción estables y reproducibles
+- Diseño de arquitecturas RSE para análisis de BioImagen, simulación científica y finanzas cuantitativas
+- Establecimiento de mejores prácticas de ingeniería (testing, CI/CD, reproducibilidad) en codebases de alta complejidad matemática
+- Modelo de consultoría colaborativo: los científicos siguen haciendo ciencia mientras Phorma se encarga de la ingeniería
 
 ### Consultor Independiente
 **Software Cuantitativo y Computación Científica**
@@ -257,15 +273,15 @@ Todas las charlas disponibles en: [talks.saxa.xyz](http://talks.saxa.xyz/)
 Producción: Python, C#, Julia
 Lenguajes Funcionales/Nicho: F#, Clojure
 
-**Liderazgo y Consultoría**: Mentoría Técnica, Diseño de Soluciones, Elicitación de Requerimientos, Capacitación Corporativa
+**IA Agéntica**: Model Context Protocol (MCP), LangChain, LangGraph, LlamaIndex, pipelines RAG, bases de datos vectoriales, AWS Bedrock, sistemas multi-agente, Evals de LLMs, OAuth empresarial (PKCE, OBO, CCG)
+
+**Ingeniería de Software de Investigación**: Workflows reproducibles, stack científico de Python, métodos numéricos, diferenciación automática, ecuaciones diferenciales estocásticas, NeuralSDEs
 
 **Finanzas Cuantitativas**: Pricing multi-activo, analítica de riesgo, valuación de derivados, construcción de curvas, calibración de modelos
 
-**Computación Científica**: Métodos numéricos, diferenciación automática, ecuaciones diferenciales estocásticas, optimización
+**Arquitectura y Liderazgo**: Diseño de DSLs, diseño de APIs, infraestructura monorepo, microservicios, Mentoría Técnica, Diseño de Soluciones, Capacitación Corporativa
 
-**Arquitectura**: Microservicios, diseño de DSLs, diseño de APIs, infraestructura monorepo, deployment en Azure
-
-**Herramientas**: Jupyter, Git, Docker, Azure, Visual Studio, GitHub Actions
+**Herramientas**: Jupyter, Git, Docker, Azure, GitHub Actions, Visual Studio
 
 ---
 

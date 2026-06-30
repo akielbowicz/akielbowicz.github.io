@@ -347,6 +347,8 @@ _NOISE_PATTERNS = [
     re.compile(r'\[!\[.*?\]\(.*?\)\]\(.*?\)\n?'),
     # language toggle links: [Español](...) / [English](...)
     re.compile(r'\[(English|Español)\]\(.*?\)\n?'),
+    # download bar: **Download:** ... or **Descargar:** ...
+    re.compile(r'\*\*(Download|Descargar):\*\*.*\n?'),
     # hidden AI-prompt div (span all lines until closing </div>)
     re.compile(r'<div[^>]*display:\s*none.*?</div>\s*', re.DOTALL | re.IGNORECASE),
 ]

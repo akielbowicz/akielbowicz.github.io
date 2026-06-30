@@ -25,36 +25,43 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 **Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Agentic AI platforms • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 
-**Engagement Focus**: Performance Optimization Sprints, Deterministic AI Architecture, Agentic Platform Integration, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
+**Engagement Focus**: Performance Optimization Sprints, Agentic Platform Integration, Knowledge Engine Architecture, Agent Evaluation Frameworks, RSE Consulting, DSL Design, Architectural Design Sprints, Specialized Corporate Training.
 
 ---
 
 ## Consulting Services
 
-### High-Performance Computing (HPC) Optimization
+### Agentic AI Engineering
+- Production-grade **Model Context Protocol (MCP)** server design and implementation
+- Multi-tenant enterprise authentication architecture (OAuth 2.0 PKCE, Grant Chains, CCG)
+- Competitive Intelligence Knowledge Engines: document ingestion pipelines, hybrid RAG, IR trace optimization
+- Automated **Agent Evaluation (Evals)** frameworks for task accuracy, tool-calling reliability, and retrieval stability
+- Multi-layer agent memory systems (episodic, semantic, working memory) and personalization engines
+- LLM security architecture and threat modeling for advanced reasoning models
+- Agentic cost engineering: pre-filtering, caching, and execution graph optimization
+
+### Research Software Engineering (RSE)
+- Translating research-quality code into stable, reproducible production systems
+- Standardizing analytical workflows from Jupyter notebooks to CI/CD-managed pipelines
+- Reproducibility, testing, and DevOps practices for R&D, BioImage, and Quantitative Finance teams
+- Scientific computing architecture for high-mathematical-complexity domains
+- Migration and modernization of legacy analytical systems
+
+### High-Performance Computing (HPC) Sprints
 - Performance audit and optimization for numerical bottlenecks
 - Vectorization, caching, and parallelism strategies
 - 300% performance gains achieved in production systems
 - Real-time computational finance optimization
 - Multi-asset class pricing and valuation frameworks
 
-### Deterministic AI & Scientific Machine Learning
-- Neural Stochastic Differential Equations (NeuralSDEs) implementation
-- Math-aware RAG systems for financial documentation
-- Agentic platform integration with internal knowledge and productivity systems
-- Integration of deep learning with physical laws and constraints
-- Safe AI architecture for financial applications
-- Model calibration and validation using RSE principles
-
 ### Domain-Specific Language (DSL) Architecture
 - Custom language design for complex pricing models
-- Interactive UI development for quantitative libraries
-- Simplifying access to sophisticated mathematical models
-- Research Software Engineering (RSE) enablement: Standardizing analytical workflows from Jupyter to production
+- Interactive UI development for quantitative libraries (ipywidgets, Voilà)
+- Simplifying access to sophisticated mathematical models for non-engineer users
 
 ### Training & Knowledge Transfer
 - High-Performance Numerical Computing with Julia workshops
-- Scientific and numeric software development training
+- Research Software Engineering (RSE) best practices for scientific teams
 - Corporate workshops on quantitative finance and computational methods
 - Technical mentorship for quant and engineering teams
 - Interactive educational materials using Jupyter notebooks
@@ -95,6 +102,14 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 
 **Outcome**: Enabled non-engineers to safely construct and test pricing logic by abstracting underlying complexity.
 
+### 4. The Enterprise Agentic Platform (AstraZeneca, Oncology R&D)
+
+**The Challenge**: An R&D agentic platform needed a complete external-integration surface, a measurable quality framework, and reliable knowledge retrieval — none of which existed.
+
+**The Solution**: Architected production-grade MCP servers with multi-tenant OAuth patterns; built automated Evals frameworks to quantifiably measure agent task accuracy and tool-calling reliability; designed document ingestion pipelines and optimized IR traces for a Competitive Intelligence Knowledge Engine; engineered multi-layer agent memory and personalization systems.
+
+**Outcome**: Delivered the full external integration layer to production; established reusable OAuth blueprints for all future integrations; reduced LLM token consumption by **13%+** through semantic pre-filtering and cache optimization; created a measurable quality baseline for ongoing agent development.
+
 ---
 
 ## Professional Experience
@@ -114,15 +129,16 @@ Advancing the R&D Agentic Platform and strengthening internal developer enableme
 
 ---
 
-### Phorma (Co-founder)
-**Research Software Engineering & Scientific Computing**
+### Phorma
+**Co-founder & Research Software Engineer**
 *February 2026 - Present* | Buenos Aires, Argentina
 
-Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE).
+Co-founded **Phorma** with [Agustín Corbat](https://acorbat.github.io/) to bridge the gap between scientific research and industry through *Research Software Engineering* (RSE). Phorma delivers specialized consulting to R&D, BioImage, and Quantitative Finance teams.
 
-- Specialized consulting on transforming theoretical models into robust production systems.
-- Designing architectures for R&D, BioImage, and Quantitative Finance teams.
-- Implementing engineering best practices in high-mathematical complexity contexts.
+- Transforming research-quality models and workflows into stable, reproducible production systems
+- Designing RSE architectures for BioImage analysis, scientific simulation, and quantitative finance
+- Establishing engineering best practices (testing, CI/CD, reproducibility) in high-mathematical-complexity codebases
+- Collaborative consulting model: scientists keep doing science while Phorma handles the engineering
 
 ### Independent Consultant
 **Quantitative Software & Scientific Computing**
@@ -242,15 +258,15 @@ All talks available at: [talks.saxa.xyz](http://talks.saxa.xyz/)
 Production: Python, C#, Julia
 Functional/Niche Languages: F#, Clojure
 
-**Leadership & Consulting**: Technical Mentorship, Solution Design, Requirements Elicitation, Corporate Training
+**Agentic AI**: Model Context Protocol (MCP), LangChain, LangGraph, LlamaIndex, RAG pipelines, vector databases, AWS Bedrock, multi-agent systems, LLM Evals, enterprise OAuth (PKCE, OBO, CCG)
+
+**Research Software Engineering**: Reproducible workflows, scientific Python stack, numerical methods, automatic differentiation, stochastic differential equations, NeuralSDEs
 
 **Quantitative Finance**: Multi-asset pricing, risk analytics, derivatives valuation, curve construction, model calibration
 
-**Scientific Computing**: Numerical methods, automatic differentiation, stochastic differential equations, optimization
+**Architecture & Leadership**: DSL design, API design, monorepo infrastructure, microservices, Technical Mentorship, Solution Design, Corporate Training
 
-**Architecture**: Microservices, DSL design, API design, monorepo infrastructure, Azure deployment
-
-**Tools**: Jupyter, Git, Docker, Azure, Visual Studio, GitHub Actions
+**Tools**: Jupyter, Git, Docker, Azure, GitHub Actions, Visual Studio
 
 ---
 
