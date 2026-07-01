@@ -48,7 +48,7 @@ I take on a limited number of specialized engagements alongside my primary commi
 
 For team-scale projects or longer R&D engagements, we work through **Phorma**.
 
-**[→ Book a call](https://calendar.app.google/txzedFUh1p7nvuAX8)** — or email [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description) if you'd prefer to reach out first.
+**[→ Book a call](https://calendar.app.google/txzedFUh1p7nvuAX8)** — or reach out on [LinkedIn](https://www.linkedin.com/in/augusto-kiel/) if you'd prefer to introduce yourself first.
 
 ---
 
@@ -71,8 +71,6 @@ For team-scale projects or longer R&D engagements, we work through **Phorma**.
 
 **Book a call**: [calendar.app.google/txzedFUh1p7nvuAX8](https://calendar.app.google/txzedFUh1p7nvuAX8)
 
-**Email**: [augusto.kiel@gmail.com](mailto:augusto.kiel@gmail.com?subject=[Consulting]%20Brief%20description)
+**LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
 
 **GitHub**: [github.com/akielbowicz](https://github.com/akielbowicz)
-
-**LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
