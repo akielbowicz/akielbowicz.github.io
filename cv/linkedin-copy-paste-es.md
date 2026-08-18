@@ -81,7 +81,7 @@ Brindo servicios de consultoría especializados en:
 **Nombre de la empresa:** AstraZeneca
 **Ubicación:** Remoto
 **Fecha de inicio:** Marzo 2026
-**Fecha de finalización:** Actualidad (marcar "Actualmente trabajo aquí")
+**Fecha de finalización:** Agosto 2026
 
 **Descripción:**
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.

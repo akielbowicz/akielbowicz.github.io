@@ -1,5 +1,5 @@
 # Sasha (Augusto) Kielbowicz
-## Senior AI Engineer at AstraZeneca | Quantitative Software Architect | Research Software Engineering (RSE)
+## Senior AI Engineer (formerly AstraZeneca) | Quantitative Software Architect | Research Software Engineering (RSE)
 
 **Buenos Aires, Argentina**
 
@@ -9,7 +9,7 @@
 
 I build production-grade AI and scientific software systems across research and high-complexity domains, combining quantitative rigor with strong engineering practice.
 
-I currently work as **Senior AI Engineer at AstraZeneca (Oncology R&D)**. Before that, I spent 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre. My core strengths include:
+I recently served as **Senior AI Engineer at AstraZeneca (Oncology R&D)**. Before that, I spent 7+ years building mission-critical systems at JP Morgan, Qontigo/Axioma Risk, SimCorp, and Mercado Libre. My core strengths include:
 
 **Quantitative Finance & Risk Systems**
 - Multi-asset class pricing and valuation frameworks
@@ -69,7 +69,7 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 
 ### AstraZeneca
 **Senior AI Engineer**
-*March 2026 - Present*
+*March 2026 - August 2026*
 Remote
 
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.

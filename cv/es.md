@@ -124,7 +124,7 @@ Advanced Risk and Portfolio Management (ARPM) | Abril 2021 - Noviembre 2021
 
 ### AstraZeneca
 **Senior AI Engineer (Contratista Independiente)**
-*Marzo 2026 - Presente* | Remoto
+*Marzo 2026 - Agosto 2026* | Remoto
 
 Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación interna para desarrolladores en flujos de trabajo basados en agentes.
 

@@ -81,7 +81,7 @@ Focus areas: Multi-asset pricing libraries, risk analytics systems, DSL developm
 **Company Name:** AstraZeneca
 **Location:** Remote
 **Start Date:** March 2026
-**End Date:** Present (check "I am currently working in this role")
+**End Date:** August 2026
 
 **Description:**
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.

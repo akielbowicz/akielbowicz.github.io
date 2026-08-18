@@ -99,7 +99,7 @@ My Physics degree (Licenciatura, University of Buenos Aires) taught me to model 
 ## Professional Experience
 
 ### AstraZeneca | Senior AI Engineer (Independent Contractor)
-**March 2026 - Present** | Remote
+**March 2026 - August 2026** | Remote
 
 Advancing the R&D Agentic Platform and strengthening internal developer enablement for agent-based workflows.
 
