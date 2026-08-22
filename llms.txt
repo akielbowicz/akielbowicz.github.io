@@ -1,7 +1,7 @@
 # Sasha (Augusto) Kielbowicz
 
 > Independent Consultant in Agentic AI, Scientific Computing, and Quantitative Systems Architecture.
-> Physics background (UBA). Senior AI Engineer at AstraZeneca (Oncology R&D).
+> Physics background (UBA). Recently Senior AI Engineer at AstraZeneca (Oncology R&D, 2026).
 > Co-founder of Phorma (Research Software Engineering consultancy).
 > Based in Buenos Aires, Argentina. Available for remote engagements globally.
 
@@ -37,7 +37,7 @@ Full CV available in multiple formats:
 
 ## Professional History (summary)
 
-- AstraZeneca — Senior AI Engineer, Oncology R&D (March 2026 – present)
+- AstraZeneca — Senior AI Engineer, Oncology R&D (March 2026 – August 2026)
 - Phorma — Co-founder, Research Software Engineering (February 2026 – present)
 - Mercado Libre — Software Technical Lead, Financial Planning & Analytics (June 2025 – March 2026)
 - SimCorp — Lead Software Engineer, Core Analytics (March 2024 – May 2025)
@@ -54,6 +54,9 @@ Full CV available in multiple formats:
 ## Contact & Profiles
 
 - Email: augusto [dot] kiel [at] gmail [dot] com
-- GitHub: https://github.com/akielbowicz
+- GitHub (scientific & numerical code): https://github.com/sashakile
+- GitHub (personal): https://github.com/akielbowicz
 - LinkedIn: https://www.linkedin.com/in/augusto-kiel/
-- AI experiments: https://charly-vibes.github.io
+- AI experiments (Structured Vibecoding): https://github.com/charly-vibes — https://charly-vibes.github.io
+
+> "Namespaces are one honking great idea -- let's do more of those!" — The Zen of Python

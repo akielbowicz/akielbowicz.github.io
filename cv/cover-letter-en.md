@@ -2,7 +2,7 @@
 Quantitative Systems Architect | Research Software Engineer
 Buenos Aires, Argentina
 augusto.kiel@gmail.com
-[saxa.xyz/en](https://saxa.xyz/en) | [github.com/akielbowicz](https://github.com/akielbowicz) | [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel)
+[saxa.xyz/en](https://saxa.xyz/en) | [github.com/sashakile](https://github.com/sashakile) | [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel)
 
 [Date]
 

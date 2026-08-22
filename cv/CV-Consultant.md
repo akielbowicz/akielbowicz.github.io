@@ -4,7 +4,7 @@
 
 Buenos Aires, Argentina | augusto.kiel@gmail.com | [saxa.xyz](https://saxa.xyz/en)
 
-[GitHub](https://github.com/akielbowicz) | [LinkedIn](https://www.linkedin.com/in/augusto-kiel) | [Talks](http://talks.saxa.xyz/)
+[GitHub: sashakile](https://github.com/sashakile) · [akielbowicz](https://github.com/akielbowicz) | [LinkedIn](https://www.linkedin.com/in/augusto-kiel) | [Talks](http://talks.saxa.xyz/)
 
 ---
 
@@ -223,12 +223,12 @@ Developed critical infrastructure for interest rate derivatives trading desk ser
 ### Open Source Contributor & Content Creator
 **February 2016 - Present**
 
-[*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
+[*@sashakile*](https://github.com/sashakile) | [*@akielbowicz*](https://github.com/akielbowicz) | [YouTube: @SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
 - Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
 - Development of interactive educational materials based on Jupyter notebooks
 - Contributions to scientific computing and data visualization projects
-- Created **charly-vibes** ([site](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) as a personal R&D initiative to explore the capabilities and limits of AI-assisted coding and agentic autonomous development across platforms
+- Created **charly-vibes** ([site](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) as a personal R&D lab for agentic coding experimentation, exploring the limits of Structured Vibecoding
 - Educational content bridging academic knowledge and industry best practices
 
 ---

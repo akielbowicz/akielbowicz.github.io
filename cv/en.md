@@ -3,7 +3,7 @@ papersize: A4
 title: Sasha (Augusto) Kielbowicz - Independent Consultant
 ...
 
-[![gh-logo](../cv/github.png)](https://github.com/akielbowicz)
+[![gh-logo](../cv/github.png)](https://github.com/sashakile)
 [![linkedin-logo](../cv/linkedin.png)](https://www.linkedin.com/in/augusto-kiel/)
 [![globe-logo](../cv/earth-americas-solid.png)](https://ak.saxa.xyz)
 
@@ -214,12 +214,12 @@ Leading technology strategy and managing 14 engineers across Financial Planning 
 **Scientific Software & Educational Tools**
 *February 2016 - Present | 9+ years*
 
-[*\@akielbowicz*](https://github.com/akielbowicz) | [YouTube: \@SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
+[*\@sashakile*](https://github.com/sashakile) | [*\@akielbowicz*](https://github.com/akielbowicz) | [YouTube: \@SCA314](https://www.youtube.com/@SCA314) | [GitHub: SCA314](https://github.com/Taller-de-Sasha/SCA314)
 
 - Creator of **SCA314**, an educational YouTube channel focused on software craftsmanship, scientific computing with Julia, and automated testing practices in Spanish
 - Development of interactive educational materials based on Jupyter notebooks
 - Contributions to scientific computing and data visualization projects
-- Created **charly-vibes** ([site](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) as a personal R&D initiative to explore the capabilities and limits of AI-assisted coding and agentic autonomous development across platforms
+- Created **charly-vibes** ([site](https://charly-vibes.github.io/), [GitHub](https://github.com/charly-vibes)) as a personal R&D lab for agentic coding experimentation, exploring the limits of Structured Vibecoding
 - Educational content bridging academic knowledge and industry best practices
 
 ---

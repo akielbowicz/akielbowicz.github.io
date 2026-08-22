@@ -2,13 +2,13 @@
 
 ## Independent Consultant — Agentic AI & Research Software Engineering
 
-I help R&D and Quantitative Finance teams move research-quality models into production without losing mathematical correctness or computational performance. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre. Currently Senior AI Engineer at AstraZeneca (Oncology R&D).
+I help R&D and Quantitative Finance teams move research-quality models into production without losing mathematical correctness or computational performance. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre. Recently Senior AI Engineer at AstraZeneca (Oncology R&D, 2026).
 
 ---
 
 ## Trust Markers
 
-- **Senior AI Engineer** at **AstraZeneca** (Oncology R&D)
+- **Senior AI Engineer** at **AstraZeneca** (Oncology R&D, 2026)
 - Architected Core Libraries for **Qontigo** & **SimCorp**
 - 7+ years at tier-1 financial institutions (JP Morgan, Qontigo, SimCorp)
 - Published Research in Hydrodynamical Instability Processes
@@ -73,4 +73,11 @@ For team-scale projects or longer R&D engagements, we work through **Phorma**.
 
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
 
-**GitHub**: [github.com/akielbowicz](https://github.com/akielbowicz)
+**GitHub**:
+
+- [github.com/sashakile](https://github.com/sashakile) — scientific & numerical code
+- [github.com/akielbowicz](https://github.com/akielbowicz) — personal projects & talks
+- [github.com/charly-vibes](https://github.com/charly-vibes) — exploring the limits of Structured Vibecoding
+
+> *"Namespaces are one honking great idea -- let's do more of those!"*
+> — Tim Peters, *The Zen of Python*

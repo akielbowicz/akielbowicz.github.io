@@ -50,7 +50,7 @@ Share the [Consultant Profile](./linkedin-profile-consultant.md) - emphasizes co
 
 **Email**: augusto.kiel@gmail.com
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
-**GitHub**: [@akielbowicz](https://github.com/akielbowicz)
+**GitHub**: [@sashakile](https://github.com/sashakile)
 **Website**: [saxa.xyz](https://saxa.xyz/en)
 
 ---

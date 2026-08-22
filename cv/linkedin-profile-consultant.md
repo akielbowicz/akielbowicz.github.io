@@ -174,7 +174,7 @@ Active contributor to open source projects focused on:
 - Data analysis and visualization tools
 - Scientific computing libraries
 
-GitHub: [@akielbowicz](https://github.com/akielbowicz)
+GitHub: [@sashakile](https://github.com/sashakile) (scientific & numerical code) · [@akielbowicz](https://github.com/akielbowicz)
 
 ---
 
@@ -232,7 +232,7 @@ All talks available at: [talks.saxa.xyz](http://talks.saxa.xyz/)
 
 **Email**: augusto.kiel@gmail.com
 **Website**: [saxa.xyz](https://saxa.xyz/en)
-**GitHub**: [@akielbowicz](https://github.com/akielbowicz)
+**GitHub**: [@sashakile](https://github.com/sashakile) (scientific & numerical code) · [@akielbowicz](https://github.com/akielbowicz)
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel)
 
 ---

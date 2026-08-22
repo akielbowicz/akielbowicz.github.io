@@ -3,7 +3,7 @@
 ---
 
 ## TITULAR
-Senior AI Engineer en AstraZeneca | Arquitecto de Software Cuantitativo | Ingeniería de Software de Investigación (RSE)
+Senior AI Engineer — ex-AstraZeneca (Oncology R&D) | Arquitecto de Software Cuantitativo | Ingeniería de Software de Investigación (RSE)
 
 ---
 
@@ -16,7 +16,7 @@ Buenos Aires, Argentina
 
 Construyo sistemas de IA y software científico de grado productivo en dominios de investigación y alta complejidad, combinando rigor cuantitativo con prácticas sólidas de ingeniería.
 
-Actualmente trabajo como **Senior AI Engineer en AstraZeneca (Oncology R&D)**. Antes de eso, pasé más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma Risk, SimCorp y Mercado Libre. Mis fortalezas principales incluyen:
+Recientemente trabajé como **Senior AI Engineer en AstraZeneca (Oncology R&D)**. Antes de eso, pasé más de 7 años construyendo sistemas críticos en JP Morgan, Qontigo/Axioma Risk, SimCorp y Mercado Libre. Mis fortalezas principales incluyen:
 
 **Finanzas Cuantitativas y Sistemas de Riesgo**
 • Frameworks de pricing y valuación multi-activo
@@ -210,7 +210,7 @@ Colaborador activo en proyectos open source enfocados en:
 
 Creador de **SCA314**, un canal educativo de YouTube enfocado en artesanía de software, computación científica con Julia y prácticas de testing automatizado en Español.
 
-GitHub: @akielbowicz
+GitHub: @sashakile (computación científica y numérica) · @akielbowicz
 YouTube: @SCA314
 
 ---
@@ -305,14 +305,14 @@ Desarrollo de Software • Revisión de Código • Mentoría Técnica • Lider
 
 **Sitio web:** https://saxa.xyz/en
 **Correo electrónico:** augusto.kiel@gmail.com
-**GitHub:** https://github.com/akielbowicz
+**GitHub:** https://github.com/sashakile · https://github.com/akielbowicz
 
 ---
 
 ## SECCIÓN DESTACADO (Opcional - agregar enlaces)
 
 • Charlas: http://talks.saxa.xyz/
-• Perfil de GitHub: https://github.com/akielbowicz
+• Perfil de GitHub: https://github.com/sashakile · https://github.com/akielbowicz
 • Canal de YouTube SCA314: https://www.youtube.com/@SCA314
 
 ---
