@@ -26,14 +26,14 @@ Full CV available in multiple formats:
 
 ## Expertise
 
+- High-Performance Computing (numerical performance optimization for production systems)
+- Research Software Engineering (RSE)
 - Agentic AI platform engineering (Model Context Protocol, multi-agent orchestration)
 - Enterprise integrations (OAuth 2.0 PKCE, Grant Chains, Client Credentials)
 - Competitive Intelligence & Knowledge Engines (RAG, hybrid retrieval, IR trace optimization)
 - Automated agent evaluation frameworks (Evals)
-- High-Performance Computing (numerical performance optimization for production systems)
 - Neural Stochastic Differential Equations (NeuralSDEs) using Julia
 - Domain-Specific Language (DSL) design for quantitative finance
-- Research Software Engineering (RSE)
 
 ## Professional History (summary)
 

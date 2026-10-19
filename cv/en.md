@@ -21,7 +21,7 @@ title: Sasha (Augusto) Kielbowicz - Independent Consultant
 
 Scientific software engineer and independent consultant with a physics background and experience in quantitative finance and scientific R&D (J.P. Morgan, Qontigo, SimCorp, Mercado Libre, AstraZeneca). I help teams investigate numerical performance, build reproducible research software, and evaluate AI workflows. My experience includes pricing and risk libraries, scientific computing, and enterprise AI integration and evaluation, spanning **Research Software Engineering (RSE)**, **High-Performance Computing**, and **Production-Grade AI Engineering**.
 
-My Physics degree (Licenciatura, University of Buenos Aires) taught me to find the right level of abstraction before writing a line of code. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre taught me what production actually costs.
+My Physics degree (Licenciatura, University of Buenos Aires) taught me to find the right level of abstraction before writing a line of code. Seven years across J.P. Morgan, Qontigo, SimCorp, and Mercado Libre taught me what production actually costs.
 
 **Core expertise**: High-Performance Computing • Neural Stochastic Differential Equations • Agentic AI platforms • Multi-asset pricing systems • Risk analytics • DSL development • Numerical optimization • Python/C#/Julia • System Architecture
 

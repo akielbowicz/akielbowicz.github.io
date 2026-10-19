@@ -76,7 +76,8 @@ or domain-specific language design.
 
 For larger engagements, I work through [Phorma](https://phorma.sh/),
 the consultancy I co-founded with
-[Agustín Corbat](https://acorbat.github.io/).
+[Agustín Corbat](https://acorbat.github.io/)
+([why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html)).
 
 I work remotely and in Buenos Aires on a limited number of defined
 engagements, with availability agreed in advance.
@@ -100,7 +101,7 @@ engagements, with availability agreed in advance.
 
 ## Contact
 
-**Book a call**: [calendar.app.google/txzedFUh1p7nvuAX8](https://calendar.app.google/txzedFUh1p7nvuAX8)
+**Discuss a problem** (introductory conversation): [calendar.app.google/txzedFUh1p7nvuAX8](https://calendar.app.google/txzedFUh1p7nvuAX8)
 
 **LinkedIn**: [linkedin.com/in/augusto-kiel](https://www.linkedin.com/in/augusto-kiel/)
 

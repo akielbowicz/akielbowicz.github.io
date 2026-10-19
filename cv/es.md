@@ -21,7 +21,7 @@ title: Sasha (Augusto) Kielbowicz - Consultor Independiente
 
 Ingeniero de software científico y consultor independiente con formación en Física (UBA) y experiencia en finanzas cuantitativas e I+D científico (J.P. Morgan, Qontigo, SimCorp, Mercado Libre, AstraZeneca). Ayudo a equipos a investigar el rendimiento numérico, construir software de investigación reproducible y evaluar flujos de trabajo de IA. Mi experiencia incluye bibliotecas de pricing y riesgo, cómputo científico e integración y evaluación de IA empresarial, abarcando **Ingeniería de Software de Investigación (RSE)**, **Cómputo de Alto Rendimiento** e **Ingeniería de IA de Grado Productivo**.
 
-Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a encontrar el nivel correcto de abstracción antes de escribir una línea de código. Siete años en JP Morgan, Qontigo, SimCorp y Mercado Libre me enseñaron lo que producción realmente cuesta.
+Mi formación en Física (Licenciatura, Universidad de Buenos Aires) me enseñó a encontrar el nivel correcto de abstracción antes de escribir una línea de código. Siete años en J.P. Morgan, Qontigo, SimCorp y Mercado Libre me enseñaron lo que producción realmente cuesta.
 
 **Experiencia principal**: Cómputo de Alto Rendimiento • Ecuaciones Diferenciales Estocásticas Neuronales • Plataformas de IA agéntica • Sistemas de pricing multi-activo • Analítica de riesgo • Desarrollo de DSLs • Optimización numérica • Python/C#/Julia • Arquitectura de Sistemas
 

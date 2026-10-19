@@ -1,3 +1,12 @@
 /drafts/
 /dist/
 /out/
+
+# session artifacts
+cv/.claude/
+linkedin-post-*.txt
+linkedin_content_and_profile_recommendations*.txt
+linkedin_open_to_consulting_services.txt
+test-imag.png
+scripts/evidence/
+assets/logo-spec.org
