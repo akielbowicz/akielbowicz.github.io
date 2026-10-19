@@ -30,7 +30,7 @@ Full CV available in multiple formats:
 - Enterprise integrations (OAuth 2.0 PKCE, Grant Chains, Client Credentials)
 - Competitive Intelligence & Knowledge Engines (RAG, hybrid retrieval, IR trace optimization)
 - Automated agent evaluation frameworks (Evals)
-- High-Performance Computing (300%+ gains in production numerical systems)
+- High-Performance Computing (numerical performance optimization for production systems)
 - Neural Stochastic Differential Equations (NeuralSDEs) using Julia
 - Domain-Specific Language (DSL) design for quantitative finance
 - Research Software Engineering (RSE)

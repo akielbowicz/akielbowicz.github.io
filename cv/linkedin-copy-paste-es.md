@@ -92,7 +92,7 @@ Impulsando la plataforma agéntica de R&D y fortaleciendo la habilitación inter
 • Evaluaciones Automatizadas de Agentes (Evals): Lideré el diseño y despliegue de frameworks de evaluación automatizados para medir precisión de ejecución de tareas, confiabilidad de tool-calling y estabilidad de recuperación tras actualizaciones de modelos
 • Memoria Multi-Capa y Personalización: Desarrollé sistemas de personalización de contenido y arquitecturas de memoria estructurada integrando capas de memoria episódica, semántica y de trabajo (working memory)
 • Seguridad de LLMs y Modelado de Amenazas: Audité capacidades de uso de herramientas (tool-use) en modelos con razonamiento avanzado, mitigando riesgos de inyección de herramientas y vulnerabilidades de consumo de tokens antes de producción
-• Ingeniería de Costos en IA: Optimicé grafos de ejecución agénticos logrando una reducción de más del 13% en el consumo de tokens mediante pre-filtrado semántico y optimización en la capa de caché
+• Ingeniería de Costos en IA: Optimicé grafos de ejecución agénticos mediante pre-filtrado semántico y optimización en la capa de caché para reducir el consumo de tokens
 
 ---
 

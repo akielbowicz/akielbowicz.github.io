@@ -92,7 +92,7 @@ Advancing the R&D Agentic Platform and strengthening internal developer enableme
 • Automated Agent Evaluations (Evals): Spearheaded the design and deployment of automated evaluation frameworks measuring agent task-execution accuracy, tool-calling reliability, and retrieval stability across model updates
 • Multi-Layer Memory & Personalization: Engineered user content personalization engines and structured agent memory systems integrating episodic, semantic, and working memory layers
 • LLM Security & Threat Modeling: Audited tool-use capabilities in advanced reasoning architectures, identifying and neutralizing critical tool-injection vectors and token-abuse vulnerabilities before production
-• Agentic Cost Engineering: Optimized execution graphs, achieving a 13%+ reduction in LLM token consumption through semantic pre-filtering and custom cache optimization layers
+• Agentic Cost Engineering: Optimized execution graphs through semantic pre-filtering and custom cache optimization layers to reduce LLM token consumption
 
 ---
 
@@ -171,7 +171,7 @@ Leading technology strategy for platforms that optimize and standardize reportin
 • Extracted quantitative and numerical code from monolithic repository into reusable components
 
 **Key Achievements:**
-• Built APL (Axioma Pricing Library) from ground up—migrated complex day count conventions, bond mathematics, and curve construction with 100% accuracy
+• Built APL (Axioma Pricing Library) from ground up—migrated complex day count conventions, bond mathematics, and curve construction, backed by comprehensive validation tests
 • Achieved 3x performance improvement in convertible bond pricing through cache optimization
 • Received "Exceptional Performance" rating (2023) and "Strong Performance" ratings (2020-2022)
 

@@ -1,54 +1,85 @@
 # Sasha (Augusto) Kielbowicz
 
-## Independent Consultant — Agentic AI & Research Software Engineering
+## Scientific and numerical software consulting
 
-I help R&D and Quantitative Finance teams move research-quality models into production without losing mathematical correctness or computational performance. Seven years across JP Morgan, Qontigo, SimCorp, and Mercado Libre. Recently Senior AI Engineer at AstraZeneca (Oncology R&D, 2026).
+I help scientific and quantitative teams investigate slow or unreliable
+software, establish what is going wrong, and decide what to fix first.
 
----
+My background combines a physics degree with engineering experience at
+J.P. Morgan, Qontigo, SimCorp, Mercado Libre, and AstraZeneca.
 
-## Trust Markers
+[Discuss a diagnostic](https://calendar.app.google/txzedFUh1p7nvuAX8)
+· [Read my experience](/cv/en.html)
 
-- **Senior AI Engineer** at **AstraZeneca** (Oncology R&D, 2026)
-- Architected Core Libraries for **Qontigo** & **SimCorp**
-- 7+ years at tier-1 financial institutions (JP Morgan, Qontigo, SimCorp)
-- Published Research in Hydrodynamical Instability Processes
+## Problems I can help investigate
 
----
+- A numerical computation takes too long or costs too much to run.
+- A research workflow is difficult to reproduce, test, or maintain.
+- An AI workflow needs systematic evaluation of tool use, retrieval,
+  or token consumption.
 
-## What I Do
+## Start with one defined problem
 
-### Agentic AI Engineering
+### Introductory conversation
 
-I build production-grade agent platforms: Model Context Protocol (MCP) integrations, Knowledge Engines with hybrid RAG, automated Evals frameworks, multi-layer agent memory, and LLM security architecture.
+We discuss the problem, its impact, and whether my experience fits.
+If it does, I propose a paid diagnostic with an agreed scope and fee.
 
-**Recent work**: Designed and shipped the external integration surface and Evals suite for AstraZeneca's R&D agentic platform, achieving 13%+ reduction in LLM token consumption.
+### Focused diagnostic
 
-### Eliminate Computational Bottlenecks (HPC Sprints)
+An investigation of one agreed computation or workflow, with the relevant
+inputs, access, and success criteria defined before work begins.
 
-Your Python or R research prototypes are stalling your pipeline. I optimize numerical bottlenecks using vectorization, caching, and parallelism.
+You receive:
 
-**Proven results**: 300% performance gains at Axioma/Qontigo, enabling real-time risk calculations in production.
+- A reproducible baseline or an explicit account of what prevents one.
+- Evidence-backed findings, including limitations and unresolved questions.
+- Prioritized recommendations and a handover conversation.
 
-### Research Software Engineering (RSE)
+The fee and calendar are agreed in advance. Implementation and ongoing
+support are separately scoped. A diagnostic may conclude that further
+optimization or development is not justified.
 
-Through **[Phorma](https://acorbat.github.io/)** — a consultancy I co-founded with [Agustín Corbat](https://acorbat.github.io/) — we help R&D and Quantitative Finance teams build stable, reproducible, production-grade systems. Scientists keep their research focus; Phorma handles the engineering. [Read more about why I created Phorma](/2026/02/18/por-que-cree-phorma-en.html).
+[Discuss your problem](https://calendar.app.google/txzedFUh1p7nvuAX8)
 
-### Domain-Specific Language (DSL) Design
+## Selected work
 
-I design custom languages that allow Quants to define complex pricing models safely and intuitively, abstracting away the underlying code complexity.
+### Numerical performance — Qontigo
 
----
+**Problem:** Convertible bond pricing calculations were too slow for the
+team's real-time reporting needs.
 
-## How to Work With Me
+**Contribution:** Investigated performance in the C# numerical library and
+implemented cache optimizations.
 
-I take on a limited number of specialized engagements alongside my primary commitments. Two entry points:
+**Outcome:** Improved pricing performance to support real-time production
+risk calculations.
 
-- **The Architecture Audit** — A focused review of your current pipeline to diagnose computational bottlenecks, LLM integration risks, or RSE gaps. 1–2 hours, actionable findings.
-- **The Focused Sprint** — A 1–4 week intensive targeting a specific bottleneck: numerical optimization, MCP integration, agentic Evals, or DSL prototype.
+### AI integration and evaluation — AstraZeneca
 
-For team-scale projects or longer R&D engagements, we work through **Phorma**.
+**Problem:** An R&D agent platform needed external integrations and a way
+to measure workflow quality.
 
-**[→ Book a call](https://calendar.app.google/txzedFUh1p7nvuAX8)** — or reach out on [LinkedIn](https://www.linkedin.com/in/augusto-kiel/) if you'd prefer to introduce yourself first.
+**Contribution:** Built the external integration layer and automated
+evaluations for agent task execution, tool use, and retrieval.
+
+**Outcome:** Delivered the integration layer to production and established
+repeatable evaluations for tracking platform quality.
+
+[Read the detailed experience](/cv/en.html)
+
+## Further engineering support
+
+After a diagnostic, I can separately scope numerical optimization,
+AI integration and evaluation work, research software engineering,
+or domain-specific language design.
+
+For larger engagements, I work through [Phorma](https://phorma.sh/),
+the consultancy I co-founded with
+[Agustín Corbat](https://acorbat.github.io/).
+
+I work remotely and in Buenos Aires on a limited number of defined
+engagements, with availability agreed in advance.
 
 ---
 
