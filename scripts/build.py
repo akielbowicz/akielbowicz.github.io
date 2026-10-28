@@ -445,6 +445,12 @@ def main() -> None:
     if "--all" in sys.argv[1:]:
         build_pdfs()
         build_plain_texts()
+    build_slides()
+
+
+def build_slides() -> None:
+    """Generate 2cents slide PDF into out/ and dist/cv/."""
+    subprocess.run([str(ROOT / "scripts" / "build-slides.sh")], check=True)
 
 
 if __name__ == "__main__":
